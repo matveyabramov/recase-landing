@@ -1,4 +1,4 @@
-# RE — лендинг студенческого хакатона
+# RE:CASE — лендинг студенческого хакатона
 
 Минимальный проект на Vite, HTML5, CSS3 и Vanilla JavaScript (ES Modules).
 Реализован Desktop по исходному макету Figma через Figma MCP.
