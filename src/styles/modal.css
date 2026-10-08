@@ -68,6 +68,21 @@
   appearance: none;
 }
 
+.lead-modal button:enabled:not([aria-disabled="true"]),
+.lead-modal a[href]:not([aria-disabled="true"]),
+.lead-modal input[type="checkbox"]:enabled,
+.lead-modal .lead-form__consent:has(input:enabled) {
+  cursor: pointer;
+}
+
+.lead-modal button:disabled,
+.lead-modal button[aria-disabled="true"],
+.lead-modal a[href][aria-disabled="true"],
+.lead-modal input[type="checkbox"]:disabled,
+.lead-modal .lead-form__consent:has(input:disabled) {
+  cursor: not-allowed;
+}
+
 .lead-modal__description {
   margin-top: 16px;
   font: 500 17px/1.4 var(--font-body);
