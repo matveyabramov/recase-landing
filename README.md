@@ -34,7 +34,38 @@ npm run preview
 ```
 
 Готовая сборка находится в `dist/`. Для статического хостинга загрузите
-содержимое этой папки. В Vite установлен `base: './'` для относительных путей.
+содержимое этой папки. По умолчанию Vite использует `base: './'`: такая сборка
+подходит для Beget в корне домена или подпапке. Переменная `VITE_BASE_PATH`
+позволяет задать другой путь публикации, не меняя конфигурацию.
+
+## GitHub Pages
+
+Репозиторий: `matveyabramov/recase-landing`.
+Адрес сайта: https://matveyabramov.github.io/recase-landing/.
+
+1. В репозитории откройте **Settings → Pages → Build and deployment**.
+2. В поле **Source** выберите **GitHub Actions**.
+3. Сделайте commit и push изменений в `main`. Workflow `Deploy to GitHub Pages`
+   установит зависимости через `npm ci`, выполнит сборку и опубликует только `dist/`.
+4. Дождитесь успешного выполнения build и deploy во вкладке **Actions**,
+   затем откройте адрес сайта. Workflow также можно запустить через **Run workflow**.
+
+Путь берётся из `actions/configure-pages`: для этого репозитория
+`VITE_BASE_PATH=/recase-landing/`. При подключении собственного домена Pages
+сборка получит `/`. HTML, CSS, JS, изображения и локальные шрифты проходят
+через production build Vite; публиковать исходный `index.html` и `src/` напрямую
+не нужно. `dist/` исключён из Git и передаётся как Pages artifact.
+
+Локальная проверка сборки с тем же путём, что у GitHub Pages:
+
+```sh
+VITE_BASE_PATH=/recase-landing/ npm run build
+VITE_BASE_PATH=/recase-landing/ npm run preview
+```
+
+Откройте `http://localhost:4173/recase-landing/` (либо порт из вывода Vite).
+Для Beget снова выполните обычный `npm run build` без `VITE_BASE_PATH`
+и загрузите всё содержимое `dist/` в папку сайта, например `public_html/`.
 
 ## Структура
 

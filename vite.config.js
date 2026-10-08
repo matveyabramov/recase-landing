@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: './',
+  // Pages supplies its publication path; local/Beget builds stay portable.
+  base: process.env.VITE_BASE_PATH || './',
 });
