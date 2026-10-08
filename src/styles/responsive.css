@@ -42,8 +42,12 @@ h2 {
 }
 
 .hero {
+  --hero-art-min-height: calc(94px + clamp(800px, 66.1vw, 1000px) * 885 / 1274);
   height: auto;
-  min-height: clamp(620px, 46.3vw, 700px);
+  /* The header is already part of this section. Content can exceed one screen. */
+  min-height: 100vh;
+  min-height: max(100vh, var(--hero-art-min-height));
+  min-height: max(100dvh, var(--hero-art-min-height));
   padding-bottom: 56px;
   background-position: center top;
   background-size: max(100%, 1024px) auto;
@@ -800,7 +804,6 @@ h2 {
 
 @media (min-width: 1024px) and (max-height: 760px) {
   .hero {
-    min-height: 620px;
     padding-bottom: 44px;
   }
   .hero-content {
@@ -822,6 +825,7 @@ h2 {
 /* Tablet: Figma 744 composition, with flowing content and shared hero layering. */
 @media (max-width: 1023px) {
   :root {
+    --adaptive-cta-height: 79px;
     --page-gutter: 20px;
     --heading-size: clamp(48px, 9.68vw, 72px);
     --body-size: clamp(18px, 3.09vw, 23px);
@@ -934,10 +938,12 @@ h2 {
 
   /* The shared scene row deliberately layers CTA over the computer keyboard. */
   .hero {
+    --hero-art-min-height: 0px;
     display: grid;
     grid-template-columns: minmax(0, 1fr);
     grid-template-areas: 'header' 'kicker' 'heading' 'description' 'audience' 'scene';
-    min-height: 0;
+    /* Extra height goes between rows; illustration and CTA keep one scene. */
+    align-content: space-between;
     padding-bottom: 20px;
     background: none;
   }
@@ -1017,7 +1023,7 @@ h2 {
 
   .hero-actions .button-lime, .hero-actions .button-outline {
     width: 100%;
-    height: 79px;
+    height: var(--adaptive-cta-height);
     font-size: 24px;
   }
 
@@ -1520,7 +1526,7 @@ h2 {
 
   .audience .shell {
     padding-top: 112px;
-    padding-inline: 24px;
+    padding-inline: 28px;
   }
 
   .audience-decoration span:nth-child(4) {
@@ -1534,11 +1540,11 @@ h2 {
 
   .format .shell {
     padding-top: 128px;
-    padding-inline: 24px;
+    padding-inline: 28px;
   }
 
   .format-computer {
-    max-width: calc(100% - 88px);
+    max-width: calc(100% - 96px);
   }
 }
 
@@ -1624,7 +1630,7 @@ h2 {
   }
 
   .hero-actions .button-lime, .hero-actions .button-outline {
-    height: 79px;
+    height: var(--adaptive-cta-height);
     font-size: 20px;
   }
 
@@ -1721,6 +1727,13 @@ h2 {
 
   .audience .shell {
     padding-top: 88px;
+    padding-inline: 12px;
+  }
+
+  .audience-decoration span:nth-child(7) {
+    left: auto;
+    right: 40px;
+    top: 64px;
   }
 
   .audience-grid, .benefits-grid {
@@ -1799,6 +1812,7 @@ h2 {
   .format .shell {
     grid-row: 1;
     padding-block: 104px 0;
+    padding-inline: 12px;
   }
 
   .format p {
@@ -1811,7 +1825,7 @@ h2 {
     position: relative;
     left: auto;
     top: auto;
-    width: min(100%, 477px);
+    width: min(calc(100% - 56px), 477px);
     margin: 40px auto 0;
   }
 
