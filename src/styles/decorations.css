@@ -1,0 +1,20 @@
+/* Contiguous Figma rectangles share one painted contour per color layer.
+   Original coordinates are snapped to a 1px artwork grid before joining. */
+.hero-decoration {
+  background: url('/assets/icons/hero-decoration.svg') top left / 100% auto no-repeat;
+}
+.hero-foreground-decoration {
+  background: url('/assets/icons/hero-foreground.svg') top left / 100% auto no-repeat;
+}
+.experts-decoration {
+  background: url('/assets/icons/experts-decoration.svg') top left / 100% auto no-repeat;
+}
+.banner-decoration {
+  background: url('/assets/icons/banner-decoration.svg') top left / 100% auto no-repeat;
+}
+.process-strip {
+  background-image: url('/assets/icons/process-decoration.svg');
+  background-position: top center;
+  background-size: min(100%, 1512px) auto;
+  background-repeat: no-repeat;
+}

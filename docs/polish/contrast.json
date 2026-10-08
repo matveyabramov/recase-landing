@@ -1,0 +1,321 @@
+[
+  {
+    "default": {
+      "text": "Участвовать",
+      "color": "color(srgb 0.852941 0.146902 0.462902)",
+      "fill": "rgb(255, 255, 255)",
+      "size": 17,
+      "weight": 700,
+      "ratio": 4.691090520447063,
+      "minimum": 4.5
+    },
+    "hover": {
+      "text": "Участвовать",
+      "color": "rgb(255, 255, 255)",
+      "fill": "color(srgb 0.852941 0.146902 0.462902)",
+      "size": 17,
+      "weight": 700,
+      "ratio": 4.691090520447063,
+      "minimum": 4.5
+    },
+    "active": {
+      "text": "Участвовать",
+      "color": "rgb(255, 255, 255)",
+      "fill": "rgb(6, 29, 56)",
+      "size": 17,
+      "weight": 700,
+      "ratio": 16.92737137907362,
+      "minimum": 4.5
+    }
+  },
+  {
+    "default": {
+      "text": "Участвовать",
+      "color": "rgb(6, 29, 56)",
+      "fill": "rgb(186, 251, 43)",
+      "size": 17.9928,
+      "weight": 700,
+      "ratio": 13.639895592594295,
+      "minimum": 4.5
+    },
+    "hover": {
+      "text": "Участвовать",
+      "color": "rgb(6, 29, 56)",
+      "fill": "rgb(186, 251, 43)",
+      "size": 17.9928,
+      "weight": 700,
+      "ratio": 13.639895592594295,
+      "minimum": 4.5
+    },
+    "active": {
+      "text": "Участвовать",
+      "color": "rgb(6, 29, 56)",
+      "fill": "rgb(186, 251, 43)",
+      "size": 17.9928,
+      "weight": 700,
+      "ratio": 13.639895592594295,
+      "minimum": 4.5
+    }
+  },
+  {
+    "default": {
+      "text": "Стать партнёром",
+      "color": "color(srgb 0.852941 0.146902 0.462902)",
+      "fill": "rgb(255, 255, 255)",
+      "size": 17.9928,
+      "weight": 700,
+      "ratio": 4.691090520447063,
+      "minimum": 4.5
+    },
+    "hover": {
+      "text": "Стать партнёром",
+      "color": "rgb(255, 255, 255)",
+      "fill": "color(srgb 0.852941 0.146902 0.462902)",
+      "size": 17.9928,
+      "weight": 700,
+      "ratio": 4.691090520447063,
+      "minimum": 4.5
+    },
+    "active": {
+      "text": "Стать партнёром",
+      "color": "rgb(255, 255, 255)",
+      "fill": "rgb(6, 29, 56)",
+      "size": 17.9928,
+      "weight": 700,
+      "ratio": 16.92737137907362,
+      "minimum": 4.5
+    }
+  },
+  {
+    "default": {
+      "text": "Стать партнёром",
+      "color": "rgb(255, 255, 255)",
+      "fill": "rgb(6, 29, 56)",
+      "size": 21.9996,
+      "weight": 900,
+      "ratio": 16.92737137907362,
+      "minimum": 3
+    },
+    "hover": {
+      "text": "Стать партнёром",
+      "color": "rgb(255, 255, 255)",
+      "fill": "color(srgb 0.852941 0.146902 0.462902)",
+      "size": 21.9996,
+      "weight": 900,
+      "ratio": 4.691090520447063,
+      "minimum": 3
+    },
+    "active": {
+      "text": "Стать партнёром",
+      "color": "rgb(186, 251, 43)",
+      "fill": "rgb(6, 29, 56)",
+      "size": 21.9996,
+      "weight": 900,
+      "ratio": 13.639895592594295,
+      "minimum": 3
+    }
+  },
+  {
+    "default": {
+      "text": "Участвовать",
+      "color": "rgb(255, 255, 255)",
+      "fill": "rgb(6, 29, 56)",
+      "size": 21.9996,
+      "weight": 900,
+      "ratio": 16.92737137907362,
+      "minimum": 3
+    },
+    "hover": {
+      "text": "Участвовать",
+      "color": "rgb(255, 255, 255)",
+      "fill": "color(srgb 0.852941 0.146902 0.462902)",
+      "size": 21.9996,
+      "weight": 900,
+      "ratio": 4.691090520447063,
+      "minimum": 3
+    },
+    "active": {
+      "text": "Участвовать",
+      "color": "rgb(186, 251, 43)",
+      "fill": "rgb(6, 29, 56)",
+      "size": 21.9996,
+      "weight": 900,
+      "ratio": 13.639895592594295,
+      "minimum": 3
+    }
+  },
+  {
+    "default": {
+      "text": "Telegram: @dinrinx",
+      "color": "rgb(255, 255, 255)",
+      "fill": "rgb(231, 38, 122)",
+      "size": 22,
+      "weight": 900,
+      "ratio": 4.23723830758337,
+      "minimum": 3
+    },
+    "hover": {
+      "text": "Telegram: @dinrinx",
+      "color": "rgb(186, 251, 43)",
+      "fill": "rgb(6, 29, 56)",
+      "size": 22,
+      "weight": 900,
+      "ratio": 13.639895592594295,
+      "minimum": 3
+    },
+    "active": {
+      "text": "Telegram: @dinrinx",
+      "color": "rgb(255, 255, 255)",
+      "fill": "color(srgb 0.852941 0.146902 0.462902)",
+      "size": 22,
+      "weight": 900,
+      "ratio": 4.691090520447063,
+      "minimum": 3
+    }
+  },
+  {
+    "default": {
+      "text": "Telegram: @ninochella",
+      "color": "rgb(255, 255, 255)",
+      "fill": "rgb(231, 38, 122)",
+      "size": 22,
+      "weight": 900,
+      "ratio": 4.23723830758337,
+      "minimum": 3
+    },
+    "hover": {
+      "text": "Telegram: @ninochella",
+      "color": "rgb(186, 251, 43)",
+      "fill": "rgb(6, 29, 56)",
+      "size": 22,
+      "weight": 900,
+      "ratio": 13.639895592594295,
+      "minimum": 3
+    },
+    "active": {
+      "text": "Telegram: @ninochella",
+      "color": "rgb(255, 255, 255)",
+      "fill": "color(srgb 0.852941 0.146902 0.462902)",
+      "size": 22,
+      "weight": 900,
+      "ratio": 4.691090520447063,
+      "minimum": 3
+    }
+  },
+  {
+    "default": {
+      "text": "dinrinx@mail.ru",
+      "color": "rgb(255, 255, 255)",
+      "fill": "rgb(6, 29, 56)",
+      "size": 22,
+      "weight": 900,
+      "ratio": 16.92737137907362,
+      "minimum": 3
+    },
+    "hover": {
+      "text": "dinrinx@mail.ru",
+      "color": "rgb(186, 251, 43)",
+      "fill": "rgb(6, 29, 56)",
+      "size": 22,
+      "weight": 900,
+      "ratio": 13.639895592594295,
+      "minimum": 3
+    },
+    "active": {
+      "text": "dinrinx@mail.ru",
+      "color": "rgb(255, 255, 255)",
+      "fill": "color(srgb 0.852941 0.146902 0.462902)",
+      "size": 22,
+      "weight": 900,
+      "ratio": 4.691090520447063,
+      "minimum": 3
+    }
+  },
+  {
+    "default": {
+      "text": "О хакатоне",
+      "color": "rgb(6, 29, 56)",
+      "fill": "rgba(0, 0, 0, 0)",
+      "size": 15.997,
+      "weight": 700,
+      "ratio": 16.92737137907362,
+      "minimum": 4.5
+    },
+    "hover": {
+      "text": "О хакатоне",
+      "color": "color(srgb 0.852941 0.146902 0.462902)",
+      "fill": "rgba(0, 0, 0, 0)",
+      "size": 15.997,
+      "weight": 700,
+      "ratio": 4.691090520447063,
+      "minimum": 4.5
+    },
+    "active": {
+      "text": "О хакатоне",
+      "color": "rgb(6, 29, 56)",
+      "fill": "rgba(0, 0, 0, 0)",
+      "size": 15.997,
+      "weight": 700,
+      "ratio": 16.92737137907362,
+      "minimum": 4.5
+    }
+  },
+  {
+    "default": {
+      "text": "Этапы",
+      "color": "rgb(6, 29, 56)",
+      "fill": "rgba(0, 0, 0, 0)",
+      "size": 15.997,
+      "weight": 700,
+      "ratio": 16.92737137907362,
+      "minimum": 4.5
+    },
+    "hover": {
+      "text": "Этапы",
+      "color": "color(srgb 0.852941 0.146902 0.462902)",
+      "fill": "rgba(0, 0, 0, 0)",
+      "size": 15.997,
+      "weight": 700,
+      "ratio": 4.691090520447063,
+      "minimum": 4.5
+    },
+    "active": {
+      "text": "Этапы",
+      "color": "rgb(6, 29, 56)",
+      "fill": "rgba(0, 0, 0, 0)",
+      "size": 15.997,
+      "weight": 700,
+      "ratio": 16.92737137907362,
+      "minimum": 4.5
+    }
+  },
+  {
+    "default": {
+      "text": "Партнёрам",
+      "color": "rgb(6, 29, 56)",
+      "fill": "rgba(0, 0, 0, 0)",
+      "size": 15.997,
+      "weight": 700,
+      "ratio": 16.92737137907362,
+      "minimum": 4.5
+    },
+    "hover": {
+      "text": "Партнёрам",
+      "color": "color(srgb 0.852941 0.146902 0.462902)",
+      "fill": "rgba(0, 0, 0, 0)",
+      "size": 15.997,
+      "weight": 700,
+      "ratio": 4.691090520447063,
+      "minimum": 4.5
+    },
+    "active": {
+      "text": "Партнёрам",
+      "color": "rgb(6, 29, 56)",
+      "fill": "rgba(0, 0, 0, 0)",
+      "size": 15.997,
+      "weight": 700,
+      "ratio": 16.92737137907362,
+      "minimum": 4.5
+    }
+  }
+]

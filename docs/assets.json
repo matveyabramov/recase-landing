@@ -1,0 +1,324 @@
+[
+  {
+    "figmaNode": "49:54",
+    "variable": "img",
+    "file": "assets/images/hero-texture.png"
+  },
+  {
+    "figmaNode": "49:54",
+    "variable": "imgImage9",
+    "file": "assets/images/hero-computer.png"
+  },
+  {
+    "figmaNode": "49:54",
+    "variable": "img2",
+    "file": "assets/images/hero-pixel-underlay.png"
+  },
+  {
+    "figmaNode": "49:54",
+    "variable": "imgUnion",
+    "file": "assets/icons/nav-pixel-outline.svg"
+  },
+  {
+    "figmaNode": "49:54",
+    "variable": "imgReCase",
+    "file": "assets/icons/logo-header.svg"
+  },
+  {
+    "figmaNode": "49:54",
+    "variable": "imgFrame",
+    "file": "assets/icons/hero-comma.svg"
+  },
+  {
+    "figmaNode": "49:54",
+    "variable": "imgVector",
+    "file": "assets/icons/arrow-participate.svg"
+  },
+  {
+    "figmaNode": "49:267",
+    "variable": "imgVector",
+    "file": "assets/icons/arrow-process.svg"
+  },
+  {
+    "figmaNode": "49:422",
+    "variable": "imgFrame2131329349",
+    "file": "assets/icons/partner-chevrons.svg"
+  },
+  {
+    "figmaNode": "49:458",
+    "variable": "imgBackground",
+    "file": "assets/icons/audience-mask.svg"
+  },
+  {
+    "figmaNode": "49:485",
+    "variable": "imgRetroComputerPixelArtIllustr2K202609231759071",
+    "file": "assets/images/format-computer.png"
+  },
+  {
+    "figmaNode": "49:485",
+    "variable": "imgBackground",
+    "file": "assets/icons/format-mask.svg"
+  },
+  {
+    "figmaNode": "49:604",
+    "variable": "imgSvg",
+    "file": "assets/icons/portfolio.svg",
+    "sourceNode": "49:608",
+    "updatedFrom": "Figma Desktop 1512 / 49:604, 2026-10-08",
+    "processing": "Shared coordinates normalized within 0.002 design px; same-color paths merged; original rounded Bezier contours retained."
+  },
+  {
+    "figmaNode": "49:604",
+    "variable": "imgSvg1",
+    "file": "assets/icons/feedback.svg",
+    "sourceNode": "49:644",
+    "updatedFrom": "Figma Desktop 1512 / 49:604, 2026-10-08",
+    "processing": "Shared coordinates normalized within 0.002 design px; same-color paths merged; original rounded Bezier contours retained."
+  },
+  {
+    "figmaNode": "49:604",
+    "variable": "imgSvg2",
+    "file": "assets/icons/team.svg",
+    "sourceNode": "2020:42",
+    "updatedFrom": "Figma Desktop 1512 / 49:604, 2026-10-08",
+    "processing": "Shared coordinates normalized within 0.002 design px; same-color paths merged; original rounded Bezier contours retained."
+  },
+  {
+    "figmaNode": "49:604",
+    "variable": "imgSvg3",
+    "file": "assets/icons/career.svg",
+    "sourceNode": "49:726",
+    "updatedFrom": "Figma Desktop 1512 / 49:604, 2026-10-08",
+    "processing": "Shared coordinates normalized within 0.002 design px; same-color paths merged; original rounded Bezier contours retained."
+  },
+  {
+    "figmaNode": "49:759",
+    "variable": "imgBackground",
+    "file": "assets/icons/participate-mask.svg"
+  },
+  {
+    "figmaNode": "49:789",
+    "variable": "imgBackground",
+    "file": "assets/icons/contacts-mask.svg"
+  },
+  {
+    "figmaNode": "49:913",
+    "variable": "imgSvg",
+    "file": "assets/icons/ideas.svg"
+  },
+  {
+    "figmaNode": "49:913",
+    "variable": "imgSvg1",
+    "file": "assets/icons/evaluate.svg"
+  },
+  {
+    "figmaNode": "49:913",
+    "variable": "imgSvg2",
+    "file": "assets/icons/recruit.svg"
+  },
+  {
+    "figmaNode": "49:1085",
+    "variable": "imgFrame2131329358",
+    "file": "assets/icons/solutions-border-left.svg"
+  },
+  {
+    "figmaNode": "49:1085",
+    "variable": "imgFrame2131329361",
+    "file": "assets/icons/solutions-border-bottom.svg"
+  },
+  {
+    "figmaNode": "49:1085",
+    "variable": "imgFrame2131329359",
+    "file": "assets/icons/solutions-border-top.svg"
+  },
+  {
+    "figmaNode": "49:1085",
+    "variable": "imgFrame2131329360",
+    "file": "assets/icons/solutions-border-right.svg"
+  },
+  {
+    "figmaNode": "49:1162",
+    "variable": "imgFrame2131329358",
+    "file": "assets/icons/weeks-border-left.svg"
+  },
+  {
+    "figmaNode": "49:1162",
+    "variable": "imgFrame2131329361",
+    "file": "assets/icons/weeks-border-bottom.svg"
+  },
+  {
+    "figmaNode": "49:1162",
+    "variable": "imgFrame2131329359",
+    "file": "assets/icons/weeks-border-top.svg"
+  },
+  {
+    "figmaNode": "49:1162",
+    "variable": "imgFrame2131329360",
+    "file": "assets/icons/weeks-border-right.svg"
+  },
+  {
+    "figmaNode": "49:1260",
+    "variable": "imgFrame2131329358",
+    "file": "assets/icons/teams-border-left.svg"
+  },
+  {
+    "figmaNode": "49:1260",
+    "variable": "imgFrame2131329361",
+    "file": "assets/icons/teams-border-bottom.svg"
+  },
+  {
+    "figmaNode": "49:1260",
+    "variable": "imgFrame2131329359",
+    "file": "assets/icons/teams-border-top.svg"
+  },
+  {
+    "figmaNode": "49:1260",
+    "variable": "imgFrame2131329360",
+    "file": "assets/icons/teams-border-right.svg"
+  },
+  {
+    "figmaNode": "49:1338",
+    "variable": "imgReCase",
+    "file": "assets/icons/logo-footer.svg"
+  },
+  {
+    "figmaNode": "115:1167",
+    "variable": "imgFrame2131329358",
+    "file": "assets/icons/registration-border-left.svg"
+  },
+  {
+    "figmaNode": "115:1167",
+    "variable": "imgFrame2131329361",
+    "file": "assets/icons/registration-border-bottom.svg"
+  },
+  {
+    "figmaNode": "115:1167",
+    "variable": "imgFrame2131329359",
+    "file": "assets/icons/registration-border-top.svg"
+  },
+  {
+    "figmaNode": "115:1167",
+    "variable": "imgFrame2131329360",
+    "file": "assets/icons/registration-border-right.svg"
+  },
+  {
+    "figmaNode": "49:569",
+    "variable": "imgImage10",
+    "file": "assets/images/selection.png"
+  },
+  {
+    "figmaNode": "49:53",
+    "file": "assets/images/background-tile.png",
+    "source": "original image fill"
+  },
+  {
+    "figmaNode": "49:300",
+    "file": "assets/icons/expert-portrait.svg",
+    "source": "isolated SVG export"
+  },
+  {
+    "figmaNode": "49:606",
+    "file": "assets/icons/pixel-49-606.svg",
+    "source": "isolated SVG export with outlined text"
+  },
+  {
+    "figmaNode": "49:642",
+    "file": "assets/icons/pixel-49-642.svg",
+    "source": "isolated SVG export with outlined text"
+  },
+  {
+    "figmaNode": "49:677",
+    "file": "assets/icons/pixel-49-677.svg",
+    "source": "isolated SVG export with outlined text"
+  },
+  {
+    "figmaNode": "49:724",
+    "file": "assets/icons/pixel-49-724.svg",
+    "source": "isolated SVG export with outlined text"
+  },
+  {
+    "figmaNode": "49:862",
+    "file": "assets/icons/pixel-49-862.svg",
+    "source": "isolated SVG export with outlined text"
+  },
+  {
+    "figmaNode": "49:886",
+    "file": "assets/icons/pixel-49-886.svg",
+    "source": "isolated SVG export with outlined text"
+  },
+  {
+    "figmaNode": "49:910",
+    "file": "assets/icons/pixel-49-910.svg",
+    "source": "isolated SVG export with outlined text"
+  },
+  {
+    "figmaNode": "49:525",
+    "file": "assets/icons/idea-sticker.svg",
+    "source": "isolated original graphic and pixel caption"
+  },
+  {
+    "figmaNode": "49:1037",
+    "file": "assets/icons/team-sticker.svg",
+    "source": "isolated original graphic and pixel caption"
+  },
+  {
+    "file": "assets/icons/hero-title-shape.svg",
+    "derivedFrom": "Original Figma geometry; unified contours. See comprehensive-refinement.md."
+  },
+  {
+    "file": "assets/icons/hero-decoration.svg",
+    "derivedFrom": "Original Figma geometry; unified contours. See comprehensive-refinement.md."
+  },
+  {
+    "file": "assets/icons/hero-foreground.svg",
+    "derivedFrom": "Original Figma geometry; unified contours. See comprehensive-refinement.md."
+  },
+  {
+    "file": "assets/icons/experts-decoration.svg",
+    "derivedFrom": "Original Figma geometry; unified contours. See comprehensive-refinement.md."
+  },
+  {
+    "file": "assets/icons/banner-decoration.svg",
+    "derivedFrom": "Original Figma geometry; unified contours. See comprehensive-refinement.md."
+  },
+  {
+    "file": "assets/icons/process-decoration.svg",
+    "derivedFrom": "Original Figma geometry; unified contours. See comprehensive-refinement.md."
+  },
+  {
+    "file": "assets/icons/championship-shape.svg",
+    "derivedFrom": "Original Figma geometry; unified contours. See comprehensive-refinement.md."
+  },
+  {
+    "file": "assets/icons/defence-shape.svg",
+    "derivedFrom": "Original Figma geometry; unified contours. See comprehensive-refinement.md."
+  },
+  {
+    "file": "assets/icons/season-goal-shape.svg",
+    "derivedFrom": "Original Figma geometry; unified contours. See comprehensive-refinement.md."
+  },
+  {
+    "file": "assets/icons/resumes-shape.svg",
+    "derivedFrom": "Original Figma geometry; unified contours. See comprehensive-refinement.md."
+  },
+  {
+    "file": "assets/icons/growth-shape.svg",
+    "derivedFrom": "Original Figma geometry; unified contours. See comprehensive-refinement.md."
+  },
+  {
+    "file": "assets/icons/registration-frame.svg",
+    "derivedFrom": "Original Figma geometry; unified contours. See comprehensive-refinement.md."
+  },
+  {
+    "file": "assets/icons/teams-frame.svg",
+    "derivedFrom": "Original Figma geometry; unified contours. See comprehensive-refinement.md."
+  },
+  {
+    "file": "assets/icons/solutions-frame.svg",
+    "derivedFrom": "Original Figma geometry; unified contours. See comprehensive-refinement.md."
+  },
+  {
+    "file": "assets/icons/weeks-frame.svg",
+    "derivedFrom": "Original Figma geometry; unified contours. See comprehensive-refinement.md."
+  }
+]

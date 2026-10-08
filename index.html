@@ -3,11 +3,411 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Официальный лендинг студенческого хакатона RE." />
-    <title>RE — студенческий хакатон</title>
+    <meta name="description" content="Официальный лендинг студенческого хакатона RE. Дизайн, код и реальные кейсы компаний для студентов ВШЭ." />
+    <title>RE:CASE — студенческий хакатон</title>
+    <link rel="preload" href="./assets/fonts/Ermilov-bold.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="./assets/fonts/onest-variable.woff2" as="font" type="font/woff2" crossorigin />
   </head>
   <body>
-    <div id="app"></div>
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+    <div id="app">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-decoration" aria-hidden="true"></div>
+        <div class="hero-computer" aria-hidden="true">
+          <img src="./assets/images/hero-computer.png" alt="" />
+        </div>
+        <div class="hero-foreground-decoration" aria-hidden="true"></div>
+        <header class="site-header shell">
+          <a class="logo" href="#" aria-label="RE:CASE — на главную"><img src="./assets/icons/logo-header.svg" alt="RE:CASE" /></a>
+          <nav id="site-navigation" class="navigation" aria-label="Основная навигация">
+            <a href="#about">О хакатоне</a>
+            <a href="#stages">Этапы</a>
+            <a href="#partners">Партнёрам</a>
+          </nav>
+          <a class="button button-outline pixel-outline header-participate" data-form-link="participate" href="#participate">Участвовать</a>
+          <button class="button button-dark menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="site-navigation">
+            <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+          </button>
+        </header>
+        <div class="hero-content shell">
+          <p class="hero-kicker">ДИЗАЙН <span>х</span> КОД <span>х</span> РЕАЛЬНЫЕ КЕЙСЫ</p>
+          <div class="hero-heading">
+            <img class="hero-pixel-underlay" src="./assets/icons/hero-title-shape.svg" alt="" aria-hidden="true" />
+            <h1 id="hero-title">ХАКАТОН<br />ЙОУ?</h1>
+            <img class="hero-comma" src="./assets/icons/hero-comma.svg" alt="" aria-hidden="true" />
+          </div>
+          <p class="hero-description">Решай кейсы компаний.<br />Собирай портфолио и знакомься с командой.</p>
+          <p class="hero-audience">Для студентов ВШЭ</p>
+          <div class="hero-actions">
+            <a class="button button-lime" data-form-link="participate" href="#participate">Участвовать<img src="./assets/icons/arrow-participate.svg" alt="" aria-hidden="true" /></a>
+            <a class="button button-outline pixel-outline" data-form-link="partner" href="#contacts">Стать партнёром</a>
+          </div>
+        </div>
+      </section>
+      <main id="main">
+        <ol class="process-strip" aria-label="Этапы хакатона">
+          <li>
+            ОТБОР
+            <img src="./assets/icons/arrow-process.svg" alt="" />
+          </li>
+          <li>
+            КЕЙС
+            <img src="./assets/icons/arrow-process.svg" alt="" />
+          </li>
+          <li>
+            ЗАЩИТА
+            <img src="./assets/icons/arrow-process.svg" alt="" />
+          </li>
+          <li>
+            РЕЗУЛЬТАТ
+          </li>
+        </ol>
+        <section class="experts" aria-labelledby="experts-title">
+          <div class="experts-decoration" aria-hidden="true"></div>
+          <div class="experts-heading shell">
+            <div>
+              <p class="eyebrow">02 / RE:CASE</p>
+              <h2 id="experts-title" class="pink">ПАРТНЁРЫ<br />И ЭКСПЕРТЫ</h2>
+              <p class="section-description">Делятся задачами, помогают командам и оценивают.</p>
+            </div>
+            <p class="experts-motto">БОЛЬШЕ<br />ЛЮДЕЙ<br />БОЛЬШЕ<br />ВОЗМОЖНОСТЕЙ</p>
+          </div>
+          <div class="experts-track" tabindex="0" role="region" aria-label="Партнёры и эксперты, горизонтальная прокрутка">
+            <article class="expert-card framed">
+              <div class="expert-portrait">
+                <img src="./assets/icons/expert-portrait.svg" alt="" />
+              </div>
+              <h3>ИМЯ ФАМИЛИЯ</h3>
+              <p>Компания / Должность</p>
+              <span class="badge badge-pink">Партнёр</span>
+            </article>
+            <article class="expert-card framed">
+              <div class="expert-portrait">
+                <img src="./assets/icons/expert-portrait.svg" alt="" />
+              </div>
+              <h3>ИМЯ ФАМИЛИЯ</h3>
+              <p>Компания / Должность</p>
+              <span class="badge badge-green">Эксперт</span>
+            </article>
+            <article class="expert-card framed">
+              <div class="expert-portrait">
+                <img src="./assets/icons/expert-portrait.svg" alt="" />
+              </div>
+              <h3>ИМЯ ФАМИЛИЯ</h3>
+              <p>Компания / Должность</p>
+              <span class="badge badge-pink">Партнёр</span>
+            </article>
+            <article class="expert-card framed">
+              <div class="expert-portrait">
+                <img src="./assets/icons/expert-portrait.svg" alt="" />
+              </div>
+              <h3>ИМЯ ФАМИЛИЯ</h3>
+              <p>Компания / Должность</p>
+              <span class="badge badge-green">Эксперт</span>
+            </article>
+          </div>
+        </section>
+        <aside class="partner-banner" aria-label="Приглашение партнёрам">
+          <div class="banner-decoration" aria-hidden="true"></div>
+          <div class="partner-banner-content shell">
+            <img src="./assets/icons/partner-chevrons.svg" alt="" />
+            <div>
+              <h2>Станьте частью RE:CASE</h2>
+              <p>Предложите кейс или присоединитесь к жюри</p>
+            </div>
+            <a class="button button-dark button-large" data-form-link="partner" href="#contacts">Стать партнёром</a>
+          </div>
+        </aside>
+        <section class="audience pixel-section" aria-labelledby="audience-title">
+          <div class="pixel-background" aria-hidden="true"></div>
+          <div class="audience-decoration particles" aria-hidden="true">
+            <span style="--x:2;--y:14;--size:12px;--particle-color:#FFF21A"></span>
+            <span style="--x:94;--y:12;--size:12px;--particle-color:#B8F72E"></span>
+            <span style="--x:65;--y:15;--size:18px;--particle-color:#FFF21A"></span>
+            <span style="--x:54;--y:30;--size:12px;--particle-color:#B8F72E"></span>
+            <span style="--x:20;--y:7;--size:12px;--particle-color:#FFF21A"></span>
+            <span style="--x:71;--y:36;--size:8px;--particle-color:#B8F72E"></span>
+            <span style="--x:51;--y:20;--size:12px;--particle-color:#FFF21A"></span>
+            <span style="--x:4;--y:5;--size:18px;--particle-color:#B8F72E"></span>
+            <span style="--x:85;--y:26;--size:8px;--particle-color:#FFF21A"></span>
+            <span style="--x:60;--y:39;--size:12px;--particle-color:#B8F72E"></span>
+            <span style="--x:56;--y:10;--size:18px;--particle-color:#FFF21A"></span>
+            <span style="--x:97;--y:49;--size:12px;--particle-color:#B8F72E"></span>
+            <span style="--x:32;--y:94;--size:12px;--particle-color:#FFF21A"></span>
+            <span style="--x:9;--y:89;--size:8px;--particle-color:#B8F72E"></span>
+          </div>
+          <div class="shell">
+            <h2 id="audience-title">Кому<br />подходит</h2>
+            <div class="audience-grid">
+              <article class="framed">
+                <h3>Студентам</h3>
+                <p>Студенты 18–25 лет, обучающиеся на 2–4 курсах бакалавриата и в магистратуре ВШЭ по направлениям дизайна, разработки и аналитики</p>
+              </article>
+              <article class="framed">
+                <h3>Компаниям</h3>
+                <p>Компании из сфер IT, финтеха, e-commerce и креативных индустрий, заинтересованные в молодых специалистах и свежих решениях</p>
+              </article>
+            </div>
+          </div>
+        </section>
+        <section id="about" class="problem shell" aria-labelledby="problem-title">
+          <p class="eyebrow">03 / О ХАКАТОНЕ</p>
+          <h2 id="problem-title">Проблема</h2>
+          <div class="problem-copy">
+            <p>Нужный для задачи человек уже учится на дизайне или computer science в Вышке — просто вы никогда не встретитесь: между вами<br />пять-семь этапов отбора</p>
+            <p><strong>Особенно ощутимо это на 2–3 курсе,</strong> когда у студентов случается первый карьерный кризис — приходят первые отказы, а компания тем временем решает задачу в одиночку</p>
+          </div>
+          <div class="selection-illustration">
+            <img src="./assets/images/selection.png" alt="Путь от студента к компании через несколько этапов отбора" />
+          </div>
+          <div class="problem-stats">
+            <article class="problem-stat">
+              <div class="stat-cloud stat-cloud-resumes">
+                <h3>19 резюме</h3>
+              </div>
+              <p class="framed framed-pink">столько сейчас в среднем претендует на одну junior-вакансию в IT (в 2021 году было 8)</p>
+            </article>
+            <article class="problem-stat">
+              <div class="stat-cloud stat-cloud-growth">
+                <h3>+30%</h3>
+              </div>
+              <p class="framed framed-green">на столько чаще кандидаты стали упоминать хакатоны в резюме за последний год</p>
+            </article>
+          </div>
+        </section>
+        <section class="format pixel-section" aria-labelledby="format-title">
+          <div class="pixel-background" aria-hidden="true"></div>
+          <div class="format-decoration particles" aria-hidden="true">
+            <span style="--x:2;--y:20;--size:12px;--particle-color:#FFF21A"></span>
+            <span style="--x:96;--y:29;--size:8px;--particle-color:#B8F72E"></span>
+            <span style="--x:53;--y:10;--size:18px;--particle-color:#FFF21A"></span>
+            <span style="--x:51;--y:72;--size:12px;--particle-color:#B8F72E"></span>
+            <span style="--x:31;--y:93;--size:12px;--particle-color:#FFF21A"></span>
+            <span style="--x:88;--y:15;--size:8px;--particle-color:#B8F72E"></span>
+            <span style="--x:93;--y:84;--size:12px;--particle-color:#FFF21A"></span>
+            <span style="--x:61;--y:85;--size:18px;--particle-color:#B8F72E"></span>
+            <span style="--x:74;--y:8;--size:8px;--particle-color:#FFF21A"></span>
+            <span style="--x:4;--y:73;--size:12px;--particle-color:#B8F72E"></span>
+            <span style="--x:16;--y:92;--size:18px;--particle-color:#FFF21A"></span>
+            <span style="--x:97;--y:9;--size:12px;--particle-color:#B8F72E"></span>
+            <span style="--x:23;--y:95;--size:12px;--particle-color:#FFF21A"></span>
+            <span style="--x:3;--y:53;--size:8px;--particle-color:#B8F72E"></span>
+          </div>
+          <img class="format-computer" src="./assets/images/format-computer.png" alt="" aria-hidden="true" width="571" height="426" />
+          <div class="shell">
+            <h2 id="format-title">Формат</h2>
+            <p>RE:CASE — кейс-чемпионат, где команды студентов дизайна и computer science ВШЭ решают реальные, в том числе архивные, задачи компаний. Участники исследуют проблему, разрабатывают решение и защищают его перед экспертами</p>
+          </div>
+        </section>
+        <section class="benefits shell" aria-labelledby="benefits-title">
+          <h2 id="benefits-title">Что получает<br />участник</h2>
+          <div class="benefits-grid">
+            <article class="benefit-card framed">
+              <img class="card-number" src="./assets/icons/pixel-49-606.svg" alt="01" />
+              <div class="card-icon icon-lime">
+                <img src="./assets/icons/portfolio.svg" alt="" />
+              </div>
+              <div class="card-copy">
+                <h3>Кейс в портфолио</h3>
+                <p>Реальная задача от компании, а не учебный проект</p>
+              </div>
+            </article>
+            <article class="benefit-card framed">
+              <img class="card-number" src="./assets/icons/pixel-49-642.svg" alt="02" />
+              <div class="card-icon icon-pink">
+                <img src="./assets/icons/feedback.svg" alt="" />
+              </div>
+              <div class="card-copy">
+                <h3>Обратная связь<br />от экспертов</h3>
+                <p>Защита перед профессионалами, а не только преподавателями</p>
+              </div>
+            </article>
+            <article class="benefit-card framed">
+              <img class="card-number" src="./assets/icons/pixel-49-677.svg" alt="03" />
+              <div class="card-icon icon-lime">
+                <img src="./assets/icons/team.svg" alt="" />
+              </div>
+              <div class="card-copy">
+                <h3>Команда со всех направлений</h3>
+                <p>Работаешь с дизайнерами, разработчиками и аналитиками, а не в одиночку</p>
+              </div>
+            </article>
+            <article class="benefit-card framed">
+              <img class="card-number" src="./assets/icons/pixel-49-724.svg" alt="04" />
+              <div class="card-icon icon-pink">
+                <img src="./assets/icons/career.svg" alt="" />
+              </div>
+              <div class="card-copy">
+                <h3>Шанс на стажировку<br />или оффер</h3>
+                <p>Лучшие решения замечают партнёры</p>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section id="participate" class="participate pixel-section" aria-labelledby="participate-title">
+          <div class="pixel-background" aria-hidden="true"></div>
+          <div class="participate-decoration particles" aria-hidden="true">
+            <span style="--x:25;--y:21;--size:8px;--particle-color:#FFF21A"></span>
+            <span style="--x:76;--y:26;--size:18px;--particle-color:#E5297A"></span>
+            <span style="--x:95;--y:57;--size:18px;--particle-color:#E5297A"></span>
+            <span style="--x:85;--y:84;--size:12px;--particle-color:#E5297A"></span>
+            <span style="--x:70;--y:15;--size:12px;--particle-color:#FFF21A"></span>
+            <span style="--x:16;--y:59;--size:18px;--particle-color:#E5297A"></span>
+            <span style="--x:49;--y:8;--size:12px;--particle-color:#FFF21A"></span>
+            <span style="--x:80;--y:64;--size:12px;--particle-color:#E5297A"></span>
+            <span style="--x:64;--y:88;--size:8px;--particle-color:#FFF21A"></span>
+            <span style="--x:33;--y:83;--size:12px;--particle-color:#E5297A"></span>
+          </div>
+          <h2 id="participate-title">Готовы попробовать?</h2>
+          <p>Регистрация — с 15 октября</p>
+          <a class="button button-dark button-large" data-form-link="participate" href="#participate">Участвовать</a>
+        </section>
+        <section id="stages" class="roadmap shell" aria-labelledby="roadmap-title">
+          <p class="eyebrow">04 / ЭТАПЫ</p>
+          <h2 id="roadmap-title">Роадмап</h2>
+          <div class="roadmap-decoration" aria-hidden="true">
+            <span style="--x:564.914;--y:963.651;--w:29;--h:29;--matrix:0.5786944,-0.8155445,0.8155445,0.5786944,0,0"></span>
+            <span style="--x:794.680;--y:459.651;--w:29;--h:29;--matrix:-0.5786944,-0.8155445,-0.8155445,0.5786944,0,0"></span>
+            <span style="--x:571.782;--y:1004.084;--w:29;--h:29;--matrix:0.5786944,-0.8155445,0.8155445,0.5786944,0,0"></span>
+            <span style="--x:787.811;--y:500.084;--w:29;--h:29;--matrix:-0.5786944,-0.8155445,-0.8155445,0.5786944,0,0"></span>
+            <span style="--x:555.000;--y:1027.735;--w:29;--h:64;--matrix:0.5786944,-0.8155445,0.8155445,0.5786944,0,0"></span>
+            <span style="--x:804.594;--y:523.735;--w:29;--h:64;--matrix:-0.5786944,-0.8155445,-0.8155445,0.5786944,0,0"></span>
+            <span style="--x:600.617;--y:1042.937;--w:29;--h:64;--matrix:0.5786944,-0.8155445,0.8155445,0.5786944,0,0"></span>
+            <span style="--x:758.977;--y:538.937;--w:29;--h:64;--matrix:-0.5786944,-0.8155445,-0.8155445,0.5786944,0,0"></span>
+            <span style="--x:618.000;--y:951.047;--w:13;--h:13;--matrix:0.5786944,-0.8155445,0.8155445,0.5786944,0,0"></span>
+            <span style="--x:741.594;--y:447.047;--w:13;--h:13;--matrix:-0.5786944,-0.8155445,-0.8155445,0.5786944,0,0"></span>
+            <span style="--x:611.820;--y:982.221;--w:29;--h:18;--matrix:0.5786944,-0.8155445,0.8155445,0.5786944,0,0"></span>
+            <span style="--x:747.774;--y:478.221;--w:29;--h:18;--matrix:-0.5786944,-0.8155445,-0.8155445,0.5786944,0,0"></span>
+          </div>
+          <ol class="roadmap-list">
+            <li class="roadmap-step registration">
+              <div class="registration-border" aria-hidden="true"><img src="./assets/icons/registration-frame.svg" alt="" /></div>
+              <img class="step-number" src="./assets/icons/pixel-49-862.svg" alt="01" />
+              <div class="step-copy">
+                <p class="badge badge-pink">с 15 октября</p>
+                <h3>Регистрация</h3>
+                <p>Приём заявок от студентов ВШЭ, формирование команд, объединяющих дизайн, разработку и аналитику</p>
+              </div>
+            </li>
+            <li class="roadmap-step championship">
+              <div class="championship-background" aria-hidden="true"></div>
+              <img class="step-number" src="./assets/icons/pixel-49-886.svg" alt="02" />
+              <div class="step-copy">
+                <p class="badge badge-white">14–15 ноября</p>
+                <h3>Кейс-чемпионат</h3>
+                <p>Команды решают реальные кейсы компаний: исследуют задачу, разрабатывают идеи и создают прототипы при поддержке менторов</p>
+              </div>
+            </li>
+            <li class="roadmap-step defence">
+              <div class="defence-background" aria-hidden="true"></div>
+              <img class="step-number" src="./assets/icons/pixel-49-910.svg" alt="03" />
+              <div class="step-copy">
+                <p class="badge badge-dark">15 ноября</p>
+                <h3>Защита решений</h3>
+                <p>Защита решений перед экспертами компаний, обратная связь и награждение победителей. Участники получают кейс в портфолио, лучшие — шанс на стажировку или оффер</p>
+              </div>
+            </li>
+          </ol>
+        </section>
+        <section id="partners" class="partners shell" aria-labelledby="partners-title">
+          <div class="partners-intro">
+            <p class="eyebrow">05 / ПАРТНЁРАМ</p>
+            <h2 id="partners-title" class="pink">Что получает<br />партнёр</h2>
+            <p>RE:CASE помогает компаниям <mark>бесплатно проработать</mark> реальную задачу силами студенческих команд и познакомиться с молодыми дизайнерами и разработчиками без обязательств нанимать участников</p>
+          </div>
+          <img class="sticker idea-sticker" src="./assets/icons/idea-sticker.svg" alt="" aria-hidden="true" />
+          <h3 class="partners-question">Каждый день предприниматель получает 1 из 3 ответов:</h3>
+          <div class="partner-cards">
+            <article class="partner-card framed">
+              <div class="card-icon icon-lime">
+                <img src="./assets/icons/ideas.svg" alt="" />
+              </div>
+              <div class="card-copy">
+                <h4>Как иначе можно<br />решить задачу?</h4>
+                <p>Команды предлагают свежие подходы и показывают их в прототипах</p>
+              </div>
+            </article>
+            <article class="partner-card framed">
+              <div class="card-icon icon-pink">
+                <img src="./assets/icons/evaluate.svg" alt="" />
+              </div>
+              <div class="card-copy">
+                <h4>Какие идеи стоит<br />развивать?</h4>
+                <p>Защита перед профессионалами, а не только преподавателями</p>
+              </div>
+            </article>
+            <article class="partner-card framed">
+              <div class="card-icon icon-lime">
+                <img src="./assets/icons/recruit.svg" alt="" />
+              </div>
+              <div class="card-copy">
+                <h4>Кого пригласить в команду?</h4>
+                <p>Работа над кейсом позволяет оценить навыки участников</p>
+              </div>
+            </article>
+          </div>
+          <div class="partner-process-row">
+            <div class="partner-process">
+              <p>Компания предоставляет задачу и исходные материалы, а её представители могут стать менторами или членами жюри. Организаторы проводят отбор, формируют команды и сопровождают участников до финала.</p>
+              <p>В итоге компания получает несколько вариантов решения и знакомится с молодыми специалистами, а студенты — практический опыт, обратную связь и кейс в портфолио.</p>
+            </div>
+            <img class="sticker team-sticker" src="./assets/icons/team-sticker.svg" alt="" aria-hidden="true" />
+          </div>
+          <h3 class="effects-title">Эффекты</h3>
+          <dl class="effects">
+            <div class="effect effect-teams">
+              <div class="effect-border" aria-hidden="true"><img src="./assets/icons/teams-frame.svg" alt="" /></div>
+              <dt>&gt;20 команд</dt>
+              <dd>решают кейс параллельно</dd>
+            </div>
+            <div class="effect effect-solutions">
+              <div class="effect-border" aria-hidden="true"><img src="./assets/icons/solutions-frame.svg" alt="" /></div>
+              <dt>3–5 решений</dt>
+              <dd>на один кейс</dd>
+            </div>
+            <div class="effect effect-weeks">
+              <div class="effect-border" aria-hidden="true"><img src="./assets/icons/weeks-frame.svg" alt="" /></div>
+              <dt>4–6 недель</dt>
+              <dd>от передачи кейса до защиты</dd>
+            </div>
+          </dl>
+          <div class="season-goal">
+            <div class="season-goal-background" aria-hidden="true"></div>
+            <div>
+              <h3>Цель на первый сезон</h3>
+              <p>Закрыть 5 кейсов и чтобы каждый пятый участник (20%) получил приглашение на стажировку</p>
+            </div>
+          </div>
+        </section>
+        <section id="contacts" class="contacts pixel-section" aria-labelledby="contacts-title">
+          <div class="pixel-background" aria-hidden="true"></div>
+          <div class="contacts-decoration particles" aria-hidden="true">
+            <span style="--x:25;--y:21;--size:8px;--particle-color:#FFF21A"></span>
+            <span style="--x:76;--y:26;--size:18px;--particle-color:#E5297A"></span>
+            <span style="--x:95;--y:57;--size:18px;--particle-color:#E5297A"></span>
+            <span style="--x:85;--y:87;--size:12px;--particle-color:#E5297A"></span>
+            <span style="--x:70;--y:15;--size:12px;--particle-color:#FFF21A"></span>
+            <span style="--x:16;--y:38;--size:18px;--particle-color:#E5297A"></span>
+            <span style="--x:49;--y:8;--size:12px;--particle-color:#FFF21A"></span>
+            <span style="--x:97;--y:80;--size:12px;--particle-color:#E5297A"></span>
+            <span style="--x:64;--y:88;--size:8px;--particle-color:#FFF21A"></span>
+            <span style="--x:33;--y:86;--size:12px;--particle-color:#E5297A"></span>
+          </div>
+          <h2 id="contacts-title">Заинтересовало?</h2>
+          <p>Есть кейс или хотите в жюри? Пишите — ответим за день</p>
+          <address class="contact-links">
+            <a class="button button-pink button-large" href="https://t.me/dinrinx" target="_blank" rel="noopener noreferrer">Telegram: @dinrinx</a>
+            <a class="button button-pink button-large" href="https://t.me/ninochella" target="_blank" rel="noopener noreferrer">Telegram: @ninochella</a>
+            <a class="button button-dark button-large" href="mailto:dinrinx@mail.ru">dinrinx@mail.ru</a>
+          </address>
+        </section>
+      </main>
+      <footer class="site-footer">
+        <a class="logo" href="#" aria-label="RE:CASE — на главную"><img src="./assets/icons/logo-footer.svg" alt="RE:CASE" /></a>
+        <p>Дизайн × код × реальные кейсы</p>
+        <p>Хакатон для студентов ВШЭ</p>
+      </footer>
+    </div>
     <script type="module" src="./src/main.js"></script>
   </body>
 </html>

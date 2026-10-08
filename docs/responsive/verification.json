@@ -1,0 +1,515 @@
+{
+  "browser": "Chromium",
+  "zoom": "100%",
+  "deviceScaleFactor": 1,
+  "results": [
+    {
+      "width": 1920,
+      "height": 700,
+      "scrollWidth": 1920,
+      "heroHeight": 688,
+      "heading": 124,
+      "sectionHeading": 80,
+      "body": 23,
+      "button": 24,
+      "ctaBottom": 648.390625,
+      "ratio": 1,
+      "scale": 1,
+      "clipped": [],
+      "cardOverflow": [],
+      "missingTargets": [],
+      "brokenImages": [],
+      "nonDefaultZoom": [],
+      "fonts": [
+        {
+          "family": "Ermilov",
+          "status": "loaded"
+        },
+        {
+          "family": "Onest",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "width": 1512,
+      "height": 700,
+      "scrollWidth": 1512,
+      "heroHeight": 688,
+      "heading": 123.984,
+      "sectionHeading": 79.9848,
+      "body": 22.9975,
+      "button": 23.9954,
+      "ctaBottom": 648.21875,
+      "ratio": 1,
+      "scale": 1,
+      "clipped": [],
+      "cardOverflow": [],
+      "missingTargets": [],
+      "brokenImages": [],
+      "nonDefaultZoom": [],
+      "fonts": [
+        {
+          "family": "Ermilov",
+          "status": "loaded"
+        },
+        {
+          "family": "Onest",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "height": 700,
+      "scrollWidth": 1440,
+      "heroHeight": 668,
+      "heading": 118.08,
+      "sectionHeading": 76.176,
+      "body": 21.9024,
+      "button": 22.8528,
+      "ctaBottom": 627.53125,
+      "ratio": 1,
+      "scale": 1,
+      "clipped": [],
+      "cardOverflow": [],
+      "missingTargets": [],
+      "brokenImages": [],
+      "nonDefaultZoom": [],
+      "fonts": [
+        {
+          "family": "Ermilov",
+          "status": "loaded"
+        },
+        {
+          "family": "Onest",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "width": 1366,
+      "height": 700,
+      "scrollWidth": 1366,
+      "heroHeight": 660,
+      "heading": 112.012,
+      "sectionHeading": 72.2614,
+      "body": 20.7769,
+      "button": 21.6784,
+      "ctaBottom": 606.28125,
+      "ratio": 1,
+      "scale": 1,
+      "clipped": [],
+      "cardOverflow": [],
+      "missingTargets": [],
+      "brokenImages": [],
+      "nonDefaultZoom": [],
+      "fonts": [
+        {
+          "family": "Ermilov",
+          "status": "loaded"
+        },
+        {
+          "family": "Onest",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 700,
+      "scrollWidth": 1280,
+      "heroHeight": 660,
+      "heading": 104.96,
+      "sectionHeading": 67.712,
+      "body": 20,
+      "button": 20.3136,
+      "ctaBottom": 583,
+      "ratio": 1,
+      "scale": 1,
+      "clipped": [],
+      "cardOverflow": [],
+      "missingTargets": [],
+      "brokenImages": [],
+      "nonDefaultZoom": [],
+      "fonts": [
+        {
+          "family": "Ermilov",
+          "status": "loaded"
+        },
+        {
+          "family": "Onest",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "height": 700,
+      "scrollWidth": 1024,
+      "heroHeight": 660,
+      "heading": 98,
+      "sectionHeading": 56,
+      "body": 20,
+      "button": 20,
+      "ctaBottom": 566.859375,
+      "ratio": 1,
+      "scale": 1,
+      "clipped": [],
+      "cardOverflow": [],
+      "missingTargets": [],
+      "brokenImages": [],
+      "nonDefaultZoom": [],
+      "fonts": [
+        {
+          "family": "Ermilov",
+          "status": "loaded"
+        },
+        {
+          "family": "Onest",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 800,
+      "scrollWidth": 1920,
+      "heroHeight": 800,
+      "heading": 136,
+      "sectionHeading": 80,
+      "body": 23,
+      "button": 24,
+      "ctaBottom": 732.46875,
+      "ratio": 1,
+      "scale": 1,
+      "clipped": [],
+      "cardOverflow": [],
+      "missingTargets": [],
+      "brokenImages": [],
+      "nonDefaultZoom": [],
+      "fonts": [
+        {
+          "family": "Ermilov",
+          "status": "loaded"
+        },
+        {
+          "family": "Onest",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "width": 1512,
+      "height": 800,
+      "scrollWidth": 1512,
+      "heroHeight": 800,
+      "heading": 136,
+      "sectionHeading": 79.9848,
+      "body": 22.9975,
+      "button": 23.9954,
+      "ctaBottom": 731.515625,
+      "ratio": 1,
+      "scale": 1,
+      "clipped": [],
+      "cardOverflow": [],
+      "missingTargets": [],
+      "brokenImages": [],
+      "nonDefaultZoom": [],
+      "fonts": [
+        {
+          "family": "Ermilov",
+          "status": "loaded"
+        },
+        {
+          "family": "Onest",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "height": 800,
+      "scrollWidth": 1440,
+      "heroHeight": 767,
+      "heading": 129.6,
+      "sectionHeading": 76.176,
+      "body": 21.9024,
+      "button": 22.8528,
+      "ctaBottom": 702.65625,
+      "ratio": 1,
+      "scale": 1,
+      "clipped": [],
+      "cardOverflow": [],
+      "missingTargets": [],
+      "brokenImages": [],
+      "nonDefaultZoom": [],
+      "fonts": [
+        {
+          "family": "Ermilov",
+          "status": "loaded"
+        },
+        {
+          "family": "Onest",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "width": 1366,
+      "height": 800,
+      "scrollWidth": 1366,
+      "heroHeight": 734,
+      "heading": 122.94,
+      "sectionHeading": 72.2614,
+      "body": 20.7769,
+      "button": 21.6784,
+      "ctaBottom": 672.796875,
+      "ratio": 1,
+      "scale": 1,
+      "clipped": [],
+      "cardOverflow": [],
+      "missingTargets": [],
+      "brokenImages": [],
+      "nonDefaultZoom": [],
+      "fonts": [
+        {
+          "family": "Ermilov",
+          "status": "loaded"
+        },
+        {
+          "family": "Onest",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "scrollWidth": 1280,
+      "heroHeight": 697,
+      "heading": 115.2,
+      "sectionHeading": 67.712,
+      "body": 20,
+      "button": 20.3136,
+      "ctaBottom": 639.546875,
+      "ratio": 1,
+      "scale": 1,
+      "clipped": [],
+      "cardOverflow": [],
+      "missingTargets": [],
+      "brokenImages": [],
+      "nonDefaultZoom": [],
+      "fonts": [
+        {
+          "family": "Ermilov",
+          "status": "loaded"
+        },
+        {
+          "family": "Onest",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "height": 800,
+      "scrollWidth": 1024,
+      "heroHeight": 640,
+      "heading": 98,
+      "sectionHeading": 56,
+      "body": 20,
+      "button": 20,
+      "ctaBottom": 588.859375,
+      "ratio": 1,
+      "scale": 1,
+      "clipped": [],
+      "cardOverflow": [],
+      "missingTargets": [],
+      "brokenImages": [],
+      "nonDefaultZoom": [],
+      "fonts": [
+        {
+          "family": "Ermilov",
+          "status": "loaded"
+        },
+        {
+          "family": "Onest",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 900,
+      "scrollWidth": 1920,
+      "heroHeight": 800,
+      "heading": 136,
+      "sectionHeading": 80,
+      "body": 23,
+      "button": 24,
+      "ctaBottom": 732.46875,
+      "ratio": 1,
+      "scale": 1,
+      "clipped": [],
+      "cardOverflow": [],
+      "missingTargets": [],
+      "brokenImages": [],
+      "nonDefaultZoom": [],
+      "fonts": [
+        {
+          "family": "Ermilov",
+          "status": "loaded"
+        },
+        {
+          "family": "Onest",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "width": 1512,
+      "height": 900,
+      "scrollWidth": 1512,
+      "heroHeight": 800,
+      "heading": 136,
+      "sectionHeading": 79.9848,
+      "body": 22.9975,
+      "button": 23.9954,
+      "ctaBottom": 731.515625,
+      "ratio": 1,
+      "scale": 1,
+      "clipped": [],
+      "cardOverflow": [],
+      "missingTargets": [],
+      "brokenImages": [],
+      "nonDefaultZoom": [],
+      "fonts": [
+        {
+          "family": "Ermilov",
+          "status": "loaded"
+        },
+        {
+          "family": "Onest",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "scrollWidth": 1440,
+      "heroHeight": 767,
+      "heading": 129.6,
+      "sectionHeading": 76.176,
+      "body": 21.9024,
+      "button": 22.8528,
+      "ctaBottom": 702.65625,
+      "ratio": 1,
+      "scale": 1,
+      "clipped": [],
+      "cardOverflow": [],
+      "missingTargets": [],
+      "brokenImages": [],
+      "nonDefaultZoom": [],
+      "fonts": [
+        {
+          "family": "Ermilov",
+          "status": "loaded"
+        },
+        {
+          "family": "Onest",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "width": 1366,
+      "height": 900,
+      "scrollWidth": 1366,
+      "heroHeight": 734,
+      "heading": 122.94,
+      "sectionHeading": 72.2614,
+      "body": 20.7769,
+      "button": 21.6784,
+      "ctaBottom": 672.796875,
+      "ratio": 1,
+      "scale": 1,
+      "clipped": [],
+      "cardOverflow": [],
+      "missingTargets": [],
+      "brokenImages": [],
+      "nonDefaultZoom": [],
+      "fonts": [
+        {
+          "family": "Ermilov",
+          "status": "loaded"
+        },
+        {
+          "family": "Onest",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "scrollWidth": 1280,
+      "heroHeight": 697,
+      "heading": 115.2,
+      "sectionHeading": 67.712,
+      "body": 20,
+      "button": 20.3136,
+      "ctaBottom": 639.546875,
+      "ratio": 1,
+      "scale": 1,
+      "clipped": [],
+      "cardOverflow": [],
+      "missingTargets": [],
+      "brokenImages": [],
+      "nonDefaultZoom": [],
+      "fonts": [
+        {
+          "family": "Ermilov",
+          "status": "loaded"
+        },
+        {
+          "family": "Onest",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "height": 900,
+      "scrollWidth": 1024,
+      "heroHeight": 640,
+      "heading": 98,
+      "sectionHeading": 56,
+      "body": 20,
+      "button": 20,
+      "ctaBottom": 588.859375,
+      "ratio": 1,
+      "scale": 1,
+      "clipped": [],
+      "cardOverflow": [],
+      "missingTargets": [],
+      "brokenImages": [],
+      "nonDefaultZoom": [],
+      "fonts": [
+        {
+          "family": "Ermilov",
+          "status": "loaded"
+        },
+        {
+          "family": "Onest",
+          "status": "loaded"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "navigation": "passed at 1024 and 1512",
+  "formLinks": "passed"
+}

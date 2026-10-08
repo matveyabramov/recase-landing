@@ -1,0 +1,250 @@
+/* Shared UI feedback; no decorative or scroll-triggered animation. */
+.button {
+  --feedback-ring-color: #fff;
+  transition:
+    transform var(--ui-hover-duration) var(--ui-easing),
+    background-color var(--ui-hover-duration) var(--ui-easing),
+    color var(--ui-hover-duration) var(--ui-easing);
+}
+
+.button::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  --pixel-border: 3px;
+  background: var(--feedback-ring-color);
+  clip-path: var(--pixel-ring);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity var(--ui-hover-duration) var(--ui-easing);
+}
+
+.button-lime, .pixel-outline {
+  --feedback-ring-color: var(--color-ink);
+}
+
+.pixel-outline {
+  background-color: #fff;
+  color: var(--color-pink-ui);
+  /* Swap ink/surface together: interpolating both loses contrast halfway. */
+  transition-property: transform;
+}
+
+.button img {
+  transition: transform var(--ui-hover-duration) steps(2, end);
+}
+
+.navigation a {
+  transition:
+    color var(--ui-hover-duration) var(--ui-easing),
+    background-color var(--ui-hover-duration) var(--ui-easing);
+}
+
+.navigation a::before {
+  transition: opacity 120ms var(--ui-easing);
+}
+
+.logo {
+  transition: opacity var(--ui-hover-duration) var(--ui-easing);
+}
+
+.experts-track {
+  overscroll-behavior-x: contain;
+  scrollbar-color: var(--color-ink) #fff;
+  scrollbar-width: thin;
+}
+
+.experts-track:focus-visible {
+  outline: 3px solid var(--color-ink);
+  outline-offset: 6px;
+  scrollbar-color: var(--color-pink-ui) #fff;
+}
+
+.experts-track::-webkit-scrollbar {
+  display: block;
+  height: 8px;
+}
+
+.experts-track::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+.experts-track::-webkit-scrollbar-thumb {
+  background: var(--color-ink);
+}
+
+.experts-track:focus-visible::-webkit-scrollbar-thumb {
+  background: var(--color-pink-ui);
+}
+
+/* Hover belongs to precise pointing devices; touch gets focus and press feedback. */
+@media (hover: hover) and (pointer: fine) {
+  .button:hover {
+    transform: translateY(var(--ui-lift));
+  }
+
+  .button-dark:hover {
+    background-color: var(--color-pink-ui);
+  }
+
+  .button-pink:hover {
+    background-color: var(--color-ink);
+  }
+
+  .button-lime:hover::after {
+    opacity: 1;
+  }
+
+  .button:hover img {
+    transform: translateX(4px);
+  }
+
+  .pixel-outline:hover {
+    --outline-color: var(--color-pink-ui);
+    background-color: var(--color-pink-ui);
+    color: #fff;
+  }
+
+  .navigation a:hover {
+    color: var(--color-pink-ui);
+  }
+
+  .navigation a:hover::before {
+    opacity: 1;
+  }
+
+  .contact-links .button:hover {
+    --feedback-ring-color: var(--color-lime);
+    background-color: var(--color-ink);
+    color: var(--color-lime);
+  }
+
+  .contact-links .button:hover::after {
+    opacity: 1;
+  }
+
+  .logo:hover {
+    opacity: .78;
+  }
+
+  .skip-link:hover {
+    color: var(--color-pink-ui);
+    text-decoration: underline;
+  }
+
+  .experts-track::-webkit-scrollbar-thumb:hover {
+    background: var(--color-pink-ui);
+  }
+}
+
+.experts-track::-webkit-scrollbar-thumb:active {
+  background: var(--color-pink-ui);
+}
+
+/* Keyboard focus remains visible alongside either default or hover colors. */
+.button:focus-visible {
+  outline: none;
+}
+
+.button:focus-visible::after {
+  opacity: 1;
+}
+
+.navigation a:focus-visible {
+  outline: none;
+  color: var(--color-pink-ui);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.navigation a:focus-visible::before {
+  opacity: 1;
+}
+
+/* Press feedback is shared by mouse, keyboard and touch. */
+.button:active {
+  transform: translateY(var(--ui-press));
+  transition-duration: var(--ui-press-duration);
+}
+
+.button:active img {
+  transform: translateX(2px);
+  transition-duration: var(--ui-press-duration);
+}
+
+.button-dark:active, .button-pink:active {
+  background-color: var(--color-ink);
+  color: var(--color-lime);
+}
+
+.button-lime:active::after {
+  opacity: 1;
+}
+
+.pixel-outline:active {
+  --outline-color: var(--color-ink);
+  --feedback-ring-color: #fff;
+  background-color: var(--color-ink);
+  color: #fff;
+}
+
+.navigation a:active {
+  color: var(--color-ink);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  transition-duration: var(--ui-press-duration);
+}
+
+.navigation a:active::before {
+  opacity: 1;
+}
+
+.contact-links .button:active {
+  background-color: var(--color-pink-ui);
+  color: #fff;
+  --feedback-ring-color: #fff;
+}
+
+.logo:active {
+  opacity: .6;
+  transition-duration: var(--ui-press-duration);
+}
+
+.skip-link:active {
+  color: var(--color-ink);
+  text-decoration: underline;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --ui-hover-duration: 0s;
+    --ui-press-duration: 0s;
+  }
+
+  html, .experts-track {
+    scroll-behavior: auto;
+  }
+
+  .button, .button::before, .button::after, .button img,
+  .navigation a, .navigation a::before, .logo {
+    transition: none;
+  }
+
+  .button:hover, .button:active, .button:hover img, .button:active img {
+    transform: none;
+  }
+}
+
+/* Responsive swipe track keeps keyboard focus and native scrolling, without UI chrome. */
+@media (max-width: 1023px) {
+  .experts-track {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .experts-track::-webkit-scrollbar {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+}

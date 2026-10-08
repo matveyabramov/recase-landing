@@ -1,0 +1,73 @@
+/* One continuous contour and one even-odd ring. No assembled border segments. */
+:root { --pixel-border: 2px; }
+
+.button, .navigation a,
+.button::before, .button::after, .navigation a::before {
+  --pixel-shape: polygon(
+    var(--button-cut) 0, calc(100% - var(--button-cut)) 0,
+    calc(100% - var(--button-cut)) var(--button-cut), 100% var(--button-cut),
+    100% calc(100% - var(--button-cut)), calc(100% - var(--button-cut)) calc(100% - var(--button-cut)),
+    calc(100% - var(--button-cut)) 100%, var(--button-cut) 100%,
+    var(--button-cut) calc(100% - var(--button-cut)), 0 calc(100% - var(--button-cut)),
+    0 var(--button-cut), var(--button-cut) var(--button-cut)
+  );
+  --pixel-ring: polygon(evenodd,
+    var(--button-cut) 0, calc(100% - var(--button-cut)) 0,
+    calc(100% - var(--button-cut)) var(--button-cut), 100% var(--button-cut),
+    100% calc(100% - var(--button-cut)), calc(100% - var(--button-cut)) calc(100% - var(--button-cut)),
+    calc(100% - var(--button-cut)) 100%, var(--button-cut) 100%,
+    var(--button-cut) calc(100% - var(--button-cut)), 0 calc(100% - var(--button-cut)),
+    0 var(--button-cut), var(--button-cut) var(--button-cut), var(--button-cut) 0,
+    calc(var(--button-cut) + var(--pixel-border)) var(--pixel-border),
+    calc(100% - var(--button-cut) - var(--pixel-border)) var(--pixel-border),
+    calc(100% - var(--button-cut) - var(--pixel-border)) calc(var(--button-cut) + var(--pixel-border)),
+    calc(100% - var(--pixel-border)) calc(var(--button-cut) + var(--pixel-border)),
+    calc(100% - var(--pixel-border)) calc(100% - var(--button-cut) - var(--pixel-border)),
+    calc(100% - var(--button-cut) - var(--pixel-border)) calc(100% - var(--button-cut) - var(--pixel-border)),
+    calc(100% - var(--button-cut) - var(--pixel-border)) calc(100% - var(--pixel-border)),
+    calc(var(--button-cut) + var(--pixel-border)) calc(100% - var(--pixel-border)),
+    calc(var(--button-cut) + var(--pixel-border)) calc(100% - var(--button-cut) - var(--pixel-border)),
+    var(--pixel-border) calc(100% - var(--button-cut) - var(--pixel-border)),
+    var(--pixel-border) calc(var(--button-cut) + var(--pixel-border)),
+    calc(var(--button-cut) + var(--pixel-border)) calc(var(--button-cut) + var(--pixel-border)),
+    calc(var(--button-cut) + var(--pixel-border)) var(--pixel-border), var(--button-cut) 0
+  );
+}
+
+.pixel-outline {
+  --outline-color: var(--color-pink);
+  background: rgba(255, 255, 255, .82);
+  color: var(--outline-color);
+  box-shadow: none;
+}
+
+.pixel-outline::before, .navigation a::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--outline-color, var(--color-pink));
+  clip-path: var(--pixel-ring);
+  pointer-events: none;
+}
+
+.navigation a {
+  --button-cut: 8px;
+  position: relative;
+  padding: 14px 18px;
+  color: var(--color-ink);
+}
+
+.navigation a::before { opacity: 0; }
+
+/* Individual particles are ready for later cursor interactions; currently static. */
+.particles { overflow: hidden; }
+.particles span {
+  position: absolute;
+  left: calc(var(--x) * 1%);
+  top: calc(var(--y) * 1%);
+  left: round(nearest, calc(var(--x) * 1%), 1px);
+  top: round(nearest, calc(var(--y) * 1%), 1px);
+  width: var(--size);
+  height: var(--size);
+  background: var(--particle-color);
+}

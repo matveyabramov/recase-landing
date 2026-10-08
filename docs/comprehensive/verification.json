@@ -1,0 +1,487 @@
+{
+  "environment": "Vite production preview",
+  "browser": "Chromium",
+  "zoom": "100%",
+  "deviceScaleFactor": 1,
+  "results": [
+    {
+      "width": 1512,
+      "height": 900,
+      "scale": 1,
+      "scrollWidth": 1512,
+      "pageHeight": 8765,
+      "container": 1200,
+      "gutter": 156,
+      "h1": "120px",
+      "h2": "68px",
+      "body": "18.9px",
+      "navigation": "15.997px",
+      "heroHeight": 700,
+      "ctaBottom": 630.4375,
+      "overlaps": [],
+      "particles": 48,
+      "clipped": [],
+      "cardOverflow": [],
+      "wrongHeadingFonts": [],
+      "images": 36,
+      "broken": [],
+      "fonts": [
+        {
+          "family": "Ermilov",
+          "status": "loaded"
+        },
+        {
+          "family": "Onest",
+          "status": "loaded"
+        }
+      ],
+      "zoom": [],
+      "frame": {
+        "color": "rgb(231, 38, 122)",
+        "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 10px), 2px calc(100% - 10px), 2px 10px, 10px 10px, 10px 2px, 8px 0px)"
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "scale": 1,
+      "scrollWidth": 1440,
+      "pageHeight": 8641,
+      "container": 1200,
+      "gutter": 120,
+      "h1": "114.336px",
+      "h2": "64.8px",
+      "body": "18px",
+      "navigation": "15.2352px",
+      "heroHeight": 668,
+      "ctaBottom": 611.53125,
+      "overlaps": [],
+      "particles": 48,
+      "clipped": [],
+      "cardOverflow": [],
+      "wrongHeadingFonts": [],
+      "images": 36,
+      "broken": [],
+      "fonts": [
+        {
+          "family": "Ermilov",
+          "status": "loaded"
+        },
+        {
+          "family": "Onest",
+          "status": "loaded"
+        }
+      ],
+      "zoom": [],
+      "frame": {
+        "color": "rgb(231, 38, 122)",
+        "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 10px), 2px calc(100% - 10px), 2px 10px, 10px 10px, 10px 2px, 8px 0px)"
+      }
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "scale": 1,
+      "scrollWidth": 1366,
+      "pageHeight": 8503,
+      "container": 1200,
+      "gutter": 83,
+      "h1": "108.46px",
+      "h2": "61.47px",
+      "body": "17.075px",
+      "navigation": "15px",
+      "heroHeight": 648,
+      "ctaBottom": 591.9375,
+      "overlaps": [],
+      "particles": 48,
+      "clipped": [],
+      "cardOverflow": [],
+      "wrongHeadingFonts": [],
+      "images": 36,
+      "broken": [],
+      "fonts": [
+        {
+          "family": "Ermilov",
+          "status": "loaded"
+        },
+        {
+          "family": "Onest",
+          "status": "loaded"
+        }
+      ],
+      "zoom": [],
+      "frame": {
+        "color": "rgb(231, 38, 122)",
+        "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 10px), 2px calc(100% - 10px), 2px 10px, 10px 10px, 10px 2px, 8px 0px)"
+      }
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "scale": 1,
+      "scrollWidth": 1280,
+      "pageHeight": 8365,
+      "container": 1178,
+      "gutter": 51.203125,
+      "h1": "101.632px",
+      "h2": "57.6px",
+      "body": "17px",
+      "navigation": "15px",
+      "heroHeight": 630,
+      "ctaBottom": 573.5625,
+      "overlaps": [],
+      "particles": 48,
+      "clipped": [],
+      "cardOverflow": [],
+      "wrongHeadingFonts": [],
+      "images": 36,
+      "broken": [],
+      "fonts": [
+        {
+          "family": "Ermilov",
+          "status": "loaded"
+        },
+        {
+          "family": "Onest",
+          "status": "loaded"
+        }
+      ],
+      "zoom": [],
+      "frame": {
+        "color": "rgb(231, 38, 122)",
+        "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 10px), 2px calc(100% - 10px), 2px 10px, 10px 10px, 10px 2px, 8px 0px)"
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "scale": 1,
+      "scrollWidth": 1920,
+      "pageHeight": 8770,
+      "container": 1200,
+      "gutter": 360,
+      "h1": "120px",
+      "h2": "68px",
+      "body": "19px",
+      "navigation": "16px",
+      "heroHeight": 700,
+      "ctaBottom": 630.625,
+      "overlaps": [],
+      "particles": 48,
+      "clipped": [],
+      "cardOverflow": [],
+      "wrongHeadingFonts": [],
+      "images": 36,
+      "broken": [],
+      "fonts": [
+        {
+          "family": "Ermilov",
+          "status": "loaded"
+        },
+        {
+          "family": "Onest",
+          "status": "loaded"
+        }
+      ],
+      "zoom": [],
+      "frame": {
+        "color": "rgb(231, 38, 122)",
+        "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 10px), 2px calc(100% - 10px), 2px 10px, 10px 10px, 10px 2px, 8px 0px)"
+      }
+    },
+    {
+      "width": 1024,
+      "height": 800,
+      "scale": 1,
+      "scrollWidth": 1024,
+      "pageHeight": 8020,
+      "container": 942,
+      "gutter": 40.953125,
+      "h1": "94px",
+      "h2": "52px",
+      "body": "17px",
+      "navigation": "15px",
+      "heroHeight": 620,
+      "ctaBottom": 558.25,
+      "overlaps": [],
+      "particles": 48,
+      "clipped": [],
+      "cardOverflow": [],
+      "wrongHeadingFonts": [],
+      "images": 36,
+      "broken": [],
+      "fonts": [
+        {
+          "family": "Ermilov",
+          "status": "loaded"
+        },
+        {
+          "family": "Onest",
+          "status": "loaded"
+        }
+      ],
+      "zoom": [],
+      "frame": {
+        "color": "rgb(231, 38, 122)",
+        "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 10px), 2px calc(100% - 10px), 2px 10px, 10px 10px, 10px 2px, 8px 0px)"
+      }
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "navigation": {
+    "defaults": [
+      {
+        "text": "О хакатоне",
+        "rect": {
+          "x": 397.96875,
+          "y": 27,
+          "width": 125.125,
+          "height": 44,
+          "top": 27,
+          "right": 523.09375,
+          "bottom": 71,
+          "left": 397.96875
+        },
+        "color": "rgb(6, 29, 56)",
+        "outline": "0",
+        "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 10px), 2px calc(100% - 10px), 2px 10px, 10px 10px, 10px 2px, 8px 0px)"
+      },
+      {
+        "text": "Этапы",
+        "rect": {
+          "x": 527.09375,
+          "y": 27,
+          "width": 86.046875,
+          "height": 44,
+          "top": 27,
+          "right": 613.140625,
+          "bottom": 71,
+          "left": 527.09375
+        },
+        "color": "rgb(6, 29, 56)",
+        "outline": "0",
+        "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 10px), 2px calc(100% - 10px), 2px 10px, 10px 10px, 10px 2px, 8px 0px)"
+      },
+      {
+        "text": "Партнёрам",
+        "rect": {
+          "x": 617.140625,
+          "y": 27,
+          "width": 124.046875,
+          "height": 44,
+          "top": 27,
+          "right": 741.1875,
+          "bottom": 71,
+          "left": 617.140625
+        },
+        "color": "rgb(6, 29, 56)",
+        "outline": "0",
+        "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 10px), 2px calc(100% - 10px), 2px 10px, 10px 10px, 10px 2px, 8px 0px)"
+      }
+    ],
+    "hovered": [
+      [
+        {
+          "text": "О хакатоне",
+          "rect": {
+            "x": 397.96875,
+            "y": 27,
+            "width": 125.125,
+            "height": 44,
+            "top": 27,
+            "right": 523.09375,
+            "bottom": 71,
+            "left": 397.96875
+          },
+          "color": "rgb(231, 38, 122)",
+          "outline": "1",
+          "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 10px), 2px calc(100% - 10px), 2px 10px, 10px 10px, 10px 2px, 8px 0px)"
+        },
+        {
+          "text": "Этапы",
+          "rect": {
+            "x": 527.09375,
+            "y": 27,
+            "width": 86.046875,
+            "height": 44,
+            "top": 27,
+            "right": 613.140625,
+            "bottom": 71,
+            "left": 527.09375
+          },
+          "color": "rgb(6, 29, 56)",
+          "outline": "0",
+          "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 10px), 2px calc(100% - 10px), 2px 10px, 10px 10px, 10px 2px, 8px 0px)"
+        },
+        {
+          "text": "Партнёрам",
+          "rect": {
+            "x": 617.140625,
+            "y": 27,
+            "width": 124.046875,
+            "height": 44,
+            "top": 27,
+            "right": 741.1875,
+            "bottom": 71,
+            "left": 617.140625
+          },
+          "color": "rgb(6, 29, 56)",
+          "outline": "0",
+          "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 10px), 2px calc(100% - 10px), 2px 10px, 10px 10px, 10px 2px, 8px 0px)"
+        }
+      ],
+      [
+        {
+          "text": "О хакатоне",
+          "rect": {
+            "x": 397.96875,
+            "y": 27,
+            "width": 125.125,
+            "height": 44,
+            "top": 27,
+            "right": 523.09375,
+            "bottom": 71,
+            "left": 397.96875
+          },
+          "color": "rgb(6, 29, 56)",
+          "outline": "0",
+          "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 10px), 2px calc(100% - 10px), 2px 10px, 10px 10px, 10px 2px, 8px 0px)"
+        },
+        {
+          "text": "Этапы",
+          "rect": {
+            "x": 527.09375,
+            "y": 27,
+            "width": 86.046875,
+            "height": 44,
+            "top": 27,
+            "right": 613.140625,
+            "bottom": 71,
+            "left": 527.09375
+          },
+          "color": "rgb(231, 38, 122)",
+          "outline": "1",
+          "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 10px), 2px calc(100% - 10px), 2px 10px, 10px 10px, 10px 2px, 8px 0px)"
+        },
+        {
+          "text": "Партнёрам",
+          "rect": {
+            "x": 617.140625,
+            "y": 27,
+            "width": 124.046875,
+            "height": 44,
+            "top": 27,
+            "right": 741.1875,
+            "bottom": 71,
+            "left": 617.140625
+          },
+          "color": "rgb(6, 29, 56)",
+          "outline": "0",
+          "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 10px), 2px calc(100% - 10px), 2px 10px, 10px 10px, 10px 2px, 8px 0px)"
+        }
+      ],
+      [
+        {
+          "text": "О хакатоне",
+          "rect": {
+            "x": 397.96875,
+            "y": 27,
+            "width": 125.125,
+            "height": 44,
+            "top": 27,
+            "right": 523.09375,
+            "bottom": 71,
+            "left": 397.96875
+          },
+          "color": "rgb(6, 29, 56)",
+          "outline": "0",
+          "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 10px), 2px calc(100% - 10px), 2px 10px, 10px 10px, 10px 2px, 8px 0px)"
+        },
+        {
+          "text": "Этапы",
+          "rect": {
+            "x": 527.09375,
+            "y": 27,
+            "width": 86.046875,
+            "height": 44,
+            "top": 27,
+            "right": 613.140625,
+            "bottom": 71,
+            "left": 527.09375
+          },
+          "color": "rgb(6, 29, 56)",
+          "outline": "0",
+          "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 10px), 2px calc(100% - 10px), 2px 10px, 10px 10px, 10px 2px, 8px 0px)"
+        },
+        {
+          "text": "Партнёрам",
+          "rect": {
+            "x": 617.140625,
+            "y": 27,
+            "width": 124.046875,
+            "height": 44,
+            "top": 27,
+            "right": 741.1875,
+            "bottom": 71,
+            "left": 617.140625
+          },
+          "color": "rgb(231, 38, 122)",
+          "outline": "1",
+          "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 10px), 2px calc(100% - 10px), 2px 10px, 10px 10px, 10px 2px, 8px 0px)"
+        }
+      ]
+    ],
+    "focused": [
+      {
+        "text": "О хакатоне",
+        "rect": {
+          "x": 397.96875,
+          "y": 27,
+          "width": 125.125,
+          "height": 44,
+          "top": 27,
+          "right": 523.09375,
+          "bottom": 71,
+          "left": 397.96875
+        },
+        "color": "rgb(231, 38, 122)",
+        "outline": "1",
+        "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 10px), 2px calc(100% - 10px), 2px 10px, 10px 10px, 10px 2px, 8px 0px)"
+      },
+      {
+        "text": "Этапы",
+        "rect": {
+          "x": 527.09375,
+          "y": 27,
+          "width": 86.046875,
+          "height": 44,
+          "top": 27,
+          "right": 613.140625,
+          "bottom": 71,
+          "left": 527.09375
+        },
+        "color": "rgb(6, 29, 56)",
+        "outline": "0",
+        "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 10px), 2px calc(100% - 10px), 2px 10px, 10px 10px, 10px 2px, 8px 0px)"
+      },
+      {
+        "text": "Партнёрам",
+        "rect": {
+          "x": 617.140625,
+          "y": 27,
+          "width": 124.046875,
+          "height": 44,
+          "top": 27,
+          "right": 741.1875,
+          "bottom": 71,
+          "left": 617.140625
+        },
+        "color": "rgb(6, 29, 56)",
+        "outline": "0",
+        "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 10px), 2px calc(100% - 10px), 2px 10px, 10px 10px, 10px 2px, 8px 0px)"
+      }
+    ]
+  },
+  "links": "passed"
+}

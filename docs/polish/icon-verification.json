@@ -1,0 +1,30 @@
+[
+  {
+    "name": "portfolio",
+    "rootDimensions": "<svg xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"45.4766\" height=\"45.4766\" viewBox=\"0 0 45.4766 45.4766\" fill=\"none\"",
+    "sourceCurves": 5,
+    "mergedCurves": 5,
+    "silhouetteDifferencePercent": 0.13509841806545103
+  },
+  {
+    "name": "feedback",
+    "rootDimensions": "<svg xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"45.4766\" height=\"45.4766\" viewBox=\"0 0 45.4766 45.4766\" fill=\"none\"",
+    "sourceCurves": 20,
+    "mergedCurves": 20,
+    "silhouetteDifferencePercent": 0.0007547397657287768
+  },
+  {
+    "name": "team",
+    "rootDimensions": "<svg xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"45.54\" height=\"45.54\" viewBox=\"0 0 45.54 45.54\" fill=\"none\"",
+    "sourceCurves": 14,
+    "mergedCurves": 14,
+    "silhouetteDifferencePercent": 0.0022642192971863303
+  },
+  {
+    "name": "career",
+    "rootDimensions": "<svg xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"45.4766\" height=\"45.4766\" viewBox=\"0 0 45.4766 45.4766\" fill=\"none\"",
+    "sourceCurves": 14,
+    "mergedCurves": 14,
+    "silhouetteDifferencePercent": 0.1071730467334863
+  }
+]

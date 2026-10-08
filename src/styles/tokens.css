@@ -1,1 +1,32 @@
-/* Дизайн-токены будут добавлены из Figma. */
+:root {
+  --font-heading: 'Ermilov', sans-serif;
+  --font-body: 'Onest', sans-serif;
+  --color-ink: #061d38;
+  --color-border: #0a1f3c;
+  --color-pink: #e7267a;
+  --color-pink-section: #e5297a;
+  --color-lime: #bafb2b;
+  --color-lime-banner: #c3fb52;
+  --color-green: #92d400;
+  --color-white: #fff;
+  --container-width: 1200px;
+  --page-gutter: clamp(32px, 4vw, 60px);
+  --grid-gap: clamp(16px, 1.2vw, 18px);
+  --accent-gap: clamp(72px, 5.55vw, 84px);
+  --compact-gap: clamp(56px, 4.76vw, 72px);
+  --section-gap: clamp(64px, 5vw, 76px);
+  --heading-size: clamp(52px, 4.5vw, 68px);
+  --body-size: clamp(17px, 1.25vw, 19px);
+  --card-heading-size: clamp(20px, 1.455vw, 22px);
+  --small-heading-size: clamp(18px, 1.323vw, 20px);
+  --button-size: clamp(17px, 1.19vw, 18px);
+  --hero-type-size: clamp(94px, 7.94vw, 120px);
+  --hero-unit: calc(var(--hero-type-size) / 155);
+  --ui-hover-duration: 160ms;
+  --ui-press-duration: 90ms;
+  --ui-easing: cubic-bezier(.2, .7, .2, 1);
+  --ui-lift: -2px;
+  --ui-press: 2px;
+  /* A small ink tint keeps white/small UI text readable in pink states. */
+  --color-pink-ui: color-mix(in srgb, var(--color-pink) 94%, var(--color-ink));
+}

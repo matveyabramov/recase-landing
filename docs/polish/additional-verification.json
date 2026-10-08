@@ -1,0 +1,27 @@
+{
+  "results": [
+    {
+      "type": "logo",
+      "hover": "0.78",
+      "active": "0.6"
+    },
+    {
+      "type": "logo",
+      "hover": "0.78",
+      "active": "0.6"
+    },
+    {
+      "type": "skip-link",
+      "hover": {
+        "color": "color(srgb 0.852941 0.146902 0.462902)",
+        "decoration": "underline"
+      },
+      "activation": "passed"
+    },
+    {
+      "type": "logo-home",
+      "activation": "passed"
+    }
+  ],
+  "staticCards": 13
+}

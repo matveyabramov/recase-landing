@@ -1,0 +1,1462 @@
+{
+  "viewports": [
+    {
+      "width": 1512,
+      "height": 900,
+      "scale": 1,
+      "scrollWidth": 1512,
+      "container": 1200,
+      "fonts": [
+        {
+          "family": "Ermilov",
+          "status": "loaded"
+        },
+        {
+          "family": "Onest",
+          "status": "loaded"
+        }
+      ],
+      "broken": [],
+      "clipped": [],
+      "overlaps": [],
+      "sections": {
+        "audience": {
+          "height": 503.8125,
+          "paddingTop": "80px",
+          "paddingBottom": "0px",
+          "gap": "36px",
+          "lastContentToBottom": 80
+        },
+        "format": {
+          "height": 520,
+          "paddingTop": "92px",
+          "paddingBottom": "92px",
+          "gap": "0px",
+          "lastContentToBottom": 79.03125
+        },
+        "benefits": {
+          "height": 759,
+          "paddingTop": "24px",
+          "paddingBottom": "32px",
+          "gap": "48px",
+          "lastContentToBottom": 32
+        },
+        "contacts": {
+          "height": 408,
+          "paddingTop": "88px",
+          "paddingBottom": "88px",
+          "gap": "40px",
+          "lastContentToBottom": 116.296875
+        }
+      }
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "scale": 1,
+      "scrollWidth": 1440,
+      "container": 1200,
+      "fonts": [
+        {
+          "family": "Ermilov",
+          "status": "loaded"
+        },
+        {
+          "family": "Onest",
+          "status": "loaded"
+        }
+      ],
+      "broken": [],
+      "clipped": [],
+      "overlaps": [],
+      "sections": {
+        "audience": {
+          "height": 497.8125,
+          "paddingTop": "80px",
+          "paddingBottom": "0px",
+          "gap": "36px",
+          "lastContentToBottom": 80
+        },
+        "format": {
+          "height": 520,
+          "paddingTop": "92px",
+          "paddingBottom": "92px",
+          "gap": "0px",
+          "lastContentToBottom": 95.703125
+        },
+        "benefits": {
+          "height": 750.265625,
+          "paddingTop": "24px",
+          "paddingBottom": "32px",
+          "gap": "48px",
+          "lastContentToBottom": 32
+        },
+        "contacts": {
+          "height": 408,
+          "paddingTop": "88px",
+          "paddingBottom": "88px",
+          "gap": "40px",
+          "lastContentToBottom": 119.671875
+        }
+      }
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "scale": 1,
+      "scrollWidth": 1366,
+      "container": 1200,
+      "fonts": [
+        {
+          "family": "Ermilov",
+          "status": "loaded"
+        },
+        {
+          "family": "Onest",
+          "status": "loaded"
+        }
+      ],
+      "broken": [],
+      "clipped": [],
+      "overlaps": [],
+      "sections": {
+        "audience": {
+          "height": 491.53125,
+          "paddingTop": "80px",
+          "paddingBottom": "0px",
+          "gap": "36px",
+          "lastContentToBottom": 80
+        },
+        "format": {
+          "height": 520,
+          "paddingTop": "92px",
+          "paddingBottom": "92px",
+          "gap": "0px",
+          "lastContentToBottom": 112.828125
+        },
+        "benefits": {
+          "height": 741.046875,
+          "paddingTop": "24px",
+          "paddingBottom": "32px",
+          "gap": "48px",
+          "lastContentToBottom": 32
+        },
+        "contacts": {
+          "height": 408,
+          "paddingTop": "88px",
+          "paddingBottom": "88px",
+          "gap": "40px",
+          "lastContentToBottom": 123.1875
+        }
+      }
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "scale": 1,
+      "scrollWidth": 1280,
+      "container": 1178,
+      "fonts": [
+        {
+          "family": "Ermilov",
+          "status": "loaded"
+        },
+        {
+          "family": "Onest",
+          "status": "loaded"
+        }
+      ],
+      "broken": [],
+      "clipped": [],
+      "overlaps": [],
+      "sections": {
+        "audience": {
+          "height": 484.25,
+          "paddingTop": "80px",
+          "paddingBottom": "0px",
+          "gap": "36px",
+          "lastContentToBottom": 80
+        },
+        "format": {
+          "height": 520,
+          "paddingTop": "92px",
+          "paddingBottom": "92px",
+          "gap": "0px",
+          "lastContentToBottom": 132.734375
+        },
+        "benefits": {
+          "height": 733.21875,
+          "paddingTop": "24px",
+          "paddingBottom": "32px",
+          "gap": "48px",
+          "lastContentToBottom": 32
+        },
+        "contacts": {
+          "height": 408,
+          "paddingTop": "88px",
+          "paddingBottom": "88px",
+          "gap": "40px",
+          "lastContentToBottom": 125.46875
+        }
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "scale": 1,
+      "scrollWidth": 1920,
+      "container": 1200,
+      "fonts": [
+        {
+          "family": "Ermilov",
+          "status": "loaded"
+        },
+        {
+          "family": "Onest",
+          "status": "loaded"
+        }
+      ],
+      "broken": [],
+      "clipped": [],
+      "overlaps": [],
+      "sections": {
+        "audience": {
+          "height": 503.8125,
+          "paddingTop": "80px",
+          "paddingBottom": "0px",
+          "gap": "36px",
+          "lastContentToBottom": 80
+        },
+        "format": {
+          "height": 520,
+          "paddingTop": "92px",
+          "paddingBottom": "92px",
+          "gap": "0px",
+          "lastContentToBottom": 78.078125
+        },
+        "benefits": {
+          "height": 759,
+          "paddingTop": "24px",
+          "paddingBottom": "32px",
+          "gap": "48px",
+          "lastContentToBottom": 32
+        },
+        "contacts": {
+          "height": 408,
+          "paddingTop": "88px",
+          "paddingBottom": "88px",
+          "gap": "40px",
+          "lastContentToBottom": 116.171875
+        }
+      }
+    },
+    {
+      "width": 1024,
+      "height": 800,
+      "scale": 1,
+      "scrollWidth": 1024,
+      "container": 942,
+      "fonts": [
+        {
+          "family": "Ermilov",
+          "status": "loaded"
+        },
+        {
+          "family": "Onest",
+          "status": "loaded"
+        }
+      ],
+      "broken": [],
+      "clipped": [],
+      "overlaps": [],
+      "sections": {
+        "audience": {
+          "height": 476.890625,
+          "paddingTop": "80px",
+          "paddingBottom": "0px",
+          "gap": "36px",
+          "lastContentToBottom": 80
+        },
+        "format": {
+          "height": 520,
+          "paddingTop": "92px",
+          "paddingBottom": "92px",
+          "gap": "0px",
+          "lastContentToBottom": 175.140625
+        },
+        "benefits": {
+          "height": 722.71875,
+          "paddingTop": "24px",
+          "paddingBottom": "32px",
+          "gap": "48px",
+          "lastContentToBottom": 32
+        },
+        "contacts": {
+          "height": 408,
+          "paddingTop": "88px",
+          "paddingBottom": "88px",
+          "gap": "40px",
+          "lastContentToBottom": 125.46875
+        }
+      }
+    }
+  ],
+  "buttons": [
+    {
+      "index": 0,
+      "before": {
+        "text": "Участвовать",
+        "color": "color(srgb 0.852941 0.146902 0.462902)",
+        "fill": "rgb(255, 255, 255)",
+        "transform": "none",
+        "transition": "0.16s, 0.16s, 0.16s",
+        "focusVisible": false,
+        "pressed": false,
+        "after": {
+          "opacity": "0",
+          "color": "rgb(6, 29, 56)",
+          "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 11px 3px, calc(100% - 11px) 3px, calc(100% - 11px) 11px, calc(100% - 3px) 11px, calc(100% - 3px) calc(100% - 11px), calc(100% - 11px) calc(100% - 11px), calc(100% - 11px) calc(100% - 3px), 11px calc(100% - 3px), 11px calc(100% - 11px), 3px calc(100% - 11px), 3px 11px, 11px 11px, 11px 3px, 8px 0px)"
+        },
+        "before": {
+          "opacity": "1",
+          "color": "rgb(231, 38, 122)",
+          "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 10px), 2px calc(100% - 10px), 2px 10px, 10px 10px, 10px 2px, 8px 0px)"
+        },
+        "rect": {
+          "x": 1160,
+          "y": 27,
+          "width": 196,
+          "height": 44,
+          "top": 27,
+          "right": 1356,
+          "bottom": 71,
+          "left": 1160
+        }
+      },
+      "hover": {
+        "text": "Участвовать",
+        "color": "rgb(255, 255, 255)",
+        "fill": "color(srgb 0.852941 0.146902 0.462902)",
+        "transform": "matrix(1, 0, 0, 1, 0, -2)",
+        "transition": "0.16s, 0.16s, 0.16s",
+        "focusVisible": false,
+        "pressed": false,
+        "after": {
+          "opacity": "0",
+          "color": "rgb(6, 29, 56)",
+          "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 11px 3px, calc(100% - 11px) 3px, calc(100% - 11px) 11px, calc(100% - 3px) 11px, calc(100% - 3px) calc(100% - 11px), calc(100% - 11px) calc(100% - 11px), calc(100% - 11px) calc(100% - 3px), 11px calc(100% - 3px), 11px calc(100% - 11px), 3px calc(100% - 11px), 3px 11px, 11px 11px, 11px 3px, 8px 0px)"
+        },
+        "before": {
+          "opacity": "1",
+          "color": "color(srgb 0.852941 0.146902 0.462902)",
+          "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 10px), 2px calc(100% - 10px), 2px 10px, 10px 10px, 10px 2px, 8px 0px)"
+        },
+        "rect": {
+          "x": 1160,
+          "y": 25,
+          "width": 196,
+          "height": 44,
+          "top": 25,
+          "right": 1356,
+          "bottom": 69,
+          "left": 1160
+        }
+      },
+      "active": {
+        "text": "Участвовать",
+        "color": "rgb(255, 255, 255)",
+        "fill": "rgb(6, 29, 56)",
+        "transform": "matrix(1, 0, 0, 1, 0, 2)",
+        "transition": "0.09s",
+        "focusVisible": false,
+        "pressed": true,
+        "after": {
+          "opacity": "0",
+          "color": "rgb(255, 255, 255)",
+          "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 11px 3px, calc(100% - 11px) 3px, calc(100% - 11px) 11px, calc(100% - 3px) 11px, calc(100% - 3px) calc(100% - 11px), calc(100% - 11px) calc(100% - 11px), calc(100% - 11px) calc(100% - 3px), 11px calc(100% - 3px), 11px calc(100% - 11px), 3px calc(100% - 11px), 3px 11px, 11px 11px, 11px 3px, 8px 0px)"
+        },
+        "before": {
+          "opacity": "1",
+          "color": "rgb(6, 29, 56)",
+          "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 10px), 2px calc(100% - 10px), 2px 10px, 10px 10px, 10px 2px, 8px 0px)"
+        },
+        "rect": {
+          "x": 1160,
+          "y": 29,
+          "width": 196,
+          "height": 44,
+          "top": 29,
+          "right": 1356,
+          "bottom": 73,
+          "left": 1160
+        }
+      }
+    },
+    {
+      "index": 1,
+      "before": {
+        "text": "Участвовать",
+        "color": "rgb(6, 29, 56)",
+        "fill": "rgb(186, 251, 43)",
+        "transform": "none",
+        "transition": "0.16s, 0.16s, 0.16s",
+        "focusVisible": false,
+        "pressed": false,
+        "after": {
+          "opacity": "0",
+          "color": "rgb(6, 29, 56)",
+          "clip": "polygon(evenodd, 10px 0px, calc(100% - 10px) 0px, calc(100% - 10px) 10px, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 10px calc(100% - 10px), 0px calc(100% - 10px), 0px 10px, 10px 10px, 10px 0px, 13px 3px, calc(100% - 13px) 3px, calc(100% - 13px) 13px, calc(100% - 3px) 13px, calc(100% - 3px) calc(100% - 13px), calc(100% - 13px) calc(100% - 13px), calc(100% - 13px) calc(100% - 3px), 13px calc(100% - 3px), 13px calc(100% - 13px), 3px calc(100% - 13px), 3px 13px, 13px 13px, 13px 3px, 10px 0px)"
+        },
+        "before": {
+          "opacity": "1",
+          "color": "rgba(0, 0, 0, 0)",
+          "clip": "none"
+        },
+        "rect": {
+          "x": 156,
+          "y": 574.4375,
+          "width": 281.984375,
+          "height": 56,
+          "top": 574.4375,
+          "right": 437.984375,
+          "bottom": 630.4375,
+          "left": 156
+        }
+      },
+      "hover": {
+        "text": "Участвовать",
+        "color": "rgb(6, 29, 56)",
+        "fill": "rgb(186, 251, 43)",
+        "transform": "matrix(1, 0, 0, 1, 0, -2)",
+        "transition": "0.16s, 0.16s, 0.16s",
+        "focusVisible": false,
+        "pressed": false,
+        "after": {
+          "opacity": "1",
+          "color": "rgb(6, 29, 56)",
+          "clip": "polygon(evenodd, 10px 0px, calc(100% - 10px) 0px, calc(100% - 10px) 10px, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 10px calc(100% - 10px), 0px calc(100% - 10px), 0px 10px, 10px 10px, 10px 0px, 13px 3px, calc(100% - 13px) 3px, calc(100% - 13px) 13px, calc(100% - 3px) 13px, calc(100% - 3px) calc(100% - 13px), calc(100% - 13px) calc(100% - 13px), calc(100% - 13px) calc(100% - 3px), 13px calc(100% - 3px), 13px calc(100% - 13px), 3px calc(100% - 13px), 3px 13px, 13px 13px, 13px 3px, 10px 0px)"
+        },
+        "before": {
+          "opacity": "1",
+          "color": "rgba(0, 0, 0, 0)",
+          "clip": "none"
+        },
+        "rect": {
+          "x": 156,
+          "y": 572.4375,
+          "width": 281.984375,
+          "height": 56,
+          "top": 572.4375,
+          "right": 437.984375,
+          "bottom": 628.4375,
+          "left": 156
+        }
+      },
+      "active": {
+        "text": "Участвовать",
+        "color": "rgb(6, 29, 56)",
+        "fill": "rgb(186, 251, 43)",
+        "transform": "matrix(1, 0, 0, 1, 0, 2)",
+        "transition": "0.09s",
+        "focusVisible": false,
+        "pressed": true,
+        "after": {
+          "opacity": "1",
+          "color": "rgb(6, 29, 56)",
+          "clip": "polygon(evenodd, 10px 0px, calc(100% - 10px) 0px, calc(100% - 10px) 10px, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 10px calc(100% - 10px), 0px calc(100% - 10px), 0px 10px, 10px 10px, 10px 0px, 13px 3px, calc(100% - 13px) 3px, calc(100% - 13px) 13px, calc(100% - 3px) 13px, calc(100% - 3px) calc(100% - 13px), calc(100% - 13px) calc(100% - 13px), calc(100% - 13px) calc(100% - 3px), 13px calc(100% - 3px), 13px calc(100% - 13px), 3px calc(100% - 13px), 3px 13px, 13px 13px, 13px 3px, 10px 0px)"
+        },
+        "before": {
+          "opacity": "1",
+          "color": "rgba(0, 0, 0, 0)",
+          "clip": "none"
+        },
+        "rect": {
+          "x": 156,
+          "y": 576.4375,
+          "width": 281.984375,
+          "height": 56,
+          "top": 576.4375,
+          "right": 437.984375,
+          "bottom": 632.4375,
+          "left": 156
+        }
+      }
+    },
+    {
+      "index": 2,
+      "before": {
+        "text": "Стать партнёром",
+        "color": "color(srgb 0.852941 0.146902 0.462902)",
+        "fill": "rgb(255, 255, 255)",
+        "transform": "none",
+        "transition": "0.16s, 0.16s, 0.16s",
+        "focusVisible": false,
+        "pressed": false,
+        "after": {
+          "opacity": "0",
+          "color": "rgb(6, 29, 56)",
+          "clip": "polygon(evenodd, 10px 0px, calc(100% - 10px) 0px, calc(100% - 10px) 10px, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 10px calc(100% - 10px), 0px calc(100% - 10px), 0px 10px, 10px 10px, 10px 0px, 13px 3px, calc(100% - 13px) 3px, calc(100% - 13px) 13px, calc(100% - 3px) 13px, calc(100% - 3px) calc(100% - 13px), calc(100% - 13px) calc(100% - 13px), calc(100% - 13px) calc(100% - 3px), 13px calc(100% - 3px), 13px calc(100% - 13px), 3px calc(100% - 13px), 3px 13px, 13px 13px, 13px 3px, 10px 0px)"
+        },
+        "before": {
+          "opacity": "1",
+          "color": "rgb(231, 38, 122)",
+          "clip": "polygon(evenodd, 10px 0px, calc(100% - 10px) 0px, calc(100% - 10px) 10px, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 10px calc(100% - 10px), 0px calc(100% - 10px), 0px 10px, 10px 10px, 10px 0px, 12px 2px, calc(100% - 12px) 2px, calc(100% - 12px) 12px, calc(100% - 2px) 12px, calc(100% - 2px) calc(100% - 12px), calc(100% - 12px) calc(100% - 12px), calc(100% - 12px) calc(100% - 2px), 12px calc(100% - 2px), 12px calc(100% - 12px), 2px calc(100% - 12px), 2px 12px, 12px 12px, 12px 2px, 10px 0px)"
+        },
+        "rect": {
+          "x": 455.984375,
+          "y": 574.4375,
+          "width": 252,
+          "height": 56,
+          "top": 574.4375,
+          "right": 707.984375,
+          "bottom": 630.4375,
+          "left": 455.984375
+        }
+      },
+      "hover": {
+        "text": "Стать партнёром",
+        "color": "rgb(255, 255, 255)",
+        "fill": "color(srgb 0.852941 0.146902 0.462902)",
+        "transform": "matrix(1, 0, 0, 1, 0, -2)",
+        "transition": "0.16s, 0.16s, 0.16s",
+        "focusVisible": false,
+        "pressed": false,
+        "after": {
+          "opacity": "0",
+          "color": "rgb(6, 29, 56)",
+          "clip": "polygon(evenodd, 10px 0px, calc(100% - 10px) 0px, calc(100% - 10px) 10px, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 10px calc(100% - 10px), 0px calc(100% - 10px), 0px 10px, 10px 10px, 10px 0px, 13px 3px, calc(100% - 13px) 3px, calc(100% - 13px) 13px, calc(100% - 3px) 13px, calc(100% - 3px) calc(100% - 13px), calc(100% - 13px) calc(100% - 13px), calc(100% - 13px) calc(100% - 3px), 13px calc(100% - 3px), 13px calc(100% - 13px), 3px calc(100% - 13px), 3px 13px, 13px 13px, 13px 3px, 10px 0px)"
+        },
+        "before": {
+          "opacity": "1",
+          "color": "color(srgb 0.852941 0.146902 0.462902)",
+          "clip": "polygon(evenodd, 10px 0px, calc(100% - 10px) 0px, calc(100% - 10px) 10px, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 10px calc(100% - 10px), 0px calc(100% - 10px), 0px 10px, 10px 10px, 10px 0px, 12px 2px, calc(100% - 12px) 2px, calc(100% - 12px) 12px, calc(100% - 2px) 12px, calc(100% - 2px) calc(100% - 12px), calc(100% - 12px) calc(100% - 12px), calc(100% - 12px) calc(100% - 2px), 12px calc(100% - 2px), 12px calc(100% - 12px), 2px calc(100% - 12px), 2px 12px, 12px 12px, 12px 2px, 10px 0px)"
+        },
+        "rect": {
+          "x": 455.984375,
+          "y": 572.4375,
+          "width": 252,
+          "height": 56,
+          "top": 572.4375,
+          "right": 707.984375,
+          "bottom": 628.4375,
+          "left": 455.984375
+        }
+      },
+      "active": {
+        "text": "Стать партнёром",
+        "color": "rgb(255, 255, 255)",
+        "fill": "rgb(6, 29, 56)",
+        "transform": "matrix(1, 0, 0, 1, 0, 2)",
+        "transition": "0.09s",
+        "focusVisible": false,
+        "pressed": true,
+        "after": {
+          "opacity": "0",
+          "color": "rgb(255, 255, 255)",
+          "clip": "polygon(evenodd, 10px 0px, calc(100% - 10px) 0px, calc(100% - 10px) 10px, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 10px calc(100% - 10px), 0px calc(100% - 10px), 0px 10px, 10px 10px, 10px 0px, 13px 3px, calc(100% - 13px) 3px, calc(100% - 13px) 13px, calc(100% - 3px) 13px, calc(100% - 3px) calc(100% - 13px), calc(100% - 13px) calc(100% - 13px), calc(100% - 13px) calc(100% - 3px), 13px calc(100% - 3px), 13px calc(100% - 13px), 3px calc(100% - 13px), 3px 13px, 13px 13px, 13px 3px, 10px 0px)"
+        },
+        "before": {
+          "opacity": "1",
+          "color": "rgb(6, 29, 56)",
+          "clip": "polygon(evenodd, 10px 0px, calc(100% - 10px) 0px, calc(100% - 10px) 10px, 100% 10px, 100% calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) 100%, 10px 100%, 10px calc(100% - 10px), 0px calc(100% - 10px), 0px 10px, 10px 10px, 10px 0px, 12px 2px, calc(100% - 12px) 2px, calc(100% - 12px) 12px, calc(100% - 2px) 12px, calc(100% - 2px) calc(100% - 12px), calc(100% - 12px) calc(100% - 12px), calc(100% - 12px) calc(100% - 2px), 12px calc(100% - 2px), 12px calc(100% - 12px), 2px calc(100% - 12px), 2px 12px, 12px 12px, 12px 2px, 10px 0px)"
+        },
+        "rect": {
+          "x": 455.984375,
+          "y": 576.4375,
+          "width": 252,
+          "height": 56,
+          "top": 576.4375,
+          "right": 707.984375,
+          "bottom": 632.4375,
+          "left": 455.984375
+        }
+      }
+    },
+    {
+      "index": 3,
+      "before": {
+        "text": "Стать партнёром",
+        "color": "rgb(255, 255, 255)",
+        "fill": "rgb(6, 29, 56)",
+        "transform": "none",
+        "transition": "0.16s, 0.16s, 0.16s",
+        "focusVisible": false,
+        "pressed": false,
+        "after": {
+          "opacity": "0",
+          "color": "rgb(255, 255, 255)",
+          "clip": "polygon(evenodd, 12px 0px, calc(100% - 12px) 0px, calc(100% - 12px) 12px, 100% 12px, 100% calc(100% - 12px), calc(100% - 12px) calc(100% - 12px), calc(100% - 12px) 100%, 12px 100%, 12px calc(100% - 12px), 0px calc(100% - 12px), 0px 12px, 12px 12px, 12px 0px, 15px 3px, calc(100% - 15px) 3px, calc(100% - 15px) 15px, calc(100% - 3px) 15px, calc(100% - 3px) calc(100% - 15px), calc(100% - 15px) calc(100% - 15px), calc(100% - 15px) calc(100% - 3px), 15px calc(100% - 3px), 15px calc(100% - 15px), 3px calc(100% - 15px), 3px 15px, 15px 15px, 15px 3px, 12px 0px)"
+        },
+        "before": {
+          "opacity": "1",
+          "color": "rgba(0, 0, 0, 0)",
+          "clip": "none"
+        },
+        "rect": {
+          "x": 1046,
+          "y": 430.71875,
+          "width": 310,
+          "height": 68,
+          "top": 430.71875,
+          "right": 1356,
+          "bottom": 498.71875,
+          "left": 1046
+        }
+      },
+      "hover": {
+        "text": "Стать партнёром",
+        "color": "rgb(255, 255, 255)",
+        "fill": "color(srgb 0.852941 0.146902 0.462902)",
+        "transform": "matrix(1, 0, 0, 1, 0, -2)",
+        "transition": "0.16s, 0.16s, 0.16s",
+        "focusVisible": false,
+        "pressed": false,
+        "after": {
+          "opacity": "0",
+          "color": "rgb(255, 255, 255)",
+          "clip": "polygon(evenodd, 12px 0px, calc(100% - 12px) 0px, calc(100% - 12px) 12px, 100% 12px, 100% calc(100% - 12px), calc(100% - 12px) calc(100% - 12px), calc(100% - 12px) 100%, 12px 100%, 12px calc(100% - 12px), 0px calc(100% - 12px), 0px 12px, 12px 12px, 12px 0px, 15px 3px, calc(100% - 15px) 3px, calc(100% - 15px) 15px, calc(100% - 3px) 15px, calc(100% - 3px) calc(100% - 15px), calc(100% - 15px) calc(100% - 15px), calc(100% - 15px) calc(100% - 3px), 15px calc(100% - 3px), 15px calc(100% - 15px), 3px calc(100% - 15px), 3px 15px, 15px 15px, 15px 3px, 12px 0px)"
+        },
+        "before": {
+          "opacity": "1",
+          "color": "rgba(0, 0, 0, 0)",
+          "clip": "none"
+        },
+        "rect": {
+          "x": 1046,
+          "y": 428.71875,
+          "width": 310,
+          "height": 68,
+          "top": 428.71875,
+          "right": 1356,
+          "bottom": 496.71875,
+          "left": 1046
+        }
+      },
+      "active": {
+        "text": "Стать партнёром",
+        "color": "rgb(186, 251, 43)",
+        "fill": "rgb(6, 29, 56)",
+        "transform": "matrix(1, 0, 0, 1, 0, 2)",
+        "transition": "0.09s",
+        "focusVisible": false,
+        "pressed": true,
+        "after": {
+          "opacity": "0",
+          "color": "rgb(255, 255, 255)",
+          "clip": "polygon(evenodd, 12px 0px, calc(100% - 12px) 0px, calc(100% - 12px) 12px, 100% 12px, 100% calc(100% - 12px), calc(100% - 12px) calc(100% - 12px), calc(100% - 12px) 100%, 12px 100%, 12px calc(100% - 12px), 0px calc(100% - 12px), 0px 12px, 12px 12px, 12px 0px, 15px 3px, calc(100% - 15px) 3px, calc(100% - 15px) 15px, calc(100% - 3px) 15px, calc(100% - 3px) calc(100% - 15px), calc(100% - 15px) calc(100% - 15px), calc(100% - 15px) calc(100% - 3px), 15px calc(100% - 3px), 15px calc(100% - 15px), 3px calc(100% - 15px), 3px 15px, 15px 15px, 15px 3px, 12px 0px)"
+        },
+        "before": {
+          "opacity": "1",
+          "color": "rgba(0, 0, 0, 0)",
+          "clip": "none"
+        },
+        "rect": {
+          "x": 1046,
+          "y": 432.71875,
+          "width": 310,
+          "height": 68,
+          "top": 432.71875,
+          "right": 1356,
+          "bottom": 500.71875,
+          "left": 1046
+        }
+      }
+    },
+    {
+      "index": 4,
+      "before": {
+        "text": "Участвовать",
+        "color": "rgb(255, 255, 255)",
+        "fill": "rgb(6, 29, 56)",
+        "transform": "none",
+        "transition": "0.16s, 0.16s, 0.16s",
+        "focusVisible": false,
+        "pressed": false,
+        "after": {
+          "opacity": "0",
+          "color": "rgb(255, 255, 255)",
+          "clip": "polygon(evenodd, 12px 0px, calc(100% - 12px) 0px, calc(100% - 12px) 12px, 100% 12px, 100% calc(100% - 12px), calc(100% - 12px) calc(100% - 12px), calc(100% - 12px) 100%, 12px 100%, 12px calc(100% - 12px), 0px calc(100% - 12px), 0px 12px, 12px 12px, 12px 0px, 15px 3px, calc(100% - 15px) 3px, calc(100% - 15px) 15px, calc(100% - 3px) 15px, calc(100% - 3px) calc(100% - 15px), calc(100% - 15px) calc(100% - 15px), calc(100% - 15px) calc(100% - 3px), 15px calc(100% - 3px), 15px calc(100% - 15px), 3px calc(100% - 15px), 3px 15px, 15px 15px, 15px 3px, 12px 0px)"
+        },
+        "before": {
+          "opacity": "1",
+          "color": "rgba(0, 0, 0, 0)",
+          "clip": "none"
+        },
+        "rect": {
+          "x": 601,
+          "y": 431.109375,
+          "width": 310,
+          "height": 68,
+          "top": 431.109375,
+          "right": 911,
+          "bottom": 499.109375,
+          "left": 601
+        }
+      },
+      "hover": {
+        "text": "Участвовать",
+        "color": "rgb(255, 255, 255)",
+        "fill": "color(srgb 0.852941 0.146902 0.462902)",
+        "transform": "matrix(1, 0, 0, 1, 0, -2)",
+        "transition": "0.16s, 0.16s, 0.16s",
+        "focusVisible": false,
+        "pressed": false,
+        "after": {
+          "opacity": "0",
+          "color": "rgb(255, 255, 255)",
+          "clip": "polygon(evenodd, 12px 0px, calc(100% - 12px) 0px, calc(100% - 12px) 12px, 100% 12px, 100% calc(100% - 12px), calc(100% - 12px) calc(100% - 12px), calc(100% - 12px) 100%, 12px 100%, 12px calc(100% - 12px), 0px calc(100% - 12px), 0px 12px, 12px 12px, 12px 0px, 15px 3px, calc(100% - 15px) 3px, calc(100% - 15px) 15px, calc(100% - 3px) 15px, calc(100% - 3px) calc(100% - 15px), calc(100% - 15px) calc(100% - 15px), calc(100% - 15px) calc(100% - 3px), 15px calc(100% - 3px), 15px calc(100% - 15px), 3px calc(100% - 15px), 3px 15px, 15px 15px, 15px 3px, 12px 0px)"
+        },
+        "before": {
+          "opacity": "1",
+          "color": "rgba(0, 0, 0, 0)",
+          "clip": "none"
+        },
+        "rect": {
+          "x": 601,
+          "y": 429.109375,
+          "width": 310,
+          "height": 68,
+          "top": 429.109375,
+          "right": 911,
+          "bottom": 497.109375,
+          "left": 601
+        }
+      },
+      "active": {
+        "text": "Участвовать",
+        "color": "rgb(186, 251, 43)",
+        "fill": "rgb(6, 29, 56)",
+        "transform": "matrix(1, 0, 0, 1, 0, 2)",
+        "transition": "0.09s",
+        "focusVisible": false,
+        "pressed": true,
+        "after": {
+          "opacity": "0",
+          "color": "rgb(255, 255, 255)",
+          "clip": "polygon(evenodd, 12px 0px, calc(100% - 12px) 0px, calc(100% - 12px) 12px, 100% 12px, 100% calc(100% - 12px), calc(100% - 12px) calc(100% - 12px), calc(100% - 12px) 100%, 12px 100%, 12px calc(100% - 12px), 0px calc(100% - 12px), 0px 12px, 12px 12px, 12px 0px, 15px 3px, calc(100% - 15px) 3px, calc(100% - 15px) 15px, calc(100% - 3px) 15px, calc(100% - 3px) calc(100% - 15px), calc(100% - 15px) calc(100% - 15px), calc(100% - 15px) calc(100% - 3px), 15px calc(100% - 3px), 15px calc(100% - 15px), 3px calc(100% - 15px), 3px 15px, 15px 15px, 15px 3px, 12px 0px)"
+        },
+        "before": {
+          "opacity": "1",
+          "color": "rgba(0, 0, 0, 0)",
+          "clip": "none"
+        },
+        "rect": {
+          "x": 601,
+          "y": 433.109375,
+          "width": 310,
+          "height": 68,
+          "top": 433.109375,
+          "right": 911,
+          "bottom": 501.109375,
+          "left": 601
+        }
+      }
+    },
+    {
+      "index": 5,
+      "before": {
+        "text": "Telegram: @dinrinx",
+        "color": "rgb(255, 255, 255)",
+        "fill": "rgb(231, 38, 122)",
+        "transform": "none",
+        "transition": "0.16s, 0.16s, 0.16s",
+        "focusVisible": false,
+        "pressed": false,
+        "after": {
+          "opacity": "0",
+          "color": "rgb(255, 255, 255)",
+          "clip": "polygon(evenodd, 12px 0px, calc(100% - 12px) 0px, calc(100% - 12px) 12px, 100% 12px, 100% calc(100% - 12px), calc(100% - 12px) calc(100% - 12px), calc(100% - 12px) 100%, 12px 100%, 12px calc(100% - 12px), 0px calc(100% - 12px), 0px 12px, 12px 12px, 12px 0px, 15px 3px, calc(100% - 15px) 3px, calc(100% - 15px) 15px, calc(100% - 3px) 15px, calc(100% - 3px) calc(100% - 15px), calc(100% - 15px) calc(100% - 15px), calc(100% - 15px) calc(100% - 3px), 15px calc(100% - 3px), 15px calc(100% - 15px), 3px calc(100% - 15px), 3px 15px, 15px 15px, 15px 3px, 12px 0px)"
+        },
+        "before": {
+          "opacity": "1",
+          "color": "rgba(0, 0, 0, 0)",
+          "clip": "none"
+        },
+        "rect": {
+          "x": 156,
+          "y": 490.859375,
+          "width": 388,
+          "height": 68,
+          "top": 490.859375,
+          "right": 544,
+          "bottom": 558.859375,
+          "left": 156
+        }
+      },
+      "hover": {
+        "text": "Telegram: @dinrinx",
+        "color": "rgb(186, 251, 43)",
+        "fill": "rgb(6, 29, 56)",
+        "transform": "matrix(1, 0, 0, 1, 0, -2)",
+        "transition": "0.16s, 0.16s, 0.16s",
+        "focusVisible": false,
+        "pressed": false,
+        "after": {
+          "opacity": "1",
+          "color": "rgb(186, 251, 43)",
+          "clip": "polygon(evenodd, 12px 0px, calc(100% - 12px) 0px, calc(100% - 12px) 12px, 100% 12px, 100% calc(100% - 12px), calc(100% - 12px) calc(100% - 12px), calc(100% - 12px) 100%, 12px 100%, 12px calc(100% - 12px), 0px calc(100% - 12px), 0px 12px, 12px 12px, 12px 0px, 15px 3px, calc(100% - 15px) 3px, calc(100% - 15px) 15px, calc(100% - 3px) 15px, calc(100% - 3px) calc(100% - 15px), calc(100% - 15px) calc(100% - 15px), calc(100% - 15px) calc(100% - 3px), 15px calc(100% - 3px), 15px calc(100% - 15px), 3px calc(100% - 15px), 3px 15px, 15px 15px, 15px 3px, 12px 0px)"
+        },
+        "before": {
+          "opacity": "1",
+          "color": "rgba(0, 0, 0, 0)",
+          "clip": "none"
+        },
+        "rect": {
+          "x": 156,
+          "y": 488.859375,
+          "width": 388,
+          "height": 68,
+          "top": 488.859375,
+          "right": 544,
+          "bottom": 556.859375,
+          "left": 156
+        }
+      },
+      "active": {
+        "text": "Telegram: @dinrinx",
+        "color": "rgb(255, 255, 255)",
+        "fill": "color(srgb 0.852941 0.146902 0.462902)",
+        "transform": "matrix(1, 0, 0, 1, 0, 2)",
+        "transition": "0.09s",
+        "focusVisible": false,
+        "pressed": true,
+        "after": {
+          "opacity": "1",
+          "color": "rgb(255, 255, 255)",
+          "clip": "polygon(evenodd, 12px 0px, calc(100% - 12px) 0px, calc(100% - 12px) 12px, 100% 12px, 100% calc(100% - 12px), calc(100% - 12px) calc(100% - 12px), calc(100% - 12px) 100%, 12px 100%, 12px calc(100% - 12px), 0px calc(100% - 12px), 0px 12px, 12px 12px, 12px 0px, 15px 3px, calc(100% - 15px) 3px, calc(100% - 15px) 15px, calc(100% - 3px) 15px, calc(100% - 3px) calc(100% - 15px), calc(100% - 15px) calc(100% - 15px), calc(100% - 15px) calc(100% - 3px), 15px calc(100% - 3px), 15px calc(100% - 15px), 3px calc(100% - 15px), 3px 15px, 15px 15px, 15px 3px, 12px 0px)"
+        },
+        "before": {
+          "opacity": "1",
+          "color": "rgba(0, 0, 0, 0)",
+          "clip": "none"
+        },
+        "rect": {
+          "x": 156,
+          "y": 492.859375,
+          "width": 388,
+          "height": 68,
+          "top": 492.859375,
+          "right": 544,
+          "bottom": 560.859375,
+          "left": 156
+        }
+      }
+    },
+    {
+      "index": 6,
+      "before": {
+        "text": "Telegram: @ninochella",
+        "color": "rgb(255, 255, 255)",
+        "fill": "rgb(231, 38, 122)",
+        "transform": "none",
+        "transition": "0.16s, 0.16s, 0.16s",
+        "focusVisible": false,
+        "pressed": false,
+        "after": {
+          "opacity": "0",
+          "color": "rgb(255, 255, 255)",
+          "clip": "polygon(evenodd, 12px 0px, calc(100% - 12px) 0px, calc(100% - 12px) 12px, 100% 12px, 100% calc(100% - 12px), calc(100% - 12px) calc(100% - 12px), calc(100% - 12px) 100%, 12px 100%, 12px calc(100% - 12px), 0px calc(100% - 12px), 0px 12px, 12px 12px, 12px 0px, 15px 3px, calc(100% - 15px) 3px, calc(100% - 15px) 15px, calc(100% - 3px) 15px, calc(100% - 3px) calc(100% - 15px), calc(100% - 15px) calc(100% - 15px), calc(100% - 15px) calc(100% - 3px), 15px calc(100% - 3px), 15px calc(100% - 15px), 3px calc(100% - 15px), 3px 15px, 15px 15px, 15px 3px, 12px 0px)"
+        },
+        "before": {
+          "opacity": "1",
+          "color": "rgba(0, 0, 0, 0)",
+          "clip": "none"
+        },
+        "rect": {
+          "x": 562,
+          "y": 490.859375,
+          "width": 388,
+          "height": 68,
+          "top": 490.859375,
+          "right": 950,
+          "bottom": 558.859375,
+          "left": 562
+        }
+      },
+      "hover": {
+        "text": "Telegram: @ninochella",
+        "color": "rgb(186, 251, 43)",
+        "fill": "rgb(6, 29, 56)",
+        "transform": "matrix(1, 0, 0, 1, 0, -2)",
+        "transition": "0.16s, 0.16s, 0.16s",
+        "focusVisible": false,
+        "pressed": false,
+        "after": {
+          "opacity": "1",
+          "color": "rgb(186, 251, 43)",
+          "clip": "polygon(evenodd, 12px 0px, calc(100% - 12px) 0px, calc(100% - 12px) 12px, 100% 12px, 100% calc(100% - 12px), calc(100% - 12px) calc(100% - 12px), calc(100% - 12px) 100%, 12px 100%, 12px calc(100% - 12px), 0px calc(100% - 12px), 0px 12px, 12px 12px, 12px 0px, 15px 3px, calc(100% - 15px) 3px, calc(100% - 15px) 15px, calc(100% - 3px) 15px, calc(100% - 3px) calc(100% - 15px), calc(100% - 15px) calc(100% - 15px), calc(100% - 15px) calc(100% - 3px), 15px calc(100% - 3px), 15px calc(100% - 15px), 3px calc(100% - 15px), 3px 15px, 15px 15px, 15px 3px, 12px 0px)"
+        },
+        "before": {
+          "opacity": "1",
+          "color": "rgba(0, 0, 0, 0)",
+          "clip": "none"
+        },
+        "rect": {
+          "x": 562,
+          "y": 488.859375,
+          "width": 388,
+          "height": 68,
+          "top": 488.859375,
+          "right": 950,
+          "bottom": 556.859375,
+          "left": 562
+        }
+      },
+      "active": {
+        "text": "Telegram: @ninochella",
+        "color": "rgb(255, 255, 255)",
+        "fill": "color(srgb 0.852941 0.146902 0.462902)",
+        "transform": "matrix(1, 0, 0, 1, 0, 2)",
+        "transition": "0.09s",
+        "focusVisible": false,
+        "pressed": true,
+        "after": {
+          "opacity": "1",
+          "color": "rgb(255, 255, 255)",
+          "clip": "polygon(evenodd, 12px 0px, calc(100% - 12px) 0px, calc(100% - 12px) 12px, 100% 12px, 100% calc(100% - 12px), calc(100% - 12px) calc(100% - 12px), calc(100% - 12px) 100%, 12px 100%, 12px calc(100% - 12px), 0px calc(100% - 12px), 0px 12px, 12px 12px, 12px 0px, 15px 3px, calc(100% - 15px) 3px, calc(100% - 15px) 15px, calc(100% - 3px) 15px, calc(100% - 3px) calc(100% - 15px), calc(100% - 15px) calc(100% - 15px), calc(100% - 15px) calc(100% - 3px), 15px calc(100% - 3px), 15px calc(100% - 15px), 3px calc(100% - 15px), 3px 15px, 15px 15px, 15px 3px, 12px 0px)"
+        },
+        "before": {
+          "opacity": "1",
+          "color": "rgba(0, 0, 0, 0)",
+          "clip": "none"
+        },
+        "rect": {
+          "x": 562,
+          "y": 492.859375,
+          "width": 388,
+          "height": 68,
+          "top": 492.859375,
+          "right": 950,
+          "bottom": 560.859375,
+          "left": 562
+        }
+      }
+    },
+    {
+      "index": 7,
+      "before": {
+        "text": "dinrinx@mail.ru",
+        "color": "rgb(255, 255, 255)",
+        "fill": "rgb(6, 29, 56)",
+        "transform": "none",
+        "transition": "0.16s, 0.16s, 0.16s",
+        "focusVisible": false,
+        "pressed": false,
+        "after": {
+          "opacity": "0",
+          "color": "rgb(255, 255, 255)",
+          "clip": "polygon(evenodd, 12px 0px, calc(100% - 12px) 0px, calc(100% - 12px) 12px, 100% 12px, 100% calc(100% - 12px), calc(100% - 12px) calc(100% - 12px), calc(100% - 12px) 100%, 12px 100%, 12px calc(100% - 12px), 0px calc(100% - 12px), 0px 12px, 12px 12px, 12px 0px, 15px 3px, calc(100% - 15px) 3px, calc(100% - 15px) 15px, calc(100% - 3px) 15px, calc(100% - 3px) calc(100% - 15px), calc(100% - 15px) calc(100% - 15px), calc(100% - 15px) calc(100% - 3px), 15px calc(100% - 3px), 15px calc(100% - 15px), 3px calc(100% - 15px), 3px 15px, 15px 15px, 15px 3px, 12px 0px)"
+        },
+        "before": {
+          "opacity": "1",
+          "color": "rgba(0, 0, 0, 0)",
+          "clip": "none"
+        },
+        "rect": {
+          "x": 968,
+          "y": 490.859375,
+          "width": 388,
+          "height": 68,
+          "top": 490.859375,
+          "right": 1356,
+          "bottom": 558.859375,
+          "left": 968
+        }
+      },
+      "hover": {
+        "text": "dinrinx@mail.ru",
+        "color": "rgb(186, 251, 43)",
+        "fill": "rgb(6, 29, 56)",
+        "transform": "matrix(1, 0, 0, 1, 0, -2)",
+        "transition": "0.16s, 0.16s, 0.16s",
+        "focusVisible": false,
+        "pressed": false,
+        "after": {
+          "opacity": "1",
+          "color": "rgb(186, 251, 43)",
+          "clip": "polygon(evenodd, 12px 0px, calc(100% - 12px) 0px, calc(100% - 12px) 12px, 100% 12px, 100% calc(100% - 12px), calc(100% - 12px) calc(100% - 12px), calc(100% - 12px) 100%, 12px 100%, 12px calc(100% - 12px), 0px calc(100% - 12px), 0px 12px, 12px 12px, 12px 0px, 15px 3px, calc(100% - 15px) 3px, calc(100% - 15px) 15px, calc(100% - 3px) 15px, calc(100% - 3px) calc(100% - 15px), calc(100% - 15px) calc(100% - 15px), calc(100% - 15px) calc(100% - 3px), 15px calc(100% - 3px), 15px calc(100% - 15px), 3px calc(100% - 15px), 3px 15px, 15px 15px, 15px 3px, 12px 0px)"
+        },
+        "before": {
+          "opacity": "1",
+          "color": "rgba(0, 0, 0, 0)",
+          "clip": "none"
+        },
+        "rect": {
+          "x": 968,
+          "y": 488.859375,
+          "width": 388,
+          "height": 68,
+          "top": 488.859375,
+          "right": 1356,
+          "bottom": 556.859375,
+          "left": 968
+        }
+      },
+      "active": {
+        "text": "dinrinx@mail.ru",
+        "color": "rgb(255, 255, 255)",
+        "fill": "color(srgb 0.852941 0.146902 0.462902)",
+        "transform": "matrix(1, 0, 0, 1, 0, 2)",
+        "transition": "0.09s",
+        "focusVisible": false,
+        "pressed": true,
+        "after": {
+          "opacity": "1",
+          "color": "rgb(255, 255, 255)",
+          "clip": "polygon(evenodd, 12px 0px, calc(100% - 12px) 0px, calc(100% - 12px) 12px, 100% 12px, 100% calc(100% - 12px), calc(100% - 12px) calc(100% - 12px), calc(100% - 12px) 100%, 12px 100%, 12px calc(100% - 12px), 0px calc(100% - 12px), 0px 12px, 12px 12px, 12px 0px, 15px 3px, calc(100% - 15px) 3px, calc(100% - 15px) 15px, calc(100% - 3px) 15px, calc(100% - 3px) calc(100% - 15px), calc(100% - 15px) calc(100% - 15px), calc(100% - 15px) calc(100% - 3px), 15px calc(100% - 3px), 15px calc(100% - 15px), 3px calc(100% - 15px), 3px 15px, 15px 15px, 15px 3px, 12px 0px)"
+        },
+        "before": {
+          "opacity": "1",
+          "color": "rgba(0, 0, 0, 0)",
+          "clip": "none"
+        },
+        "rect": {
+          "x": 968,
+          "y": 492.859375,
+          "width": 388,
+          "height": 68,
+          "top": 492.859375,
+          "right": 1356,
+          "bottom": 560.859375,
+          "left": 968
+        }
+      }
+    }
+  ],
+  "navigation": [
+    {
+      "before": {
+        "text": "О хакатоне",
+        "color": "rgb(6, 29, 56)",
+        "fill": "rgba(0, 0, 0, 0)",
+        "transform": "none",
+        "transition": "0.16s, 0.16s",
+        "focusVisible": false,
+        "pressed": false,
+        "after": {
+          "opacity": "1",
+          "color": "rgba(0, 0, 0, 0)",
+          "clip": "none"
+        },
+        "before": {
+          "opacity": "0",
+          "color": "rgb(231, 38, 122)",
+          "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 10px), 2px calc(100% - 10px), 2px 10px, 10px 10px, 10px 2px, 8px 0px)"
+        },
+        "rect": {
+          "x": 397.96875,
+          "y": 27,
+          "width": 125.125,
+          "height": 44,
+          "top": 27,
+          "right": 523.09375,
+          "bottom": 71,
+          "left": 397.96875
+        }
+      },
+      "hover": {
+        "text": "О хакатоне",
+        "color": "color(srgb 0.852941 0.146902 0.462902)",
+        "fill": "rgba(0, 0, 0, 0)",
+        "transform": "none",
+        "transition": "0.16s, 0.16s",
+        "focusVisible": false,
+        "pressed": false,
+        "after": {
+          "opacity": "1",
+          "color": "rgba(0, 0, 0, 0)",
+          "clip": "none"
+        },
+        "before": {
+          "opacity": "1",
+          "color": "rgb(231, 38, 122)",
+          "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 10px), 2px calc(100% - 10px), 2px 10px, 10px 10px, 10px 2px, 8px 0px)"
+        },
+        "rect": {
+          "x": 397.96875,
+          "y": 27,
+          "width": 125.125,
+          "height": 44,
+          "top": 27,
+          "right": 523.09375,
+          "bottom": 71,
+          "left": 397.96875
+        }
+      },
+      "active": {
+        "text": "О хакатоне",
+        "color": "rgb(6, 29, 56)",
+        "fill": "rgba(0, 0, 0, 0)",
+        "transform": "none",
+        "transition": "0.09s",
+        "focusVisible": false,
+        "pressed": true,
+        "after": {
+          "opacity": "1",
+          "color": "rgba(0, 0, 0, 0)",
+          "clip": "none"
+        },
+        "before": {
+          "opacity": "1",
+          "color": "rgb(231, 38, 122)",
+          "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 10px), 2px calc(100% - 10px), 2px 10px, 10px 10px, 10px 2px, 8px 0px)"
+        },
+        "rect": {
+          "x": 397.96875,
+          "y": 27,
+          "width": 125.125,
+          "height": 44,
+          "top": 27,
+          "right": 523.09375,
+          "bottom": 71,
+          "left": 397.96875
+        }
+      }
+    },
+    {
+      "before": {
+        "text": "Этапы",
+        "color": "rgb(6, 29, 56)",
+        "fill": "rgba(0, 0, 0, 0)",
+        "transform": "none",
+        "transition": "0.16s, 0.16s",
+        "focusVisible": false,
+        "pressed": false,
+        "after": {
+          "opacity": "1",
+          "color": "rgba(0, 0, 0, 0)",
+          "clip": "none"
+        },
+        "before": {
+          "opacity": "0",
+          "color": "rgb(231, 38, 122)",
+          "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 10px), 2px calc(100% - 10px), 2px 10px, 10px 10px, 10px 2px, 8px 0px)"
+        },
+        "rect": {
+          "x": 527.09375,
+          "y": 27,
+          "width": 86.046875,
+          "height": 44,
+          "top": 27,
+          "right": 613.140625,
+          "bottom": 71,
+          "left": 527.09375
+        }
+      },
+      "hover": {
+        "text": "Этапы",
+        "color": "color(srgb 0.852941 0.146902 0.462902)",
+        "fill": "rgba(0, 0, 0, 0)",
+        "transform": "none",
+        "transition": "0.16s, 0.16s",
+        "focusVisible": false,
+        "pressed": false,
+        "after": {
+          "opacity": "1",
+          "color": "rgba(0, 0, 0, 0)",
+          "clip": "none"
+        },
+        "before": {
+          "opacity": "1",
+          "color": "rgb(231, 38, 122)",
+          "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 10px), 2px calc(100% - 10px), 2px 10px, 10px 10px, 10px 2px, 8px 0px)"
+        },
+        "rect": {
+          "x": 527.09375,
+          "y": 27,
+          "width": 86.046875,
+          "height": 44,
+          "top": 27,
+          "right": 613.140625,
+          "bottom": 71,
+          "left": 527.09375
+        }
+      },
+      "active": {
+        "text": "Этапы",
+        "color": "rgb(6, 29, 56)",
+        "fill": "rgba(0, 0, 0, 0)",
+        "transform": "none",
+        "transition": "0.09s",
+        "focusVisible": false,
+        "pressed": true,
+        "after": {
+          "opacity": "1",
+          "color": "rgba(0, 0, 0, 0)",
+          "clip": "none"
+        },
+        "before": {
+          "opacity": "1",
+          "color": "rgb(231, 38, 122)",
+          "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 10px), 2px calc(100% - 10px), 2px 10px, 10px 10px, 10px 2px, 8px 0px)"
+        },
+        "rect": {
+          "x": 527.09375,
+          "y": 27,
+          "width": 86.046875,
+          "height": 44,
+          "top": 27,
+          "right": 613.140625,
+          "bottom": 71,
+          "left": 527.09375
+        }
+      }
+    },
+    {
+      "before": {
+        "text": "Партнёрам",
+        "color": "rgb(6, 29, 56)",
+        "fill": "rgba(0, 0, 0, 0)",
+        "transform": "none",
+        "transition": "0.16s, 0.16s",
+        "focusVisible": false,
+        "pressed": false,
+        "after": {
+          "opacity": "1",
+          "color": "rgba(0, 0, 0, 0)",
+          "clip": "none"
+        },
+        "before": {
+          "opacity": "0",
+          "color": "rgb(231, 38, 122)",
+          "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 10px), 2px calc(100% - 10px), 2px 10px, 10px 10px, 10px 2px, 8px 0px)"
+        },
+        "rect": {
+          "x": 617.140625,
+          "y": 27,
+          "width": 124.046875,
+          "height": 44,
+          "top": 27,
+          "right": 741.1875,
+          "bottom": 71,
+          "left": 617.140625
+        }
+      },
+      "hover": {
+        "text": "Партнёрам",
+        "color": "color(srgb 0.852941 0.146902 0.462902)",
+        "fill": "rgba(0, 0, 0, 0)",
+        "transform": "none",
+        "transition": "0.16s, 0.16s",
+        "focusVisible": false,
+        "pressed": false,
+        "after": {
+          "opacity": "1",
+          "color": "rgba(0, 0, 0, 0)",
+          "clip": "none"
+        },
+        "before": {
+          "opacity": "1",
+          "color": "rgb(231, 38, 122)",
+          "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 10px), 2px calc(100% - 10px), 2px 10px, 10px 10px, 10px 2px, 8px 0px)"
+        },
+        "rect": {
+          "x": 617.140625,
+          "y": 27,
+          "width": 124.046875,
+          "height": 44,
+          "top": 27,
+          "right": 741.1875,
+          "bottom": 71,
+          "left": 617.140625
+        }
+      },
+      "active": {
+        "text": "Партнёрам",
+        "color": "rgb(6, 29, 56)",
+        "fill": "rgba(0, 0, 0, 0)",
+        "transform": "none",
+        "transition": "0.09s",
+        "focusVisible": false,
+        "pressed": true,
+        "after": {
+          "opacity": "1",
+          "color": "rgba(0, 0, 0, 0)",
+          "clip": "none"
+        },
+        "before": {
+          "opacity": "1",
+          "color": "rgb(231, 38, 122)",
+          "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 10px), 2px calc(100% - 10px), 2px 10px, 10px 10px, 10px 2px, 8px 0px)"
+        },
+        "rect": {
+          "x": 617.140625,
+          "y": 27,
+          "width": 124.046875,
+          "height": 44,
+          "top": 27,
+          "right": 741.1875,
+          "bottom": 71,
+          "left": 617.140625
+        }
+      }
+    }
+  ],
+  "keyboard": [
+    {
+      "text": "Перейти к содержимому",
+      "class": "skip-link",
+      "focusVisible": true,
+      "outline": "solid",
+      "after": "1",
+      "before": "1"
+    },
+    {
+      "text": "RE:CASE — на главную",
+      "class": "logo",
+      "focusVisible": true,
+      "outline": "solid",
+      "after": "1",
+      "before": "1"
+    },
+    {
+      "text": "О хакатоне",
+      "class": "",
+      "focusVisible": true,
+      "outline": "none",
+      "after": "1",
+      "before": "1"
+    },
+    {
+      "text": "Этапы",
+      "class": "",
+      "focusVisible": true,
+      "outline": "none",
+      "after": "1",
+      "before": "1"
+    },
+    {
+      "text": "Партнёрам",
+      "class": "",
+      "focusVisible": true,
+      "outline": "none",
+      "after": "1",
+      "before": "1"
+    },
+    {
+      "text": "Участвовать",
+      "class": "button button-outline pixel-outline header-participate",
+      "focusVisible": true,
+      "outline": "none",
+      "after": "1",
+      "before": "1"
+    },
+    {
+      "text": "Участвовать",
+      "class": "button button-lime",
+      "focusVisible": true,
+      "outline": "none",
+      "after": "1",
+      "before": "1"
+    },
+    {
+      "text": "Стать партнёром",
+      "class": "button button-outline pixel-outline",
+      "focusVisible": true,
+      "outline": "none",
+      "after": "1",
+      "before": "1"
+    },
+    {
+      "text": "ИМЯ ФАМИЛИЯ\n              Компания / Должность\n              Партнёр\n            \n            \n              \n                \n              \n              ИМЯ ФАМИЛИЯ\n              Компания / Должность\n              Эксперт\n            \n            \n              \n                \n              \n              ИМЯ ФАМИЛИЯ\n              Компания / Должность\n              Партнёр\n            \n            \n              \n                \n              \n              ИМЯ ФАМИЛИЯ\n              Компания / Должность\n              Эксперт",
+      "class": "experts-track",
+      "focusVisible": true,
+      "outline": "solid",
+      "after": "1",
+      "before": "1"
+    },
+    {
+      "text": "Стать партнёром",
+      "class": "button button-dark button-large",
+      "focusVisible": true,
+      "outline": "none",
+      "after": "1",
+      "before": "1"
+    },
+    {
+      "text": "Участвовать",
+      "class": "button button-dark button-large",
+      "focusVisible": true,
+      "outline": "none",
+      "after": "1",
+      "before": "1"
+    },
+    {
+      "text": "Telegram: @dinrinx",
+      "class": "button button-pink button-large",
+      "focusVisible": true,
+      "outline": "none",
+      "after": "1",
+      "before": "1"
+    },
+    {
+      "text": "Telegram: @ninochella",
+      "class": "button button-pink button-large",
+      "focusVisible": true,
+      "outline": "none",
+      "after": "1",
+      "before": "1"
+    },
+    {
+      "text": "dinrinx@mail.ru",
+      "class": "button button-dark button-large",
+      "focusVisible": true,
+      "outline": "none",
+      "after": "1",
+      "before": "1"
+    },
+    {
+      "text": "RE:CASE — на главную",
+      "class": "logo",
+      "focusVisible": true,
+      "outline": "solid",
+      "after": "1",
+      "before": "1"
+    }
+  ],
+  "preserved": "text, links, font sizes, container",
+  "keyboardActivation": "passed",
+  "reducedMotion": "passed",
+  "links": "temporary CTA and navigation click passed; Telegram/mailto unchanged",
+  "expertsScrolling": {
+    "start": {
+      "left": 0,
+      "range": 162
+    },
+    "end": 40
+  },
+  "touch": {
+    "hoverMedia": false,
+    "state": {
+      "text": "Участвовать",
+      "color": "color(srgb 0.852941 0.146902 0.462902)",
+      "fill": "rgb(255, 255, 255)",
+      "transform": "none",
+      "transition": "0.16s, 0.16s, 0.16s",
+      "focusVisible": false,
+      "pressed": false,
+      "after": {
+        "opacity": "0",
+        "color": "rgb(6, 29, 56)",
+        "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 11px 3px, calc(100% - 11px) 3px, calc(100% - 11px) 11px, calc(100% - 3px) 11px, calc(100% - 3px) calc(100% - 11px), calc(100% - 11px) calc(100% - 11px), calc(100% - 11px) calc(100% - 3px), 11px calc(100% - 3px), 11px calc(100% - 11px), 3px calc(100% - 11px), 3px 11px, 11px 11px, 11px 3px, 8px 0px)"
+      },
+      "before": {
+        "opacity": "1",
+        "color": "rgb(231, 38, 122)",
+        "clip": "polygon(evenodd, 8px 0px, calc(100% - 8px) 0px, calc(100% - 8px) 8px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 8px calc(100% - 8px), 0px calc(100% - 8px), 0px 8px, 8px 8px, 8px 0px, 10px 2px, calc(100% - 10px) 2px, calc(100% - 10px) 10px, calc(100% - 2px) 10px, calc(100% - 2px) calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) calc(100% - 2px), 10px calc(100% - 2px), 10px calc(100% - 10px), 2px calc(100% - 10px), 2px 10px, 10px 10px, 10px 2px, 8px 0px)"
+      },
+      "rect": {
+        "x": 1160,
+        "y": 27,
+        "width": 196,
+        "height": 44,
+        "top": 27,
+        "right": 1356,
+        "bottom": 71,
+        "left": 1160
+      }
+    }
+  },
+  "errors": [],
+  "externalRequests": []
+}
