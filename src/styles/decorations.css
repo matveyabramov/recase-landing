@@ -1,10 +1,17 @@
 /* Contiguous Figma rectangles share one painted contour per color layer.
    Original coordinates are snapped to a 1px artwork grid before joining. */
-.hero-decoration {
-  background: url('/assets/icons/hero-decoration.svg') top left / 100% auto no-repeat;
+/* The original Hero contours now paint once in inline SVG. Each particle has
+   its own group, leaving the decoration containers' centering transform alone. */
+.hero-particle-art {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+  pointer-events: none;
 }
-.hero-foreground-decoration {
-  background: url('/assets/icons/hero-foreground.svg') top left / 100% auto no-repeat;
+
+@media (prefers-reduced-motion: reduce) {
+  [data-hero-particle] { transform: none !important; }
 }
 .experts-decoration {
   background: url('/assets/icons/experts-decoration.svg') top left / 100% auto no-repeat;

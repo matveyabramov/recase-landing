@@ -1,36 +1,37 @@
 /* One continuous contour and one even-odd ring. No assembled border segments. */
 :root { --pixel-border: 2px; }
 
-.button, .navigation a,
+.button, .navigation a, .lead-modal,
 .button::before, .button::after, .navigation a::before {
+  --pixel-cut: calc(var(--button-cut) + var(--pixel-morph-cut, 0px));
   --pixel-shape: polygon(
-    var(--button-cut) 0, calc(100% - var(--button-cut)) 0,
-    calc(100% - var(--button-cut)) var(--button-cut), 100% var(--button-cut),
-    100% calc(100% - var(--button-cut)), calc(100% - var(--button-cut)) calc(100% - var(--button-cut)),
-    calc(100% - var(--button-cut)) 100%, var(--button-cut) 100%,
-    var(--button-cut) calc(100% - var(--button-cut)), 0 calc(100% - var(--button-cut)),
-    0 var(--button-cut), var(--button-cut) var(--button-cut)
+    var(--pixel-cut) 0, calc(100% - var(--pixel-cut)) 0,
+    calc(100% - var(--pixel-cut)) var(--pixel-cut), 100% var(--pixel-cut),
+    100% calc(100% - var(--pixel-cut)), calc(100% - var(--pixel-cut)) calc(100% - var(--pixel-cut)),
+    calc(100% - var(--pixel-cut)) 100%, var(--pixel-cut) 100%,
+    var(--pixel-cut) calc(100% - var(--pixel-cut)), 0 calc(100% - var(--pixel-cut)),
+    0 var(--pixel-cut), var(--pixel-cut) var(--pixel-cut)
   );
   --pixel-ring: polygon(evenodd,
-    var(--button-cut) 0, calc(100% - var(--button-cut)) 0,
-    calc(100% - var(--button-cut)) var(--button-cut), 100% var(--button-cut),
-    100% calc(100% - var(--button-cut)), calc(100% - var(--button-cut)) calc(100% - var(--button-cut)),
-    calc(100% - var(--button-cut)) 100%, var(--button-cut) 100%,
-    var(--button-cut) calc(100% - var(--button-cut)), 0 calc(100% - var(--button-cut)),
-    0 var(--button-cut), var(--button-cut) var(--button-cut), var(--button-cut) 0,
-    calc(var(--button-cut) + var(--pixel-border)) var(--pixel-border),
-    calc(100% - var(--button-cut) - var(--pixel-border)) var(--pixel-border),
-    calc(100% - var(--button-cut) - var(--pixel-border)) calc(var(--button-cut) + var(--pixel-border)),
-    calc(100% - var(--pixel-border)) calc(var(--button-cut) + var(--pixel-border)),
-    calc(100% - var(--pixel-border)) calc(100% - var(--button-cut) - var(--pixel-border)),
-    calc(100% - var(--button-cut) - var(--pixel-border)) calc(100% - var(--button-cut) - var(--pixel-border)),
-    calc(100% - var(--button-cut) - var(--pixel-border)) calc(100% - var(--pixel-border)),
-    calc(var(--button-cut) + var(--pixel-border)) calc(100% - var(--pixel-border)),
-    calc(var(--button-cut) + var(--pixel-border)) calc(100% - var(--button-cut) - var(--pixel-border)),
-    var(--pixel-border) calc(100% - var(--button-cut) - var(--pixel-border)),
-    var(--pixel-border) calc(var(--button-cut) + var(--pixel-border)),
-    calc(var(--button-cut) + var(--pixel-border)) calc(var(--button-cut) + var(--pixel-border)),
-    calc(var(--button-cut) + var(--pixel-border)) var(--pixel-border), var(--button-cut) 0
+    var(--pixel-cut) 0, calc(100% - var(--pixel-cut)) 0,
+    calc(100% - var(--pixel-cut)) var(--pixel-cut), 100% var(--pixel-cut),
+    100% calc(100% - var(--pixel-cut)), calc(100% - var(--pixel-cut)) calc(100% - var(--pixel-cut)),
+    calc(100% - var(--pixel-cut)) 100%, var(--pixel-cut) 100%,
+    var(--pixel-cut) calc(100% - var(--pixel-cut)), 0 calc(100% - var(--pixel-cut)),
+    0 var(--pixel-cut), var(--pixel-cut) var(--pixel-cut), var(--pixel-cut) 0,
+    calc(var(--pixel-cut) + var(--pixel-border)) var(--pixel-border),
+    calc(100% - var(--pixel-cut) - var(--pixel-border)) var(--pixel-border),
+    calc(100% - var(--pixel-cut) - var(--pixel-border)) calc(var(--pixel-cut) + var(--pixel-border)),
+    calc(100% - var(--pixel-border)) calc(var(--pixel-cut) + var(--pixel-border)),
+    calc(100% - var(--pixel-border)) calc(100% - var(--pixel-cut) - var(--pixel-border)),
+    calc(100% - var(--pixel-cut) - var(--pixel-border)) calc(100% - var(--pixel-cut) - var(--pixel-border)),
+    calc(100% - var(--pixel-cut) - var(--pixel-border)) calc(100% - var(--pixel-border)),
+    calc(var(--pixel-cut) + var(--pixel-border)) calc(100% - var(--pixel-border)),
+    calc(var(--pixel-cut) + var(--pixel-border)) calc(100% - var(--pixel-cut) - var(--pixel-border)),
+    var(--pixel-border) calc(100% - var(--pixel-cut) - var(--pixel-border)),
+    var(--pixel-border) calc(var(--pixel-cut) + var(--pixel-border)),
+    calc(var(--pixel-cut) + var(--pixel-border)) calc(var(--pixel-cut) + var(--pixel-border)),
+    calc(var(--pixel-cut) + var(--pixel-border)) var(--pixel-border), var(--pixel-cut) 0
   );
 }
 

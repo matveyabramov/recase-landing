@@ -1,0 +1,102 @@
+/* Independent translate composes with the approved reveal transform. */
+.benefit-card, .partner-card {
+  transition:
+    border-color var(--ui-hover-duration) var(--ui-easing),
+    translate var(--ui-hover-duration) var(--ui-easing);
+}
+
+.motion-particles {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.motion-particles span {
+  position: absolute;
+  pointer-events: none;
+}
+
+.motion-particles span[hidden] { display: none; }
+
+.cursor-pixels {
+  position: fixed;
+  inset: 0;
+  z-index: 4;
+  pointer-events: none;
+  contain: strict;
+}
+
+.cursor-pixels span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+}
+
+.cursor-pixels span[hidden] { display: none; }
+
+.pixel-morph-art {
+  pointer-events: none;
+  overflow: visible;
+}
+
+.process-strip, .partner-banner { position: relative; }
+
+/* Small clip-path surfaces use the same default/hover geometry model. The
+   registered length is inherited by both outline/feedback rings, so all four
+   corners move together and ring thickness stays fixed. */
+@property --pixel-morph-cut {
+  syntax: '<length>';
+  inherits: true;
+  initial-value: 0px;
+}
+
+.button, .navigation a, .lead-modal { --pixel-morph-cut: 0px; }
+
+.button {
+  transition:
+    transform var(--ui-hover-duration) var(--ui-easing),
+    background-color var(--ui-hover-duration) var(--ui-easing),
+    color var(--ui-hover-duration) var(--ui-easing),
+    --pixel-morph-cut 240ms steps(4, end);
+}
+
+.pixel-outline {
+  transition:
+    transform var(--ui-hover-duration) var(--ui-easing),
+    --pixel-morph-cut 240ms steps(4, end);
+}
+
+.navigation a {
+  transition:
+    color var(--ui-hover-duration) var(--ui-easing),
+    background-color var(--ui-hover-duration) var(--ui-easing),
+    --pixel-morph-cut 240ms steps(4, end);
+}
+
+.lead-modal {
+  --button-cut: 12px;
+  clip-path: var(--pixel-shape);
+  transition:
+    opacity var(--ui-hover-duration) var(--ui-easing),
+    transform var(--ui-hover-duration) var(--ui-easing),
+    --pixel-morph-cut 240ms steps(4, end);
+}
+
+@media (min-width: 1024px) and (hover: hover) and (pointer: fine) {
+  .benefit-card:hover, .partner-card:hover {
+    border-color: var(--color-pink);
+    translate: 0 -3px;
+  }
+}
+
+@media (min-width: 1024px) and (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .button:hover, .navigation a:hover, .lead-modal:hover { --pixel-morph-cut: -4px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .benefit-card, .partner-card, .button, .navigation a, .lead-modal { transition: none; }
+  .benefit-card:hover, .partner-card:hover { translate: none; }
+  .pixel-morph-art { display: none !important; }
+}

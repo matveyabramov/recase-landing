@@ -9,6 +9,7 @@ import './styles/modal.css';
 import './styles/motion.css';
 import './styles/reveal.css';
 import './styles/experts-tabs.css';
+import './styles/interactive-motion.css';
 import { initLeadCapture } from './modal.js';
 import { initNavigation } from './navigation.js';
 import { initMotion } from './motion/index.js';
