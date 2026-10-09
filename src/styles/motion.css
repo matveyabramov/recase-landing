@@ -1,0 +1,48 @@
+/* Visible by default. Only a successfully initialized Hero opts into motion. */
+.hero {
+  --motion-title-duration: 560ms;
+  --motion-title-delay: 0ms;
+  --motion-title-easing: steps(8, end);
+  --motion-computer-duration: 620ms;
+  --motion-computer-delay: 400ms;
+  --motion-enter-easing: var(--ui-easing);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .hero[data-motion="entering"] .hero-heading {
+    /* One clipping plane reveals the live text, SVG and comma together.
+       No slices, transforms or changes to the existing layout geometry. */
+    animation: hero-title-reveal var(--motion-title-duration)
+      var(--motion-title-easing) var(--motion-title-delay) both;
+  }
+
+  .hero[data-motion="entering"] .hero-computer {
+    animation: hero-computer-reveal var(--motion-computer-duration)
+      var(--motion-enter-easing) var(--motion-computer-delay) both;
+  }
+}
+
+@keyframes hero-title-reveal {
+  from { clip-path: inset(0 100% 0 0); }
+  to { clip-path: inset(0); }
+}
+
+@keyframes hero-computer-reveal {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@media (max-width: 600px) {
+  .hero {
+    --motion-title-duration: 420ms;
+    --motion-computer-duration: 480ms;
+    --motion-computer-delay: 240ms;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero[data-motion="entering"] .hero-heading,
+  .hero[data-motion="entering"] .hero-computer {
+    animation: none;
+  }
+}

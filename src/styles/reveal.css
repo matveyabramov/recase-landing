@@ -1,0 +1,65 @@
+:root {
+  --motion-reveal-duration: 580ms;
+  --motion-reveal-offset: 12px;
+  --motion-reveal-stagger: 80ms;
+  --motion-reveal-easing: cubic-bezier(.22, 1, .36, 1);
+}
+
+.reveal-level {
+  --motion-reveal-duration: 620ms;
+}
+
+/* Visible without JS. Only successfully initialized, offscreen content is prepared.
+   Pending and entrance share a first frame: no visible → hidden flash at entry. */
+@media (prefers-reduced-motion: no-preference) {
+  .motion-reveal.is-pending {
+    opacity: 0;
+    transform: translateY(var(--motion-reveal-offset));
+  }
+
+  .motion-reveal.is-revealing {
+    animation: content-reveal var(--motion-reveal-duration) var(--motion-reveal-easing)
+      calc(var(--reveal-index, 0) * var(--motion-reveal-stagger)) both;
+  }
+
+  .motion-reveal:focus-within {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes content-reveal {
+  from { opacity: 0; transform: translateY(var(--motion-reveal-offset)); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 1023px) {
+  :root {
+    --motion-reveal-duration: 540ms;
+    --motion-reveal-offset: 10px;
+    --motion-reveal-stagger: 60ms;
+  }
+
+  .reveal-level {
+    --motion-reveal-duration: 580ms;
+  }
+}
+
+@media (max-width: 600px) {
+  :root {
+    --motion-reveal-duration: 480ms;
+    --motion-reveal-offset: 8px;
+    --motion-reveal-stagger: 0ms;
+  }
+
+  .reveal-level {
+    --motion-reveal-duration: 520ms;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .motion-reveal.is-revealing {
+    animation: none;
+  }
+}
