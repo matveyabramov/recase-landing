@@ -1,0 +1,479 @@
+[
+  {
+    "viewport": [
+      1280,
+      720
+    ],
+    "scale": 1,
+    "heroHeight": 720,
+    "overflow": 0,
+    "motionComplete": true,
+    "timings": [
+      {
+        "name": "hero-title-reveal",
+        "delay": 0,
+        "direction": "normal",
+        "duration": 560,
+        "easing": "linear",
+        "endDelay": 0,
+        "fill": "both",
+        "iterationStart": 0,
+        "iterations": 1,
+        "cssEasing": "steps(8)"
+      },
+      {
+        "name": "hero-computer-reveal",
+        "delay": 400,
+        "direction": "normal",
+        "duration": 620,
+        "easing": "linear",
+        "endDelay": 0,
+        "fill": "both",
+        "iterationStart": 0,
+        "iterations": 1,
+        "cssEasing": "cubic-bezier(0.2, 0.7, 0.2, 1)"
+      }
+    ],
+    "frames": 62,
+    "stable": true,
+    "clips": [
+      "inset(0px 100% 0px 0px)",
+      "inset(0px 87.5% 0px 0px)",
+      "inset(0px 75% 0px 0px)",
+      "inset(0px 62.5% 0px 0px)",
+      "inset(0px 50% 0px 0px)",
+      "inset(0px 37.5% 0px 0px)",
+      "inset(0px 25% 0px 0px)",
+      "inset(0px 12.5% 0px 0px)",
+      "inset(0px 0% 0px 0px)"
+    ],
+    "opacityRange": [
+      0,
+      0.999996
+    ],
+    "ratioError": 0.000034218921370232636,
+    "pixelated": true,
+    "headingRatio": 2.784702549575071,
+    "modals": [
+      "participant",
+      "partner"
+    ],
+    "reducedMotion": true
+  },
+  {
+    "viewport": [
+      1366,
+      768
+    ],
+    "scale": 1,
+    "heroHeight": 768,
+    "overflow": 0,
+    "motionComplete": true,
+    "timings": [
+      {
+        "name": "hero-title-reveal",
+        "delay": 0,
+        "direction": "normal",
+        "duration": 560,
+        "easing": "linear",
+        "endDelay": 0,
+        "fill": "both",
+        "iterationStart": 0,
+        "iterations": 1,
+        "cssEasing": "steps(8)"
+      },
+      {
+        "name": "hero-computer-reveal",
+        "delay": 400,
+        "direction": "normal",
+        "duration": 620,
+        "easing": "linear",
+        "endDelay": 0,
+        "fill": "both",
+        "iterationStart": 0,
+        "iterations": 1,
+        "cssEasing": "cubic-bezier(0.2, 0.7, 0.2, 1)"
+      }
+    ],
+    "frames": 64,
+    "stable": true,
+    "clips": [
+      "inset(0px 100% 0px 0px)",
+      "inset(0px 87.5% 0px 0px)",
+      "inset(0px 75% 0px 0px)",
+      "inset(0px 62.5% 0px 0px)",
+      "inset(0px 50% 0px 0px)",
+      "inset(0px 37.5% 0px 0px)",
+      "inset(0px 25% 0px 0px)",
+      "inset(0px 12.5% 0px 0px)",
+      "inset(0px 0% 0px 0px)"
+    ],
+    "opacityRange": [
+      0,
+      0.999995
+    ],
+    "ratioError": 0.00004393395164603575,
+    "pixelated": true,
+    "headingRatio": 2.7845847416706904,
+    "modals": [
+      "participant",
+      "partner"
+    ],
+    "reducedMotion": true
+  },
+  {
+    "viewport": [
+      1512,
+      900
+    ],
+    "scale": 1,
+    "heroHeight": 900,
+    "overflow": 0,
+    "motionComplete": true,
+    "timings": [
+      {
+        "name": "hero-title-reveal",
+        "delay": 0,
+        "direction": "normal",
+        "duration": 560,
+        "easing": "linear",
+        "endDelay": 0,
+        "fill": "both",
+        "iterationStart": 0,
+        "iterations": 1,
+        "cssEasing": "steps(8)"
+      },
+      {
+        "name": "hero-computer-reveal",
+        "delay": 400,
+        "direction": "normal",
+        "duration": 620,
+        "easing": "linear",
+        "endDelay": 0,
+        "fill": "both",
+        "iterationStart": 0,
+        "iterations": 1,
+        "cssEasing": "cubic-bezier(0.2, 0.7, 0.2, 1)"
+      }
+    ],
+    "frames": 64,
+    "stable": true,
+    "clips": [
+      "inset(0px 100% 0px 0px)",
+      "inset(0px 87.5% 0px 0px)",
+      "inset(0px 75% 0px 0px)",
+      "inset(0px 62.5% 0px 0px)",
+      "inset(0px 50% 0px 0px)",
+      "inset(0px 37.5% 0px 0px)",
+      "inset(0px 25% 0px 0px)",
+      "inset(0px 12.5% 0px 0px)",
+      "inset(0px 0% 0px 0px)"
+    ],
+    "opacityRange": [
+      0,
+      0.999995
+    ],
+    "ratioError": 0.00003872899901757876,
+    "pixelated": true,
+    "headingRatio": 2.7846626086051716,
+    "modals": [
+      "participant",
+      "partner"
+    ],
+    "reducedMotion": true
+  },
+  {
+    "viewport": [
+      1920,
+      1080
+    ],
+    "scale": 1,
+    "heroHeight": 1080,
+    "overflow": 0,
+    "motionComplete": true,
+    "timings": [
+      {
+        "name": "hero-title-reveal",
+        "delay": 0,
+        "direction": "normal",
+        "duration": 560,
+        "easing": "linear",
+        "endDelay": 0,
+        "fill": "both",
+        "iterationStart": 0,
+        "iterations": 1,
+        "cssEasing": "steps(8)"
+      },
+      {
+        "name": "hero-computer-reveal",
+        "delay": 400,
+        "direction": "normal",
+        "duration": 620,
+        "easing": "linear",
+        "endDelay": 0,
+        "fill": "both",
+        "iterationStart": 0,
+        "iterations": 1,
+        "cssEasing": "cubic-bezier(0.2, 0.7, 0.2, 1)"
+      }
+    ],
+    "frames": 63,
+    "stable": true,
+    "clips": [
+      "inset(0px 100% 0px 0px)",
+      "inset(0px 87.5% 0px 0px)",
+      "inset(0px 75% 0px 0px)",
+      "inset(0px 62.5% 0px 0px)",
+      "inset(0px 50% 0px 0px)",
+      "inset(0px 37.5% 0px 0px)",
+      "inset(0px 25% 0px 0px)",
+      "inset(0px 12.5% 0px 0px)",
+      "inset(0px 0% 0px 0px)"
+    ],
+    "opacityRange": [
+      0,
+      0.999997
+    ],
+    "ratioError": 0.000021775642785160088,
+    "pixelated": true,
+    "headingRatio": 2.784630533052858,
+    "modals": [
+      "participant",
+      "partner"
+    ],
+    "reducedMotion": true
+  },
+  {
+    "viewport": [
+      744,
+      1024
+    ],
+    "scale": 1,
+    "heroHeight": 1169.9375,
+    "overflow": 0,
+    "motionComplete": true,
+    "timings": [
+      {
+        "name": "hero-title-reveal",
+        "delay": 0,
+        "direction": "normal",
+        "duration": 560,
+        "easing": "linear",
+        "endDelay": 0,
+        "fill": "both",
+        "iterationStart": 0,
+        "iterations": 1,
+        "cssEasing": "steps(8)"
+      },
+      {
+        "name": "hero-computer-reveal",
+        "delay": 400,
+        "direction": "normal",
+        "duration": 620,
+        "easing": "linear",
+        "endDelay": 0,
+        "fill": "both",
+        "iterationStart": 0,
+        "iterations": 1,
+        "cssEasing": "cubic-bezier(0.2, 0.7, 0.2, 1)"
+      }
+    ],
+    "frames": 64,
+    "stable": true,
+    "clips": [
+      "inset(0px 100% 0px 0px)",
+      "inset(0px 87.5% 0px 0px)",
+      "inset(0px 75% 0px 0px)",
+      "inset(0px 62.5% 0px 0px)",
+      "inset(0px 50% 0px 0px)",
+      "inset(0px 37.5% 0px 0px)",
+      "inset(0px 25% 0px 0px)",
+      "inset(0px 12.5% 0px 0px)",
+      "inset(0px 0% 0px 0px)"
+    ],
+    "opacityRange": [
+      0,
+      0.999995
+    ],
+    "ratioError": 0.000042458093807429265,
+    "pixelated": true,
+    "headingRatio": 2.784672435105068,
+    "modals": [
+      "participant",
+      "partner"
+    ],
+    "reducedMotion": true
+  },
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "scale": 1,
+    "heroHeight": 844.078125,
+    "overflow": 0,
+    "motionComplete": true,
+    "timings": [
+      {
+        "name": "hero-title-reveal",
+        "delay": 0,
+        "direction": "normal",
+        "duration": 420,
+        "easing": "linear",
+        "endDelay": 0,
+        "fill": "both",
+        "iterationStart": 0,
+        "iterations": 1,
+        "cssEasing": "steps(8)"
+      },
+      {
+        "name": "hero-computer-reveal",
+        "delay": 240,
+        "direction": "normal",
+        "duration": 480,
+        "easing": "linear",
+        "endDelay": 0,
+        "fill": "both",
+        "iterationStart": 0,
+        "iterations": 1,
+        "cssEasing": "cubic-bezier(0.2, 0.7, 0.2, 1)"
+      }
+    ],
+    "frames": 46,
+    "stable": true,
+    "clips": [
+      "inset(0px 100% 0px 0px)",
+      "inset(0px 87.5% 0px 0px)",
+      "inset(0px 75% 0px 0px)",
+      "inset(0px 62.5% 0px 0px)",
+      "inset(0px 50% 0px 0px)",
+      "inset(0px 37.5% 0px 0px)",
+      "inset(0px 25% 0px 0px)",
+      "inset(0px 12.5% 0px 0px)",
+      "inset(0px 0% 0px 0px)"
+    ],
+    "opacityRange": [
+      0,
+      0.999992
+    ],
+    "ratioError": 0.00007586052042340974,
+    "pixelated": true,
+    "headingRatio": 2.784637822070977,
+    "modals": [
+      "participant",
+      "partner"
+    ],
+    "reducedMotion": true
+  },
+  {
+    "viewport": [
+      390,
+      667
+    ],
+    "scale": 1,
+    "heroHeight": 813.984375,
+    "overflow": 0,
+    "motionComplete": true,
+    "timings": [
+      {
+        "name": "hero-title-reveal",
+        "delay": 0,
+        "direction": "normal",
+        "duration": 420,
+        "easing": "linear",
+        "endDelay": 0,
+        "fill": "both",
+        "iterationStart": 0,
+        "iterations": 1,
+        "cssEasing": "steps(8)"
+      },
+      {
+        "name": "hero-computer-reveal",
+        "delay": 240,
+        "direction": "normal",
+        "duration": 480,
+        "easing": "linear",
+        "endDelay": 0,
+        "fill": "both",
+        "iterationStart": 0,
+        "iterations": 1,
+        "cssEasing": "cubic-bezier(0.2, 0.7, 0.2, 1)"
+      }
+    ],
+    "frames": 45,
+    "stable": true,
+    "clips": [
+      "inset(0px 100% 0px 0px)",
+      "inset(0px 87.5% 0px 0px)",
+      "inset(0px 75% 0px 0px)",
+      "inset(0px 62.5% 0px 0px)",
+      "inset(0px 50% 0px 0px)",
+      "inset(0px 37.5% 0px 0px)",
+      "inset(0px 25% 0px 0px)",
+      "inset(0px 12.5% 0px 0px)",
+      "inset(0px 0% 0px 0px)"
+    ],
+    "opacityRange": [
+      0,
+      0.999988
+    ],
+    "ratioError": 0.00007586052042340974,
+    "pixelated": true,
+    "headingRatio": 2.784637822070977,
+    "modals": [
+      "participant",
+      "partner"
+    ],
+    "reducedMotion": true
+  },
+  {
+    "viewport": [
+      1024,
+      768
+    ],
+    "heroHeight": 768,
+    "overflow": 0,
+    "actions": 729.609375,
+    "heroBottom": 768
+  },
+  {
+    "viewport": [
+      1920,
+      600
+    ],
+    "heroHeight": 600,
+    "overflow": 0,
+    "actions": 568,
+    "heroBottom": 600
+  },
+  {
+    "viewport": [
+      1280,
+      1000
+    ],
+    "heroHeight": 1000,
+    "overflow": 0,
+    "actions": 950,
+    "heroBottom": 1000
+  },
+  {
+    "viewport": [
+      390,
+      1000
+    ],
+    "heroHeight": 1000,
+    "overflow": 0,
+    "actions": 984,
+    "heroBottom": 1000
+  },
+  {
+    "viewport": [
+      320,
+      568
+    ],
+    "heroHeight": 746.828125,
+    "overflow": 0,
+    "actions": 730.828125,
+    "heroBottom": 746.828125
+  }
+]

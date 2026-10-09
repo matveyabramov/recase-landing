@@ -1,0 +1,56 @@
+[
+  {
+    "width": 1512,
+    "card": {
+      "width": 286.5,
+      "height": 386.671875,
+      "padding": "20px",
+      "border": "3px 3px 11px 10px",
+      "fontSize": "18.9px",
+      "headingFont": "21.9996px",
+      "portraitHeight": 193.546875
+    },
+    "track": {
+      "scrollWidth": 1512,
+      "clientWidth": 1512,
+      "snap": "none"
+    },
+    "sectionHeight": 784.125
+  },
+  {
+    "width": 744,
+    "card": {
+      "width": 384,
+      "height": 482.0625,
+      "padding": "28px",
+      "border": "3px 3px 11px 10px",
+      "fontSize": "22.9896px",
+      "headingFont": "28px",
+      "portraitHeight": 261.109375
+    },
+    "track": {
+      "scrollWidth": 1624,
+      "clientWidth": 744,
+      "snap": "x"
+    },
+    "sectionHeight": 1007.421875
+  },
+  {
+    "width": 390,
+    "card": {
+      "width": 342,
+      "height": 441.03125,
+      "padding": "24px",
+      "border": "3px 3px 11px 10px",
+      "fontSize": "18px",
+      "headingFont": "26px",
+      "portraitHeight": 232.921875
+    },
+    "track": {
+      "scrollWidth": 1448,
+      "clientWidth": 390,
+      "snap": "x"
+    },
+    "sectionHeight": 865
+  }
+]

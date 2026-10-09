@@ -1,0 +1,32 @@
+[
+  {
+    "viewport": [
+      1512,
+      900
+    ],
+    "heroHeight": 900,
+    "overflow": 0,
+    "fonts": [
+      true,
+      true
+    ],
+    "heroImages": true,
+    "errors": [],
+    "participantModal": true
+  },
+  {
+    "viewport": [
+      390,
+      667
+    ],
+    "heroHeight": 813.984375,
+    "overflow": 0,
+    "fonts": [
+      true,
+      true
+    ],
+    "heroImages": true,
+    "errors": [],
+    "participantModal": true
+  }
+]

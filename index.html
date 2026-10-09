@@ -13,9 +13,6 @@
     <div id="app">
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-decoration" aria-hidden="true"></div>
-        <div class="hero-computer" aria-hidden="true">
-          <img src="./assets/images/hero-computer.png" alt="" />
-        </div>
         <div class="hero-foreground-decoration" aria-hidden="true"></div>
         <header class="site-header shell">
           <a class="logo" href="#" aria-label="RE:CASE — на главную"><img src="./assets/icons/logo-header.svg" alt="RE:CASE" /></a>
@@ -38,9 +35,14 @@
           </div>
           <p class="hero-description">Решай кейсы компаний.<br />Собирай портфолио и знакомься с командой.</p>
           <p class="hero-audience">Для студентов ВШЭ</p>
-          <div class="hero-actions">
-            <a class="button button-lime" data-form-link="participate" href="#participate">Участвовать<img src="./assets/icons/arrow-participate.svg" alt="" aria-hidden="true" /></a>
-            <a class="button button-outline pixel-outline" data-form-link="partner" href="#contacts">Стать партнёром</a>
+          <div class="hero-scene">
+            <div class="hero-computer" aria-hidden="true">
+              <img src="./assets/images/hero-computer.png" alt="" />
+            </div>
+            <div class="hero-actions">
+              <a class="button button-lime" data-form-link="participate" href="#participate">Участвовать<img src="./assets/icons/arrow-participate.svg" alt="" aria-hidden="true" /></a>
+              <a class="button button-outline pixel-outline" data-form-link="partner" href="#contacts">Стать партнёром</a>
+            </div>
           </div>
         </div>
       </section>
@@ -72,40 +74,24 @@
             </div>
             <p class="experts-motto">БОЛЬШЕ<br />ЛЮДЕЙ<br />БОЛЬШЕ<br />ВОЗМОЖНОСТЕЙ</p>
           </div>
-          <div class="experts-track" tabindex="0" role="region" aria-label="Партнёры и эксперты, горизонтальная прокрутка">
-            <article class="expert-card framed">
-              <div class="expert-portrait">
-                <img src="./assets/icons/expert-portrait.svg" alt="" />
-              </div>
-              <h3>ИМЯ ФАМИЛИЯ</h3>
-              <p>Компания / Должность</p>
-              <span class="badge badge-pink">Партнёр</span>
-            </article>
-            <article class="expert-card framed">
-              <div class="expert-portrait">
-                <img src="./assets/icons/expert-portrait.svg" alt="" />
-              </div>
-              <h3>ИМЯ ФАМИЛИЯ</h3>
-              <p>Компания / Должность</p>
-              <span class="badge badge-green">Эксперт</span>
-            </article>
-            <article class="expert-card framed">
-              <div class="expert-portrait">
-                <img src="./assets/icons/expert-portrait.svg" alt="" />
-              </div>
-              <h3>ИМЯ ФАМИЛИЯ</h3>
-              <p>Компания / Должность</p>
-              <span class="badge badge-pink">Партнёр</span>
-            </article>
-            <article class="expert-card framed">
-              <div class="expert-portrait">
-                <img src="./assets/icons/expert-portrait.svg" alt="" />
-              </div>
-              <h3>ИМЯ ФАМИЛИЯ</h3>
-              <p>Компания / Должность</p>
-              <span class="badge badge-green">Эксперт</span>
-            </article>
+          <div class="experts-tabs shell" role="tablist" aria-label="Категории участников" hidden>
+            <button class="button pixel-outline experts-tab" type="button" role="tab" id="tab-partners" aria-controls="panel-partners" aria-selected="true" tabindex="0">ПАРТНЁРЫ (3)</button>
+            <button class="button pixel-outline experts-tab" type="button" role="tab" id="tab-experts" aria-controls="panel-experts" aria-selected="false" tabindex="-1">ЭКСПЕРТЫ (4)</button>
           </div>
+          <div class="experts-track">
+            <div class="experts-panel" role="tabpanel" id="panel-partners" aria-labelledby="tab-partners" tabindex="0"></div>
+            <div class="experts-panel" role="tabpanel" id="panel-experts" aria-labelledby="tab-experts" tabindex="0" hidden></div>
+          </div>
+          <template id="expert-card-template">
+            <article class="expert-card framed">
+              <div class="expert-portrait">
+                <img src="./assets/icons/expert-portrait.svg" alt="" />
+              </div>
+              <h3>ИМЯ ФАМИЛИЯ</h3>
+              <p>Компания / Должность</p>
+              <span class="badge"></span>
+            </article>
+          </template>
         </section>
         <aside class="partner-banner" aria-label="Приглашение партнёрам">
           <div class="banner-decoration" aria-hidden="true"></div>

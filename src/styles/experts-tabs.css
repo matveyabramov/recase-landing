@@ -1,0 +1,110 @@
+.experts-tabs {
+  display: flex;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.experts-tabs[hidden], .experts-panel[hidden] {
+  display: none;
+}
+
+.experts-tab {
+  --outline-color: var(--color-ink);
+  --feedback-ring-color: var(--color-ink);
+  border: 0;
+  cursor: pointer;
+  font-family: var(--font-body);
+  color: var(--color-ink);
+  background-color: #fff;
+  transition-property: transform, background-color, color;
+}
+
+.experts-tab[aria-selected='true'] {
+  --outline-color: var(--color-pink);
+  --feedback-ring-color: #fff;
+  background-color: var(--color-pink);
+  color: #fff;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .experts-tab[aria-selected='false']:hover {
+    --outline-color: var(--color-pink-ui);
+    background-color: var(--color-pink-ui);
+    color: #fff;
+  }
+
+  .experts-tab[aria-selected='true']:hover {
+    --outline-color: var(--color-ink);
+    background-color: var(--color-ink);
+  }
+}
+
+.experts-tab:active {
+  --outline-color: var(--color-ink);
+  --feedback-ring-color: #fff;
+  background-color: var(--color-ink);
+  color: #fff;
+}
+
+/* Keep the existing track as the sole Scroll Reveal and scrolling surface. */
+.experts .experts-track {
+  margin-top: 24px;
+  scrollbar-width: none;
+}
+
+.experts .experts-track::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.experts-panel {
+  display: flex;
+  flex: 0 0 auto;
+  width: max-content;
+  min-width: 100%;
+  gap: inherit;
+}
+
+.experts-track:focus-within {
+  outline: 3px solid var(--color-ink);
+  outline-offset: 6px;
+}
+
+.experts-panel:focus-visible {
+  outline: none;
+}
+
+/* Display transitions cancel naturally on rapid switches. No reveal replay,
+   transform, duplicated content or delayed accessibility state changes. */
+.experts-track[data-tabs-switched] .experts-panel {
+  opacity: 1;
+  transition: opacity var(--ui-hover-duration) var(--ui-easing);
+}
+
+@starting-style {
+  .experts-track[data-tabs-switched] .experts-panel {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .experts-tabs {
+    gap: 12px;
+    margin-top: 28px;
+  }
+
+  .experts-tab {
+    flex: 1 1 0;
+    min-width: 0;
+    padding-inline: 12px;
+    font-size: clamp(14px, 4.2vw, 16px);
+    white-space: nowrap;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .experts-tab, .experts-track[data-tabs-switched] .experts-panel {
+    transition: none;
+  }
+}

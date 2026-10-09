@@ -42,15 +42,30 @@ h2 {
 }
 
 .hero {
-  --hero-art-min-height: calc(94px + clamp(800px, 66.1vw, 1000px) * 885 / 1274);
+  --hero-viewport-height: 100vh;
+  --hero-type-size: clamp(94px, min(9.9vw, calc(var(--hero-viewport-height) * .168)), 174px);
+  --hero-unit: calc(var(--hero-type-size) / 155);
+  --hero-art-width: clamp(520px, min(calc(51vw - var(--page-gutter) * .3), calc((var(--hero-viewport-height) - 120px) * 1.04)), 1000px);
+  --hero-art-min-height: calc(120px + var(--hero-art-width) * .9);
+  display: grid;
+  grid-template-rows: auto minmax(min-content, 1fr);
   height: auto;
   /* The header is already part of this section. Content can exceed one screen. */
   min-height: 100vh;
-  min-height: max(100vh, var(--hero-art-min-height));
-  min-height: max(100dvh, var(--hero-art-min-height));
-  padding-bottom: 56px;
+  min-height: max(var(--hero-viewport-height), var(--hero-art-min-height));
+  padding-bottom: clamp(32px, calc(var(--hero-viewport-height) * .05), 64px);
   background-position: center top;
   background-size: max(100%, 1024px) auto;
+}
+
+@supports (height: 100dvh) {
+  .hero {
+    --hero-viewport-height: 100dvh;
+  }
+}
+
+.hero > .shell {
+  max-width: 1512px;
 }
 
 .hero-decoration, .hero-foreground-decoration, .experts-decoration, .banner-decoration {
@@ -94,10 +109,26 @@ h2 {
 }
 
 .hero-content {
-  margin-top: clamp(48px, 3.7vw, 56px);
+  /* Absolute desktop artwork is positioned against the full Hero. */
+  position: static;
+  z-index: auto;
+  display: grid;
+  /* Flexible tracks distribute spare height without stretching the artwork. */
+  grid-template-rows: auto auto minmax(26px, 2fr) auto auto minmax(24px, 3fr) auto;
+  margin-top: clamp(32px, calc(var(--hero-viewport-height) * .1 - 40px), 72px);
+}
+
+.hero-scene {
+  display: contents;
+}
+
+.hero-kicker, .hero-heading, .hero-description, .hero-audience, .hero-actions {
+  position: relative;
+  z-index: 2;
 }
 
 .hero-kicker {
+  grid-row: 1;
   margin-left: calc(30 * var(--hero-unit));
   gap: 8px;
   font-size: clamp(16px, 1.19vw, 18px);
@@ -105,6 +136,7 @@ h2 {
 }
 
 .hero-heading {
+  grid-row: 2;
   width: calc(866 * var(--hero-unit));
   height: calc(311 * var(--hero-unit));
   margin-top: 18px;
@@ -133,26 +165,34 @@ h2 {
 }
 
 .hero-description {
-  margin-top: 32px;
-  font-size: clamp(21px, 1.59vw, 24px);
+  grid-row: 4;
+  margin-top: 0;
+  font-size: clamp(21px, min(2vw, calc(var(--hero-viewport-height) * .031)), 32px);
   line-height: 1.18;
 }
 
 .hero-audience {
+  grid-row: 5;
   margin-top: 12px;
 }
 
 .hero-actions {
-  margin-top: 32px;
+  grid-row: 7;
+  margin-top: 0;
   gap: 18px;
 }
 
+.hero-actions .button {
+  height: clamp(56px, calc(var(--hero-viewport-height) * .065), 72px);
+  font-size: clamp(18px, min(1.55vw, calc(var(--hero-viewport-height) * .022)), 24px);
+}
+
 .hero-actions .button-lime {
-  width: clamp(248px, 18.65vw, 282px);
+  width: clamp(248px, 22vw, 388px);
 }
 
 .hero-actions .button-outline {
-  width: 252px;
+  width: clamp(252px, 18.65vw, 334px);
 }
 
 .hero-actions img {
@@ -165,11 +205,22 @@ h2 {
 }
 
 .hero-computer {
-  width: clamp(800px, 66.1vw, 1000px);
+  z-index: 1;
+  width: var(--hero-art-width);
   height: auto;
-  aspect-ratio: 1274 / 885;
-  left: calc(50% - 10px);
-  top: 94px;
+  aspect-ratio: 10 / 9;
+  left: auto;
+  right: calc(var(--page-gutter) * .3);
+  top: auto;
+  bottom: clamp(16px, calc(var(--hero-viewport-height) * .03), 32px);
+}
+
+.hero-computer img {
+  /* Crop only the outer transparent gutters; preserve the PNG's own ratio.
+     The complete computer and both starbursts fit inside this scene. */
+  width: 160%;
+  height: auto;
+  left: -32%;
 }
 
 .process-strip {
@@ -763,9 +814,6 @@ h2 {
   .header-participate {
     width: 176px;
   }
-  .hero-computer {
-    left: calc(50% - 10px);
-  }
   .experts-heading > div {
     flex-basis: 65%;
   }
@@ -799,21 +847,6 @@ h2 {
   }
   .sticker {
     width: 190px;
-  }
-}
-
-@media (min-width: 1024px) and (max-height: 760px) {
-  .hero {
-    padding-bottom: 44px;
-  }
-  .hero-content {
-    margin-top: 40px;
-  }
-  .hero-description {
-    margin-top: 26px;
-  }
-  .hero-actions {
-    margin-top: 26px;
   }
 }
 
@@ -938,12 +971,13 @@ h2 {
 
   /* The shared scene row deliberately layers CTA over the computer keyboard. */
   .hero {
+    --hero-type-size: calc((100vw - 2 * var(--page-gutter)) * 155 / 866);
     --hero-art-min-height: 0px;
     display: grid;
     grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto auto auto auto auto minmax(min-content, 1fr);
     grid-template-areas: 'header' 'kicker' 'heading' 'description' 'audience' 'scene';
-    /* Extra height goes between rows; illustration and CTA keep one scene. */
-    align-content: space-between;
+    /* Extra height stays in the shared scene; the text keeps its hierarchy. */
     padding-bottom: 20px;
     background: none;
   }
@@ -956,7 +990,15 @@ h2 {
     display: contents;
   }
 
+  .hero-scene {
+    grid-area: scene;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    align-self: end;
+  }
+
   .hero-kicker, .hero-heading, .hero-description, .hero-audience, .hero-actions {
+    grid-row: auto;
     width: calc(100% - 2 * var(--page-gutter));
     max-width: var(--container-width);
     margin-inline: auto;
@@ -993,12 +1035,14 @@ h2 {
   }
 
   .hero-computer {
-    grid-area: scene;
+    grid-area: 1 / 1;
     position: relative;
     align-self: start;
     width: calc(100% + 105px);
     aspect-ratio: 1274 / 885;
     top: auto;
+    right: auto;
+    bottom: auto;
     left: 12.16vw;
     margin: -66px auto 0;
     pointer-events: none;
@@ -1007,13 +1051,13 @@ h2 {
 
   .hero-computer img {
     width: 128.16%;
-    height: 107.68%;
+    height: auto;
     left: -28.15%;
     top: 0;
   }
 
   .hero-actions {
-    grid-area: scene;
+    grid-area: 1 / 1;
     align-self: end;
     display: grid;
     grid-template-columns: minmax(0, 1fr);
@@ -1594,6 +1638,7 @@ h2 {
   }
 
   .hero {
+    --hero-type-size: calc((100vw - 32px) * 155 / 866);
     padding-bottom: 16px;
   }
 
@@ -1602,7 +1647,7 @@ h2 {
   }
 
   .hero-kicker {
-    margin-top: 44px;
+    margin-top: clamp(24px, calc(var(--hero-viewport-height) * .08 - 24px), 44px);
     padding-left: 6px;
     gap: 8px;
     font-size: clamp(14px, 4.35vw, 18px);
@@ -1615,7 +1660,7 @@ h2 {
   }
 
   .hero-description {
-    margin-top: 40px;
+    margin-top: clamp(24px, calc(var(--hero-viewport-height) * .09 - 36px), 40px);
     font-size: 24px;
   }
 

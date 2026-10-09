@@ -1,0 +1,401 @@
+[
+  {
+    "width": 1512,
+    "partners": {
+      "width": 1512,
+      "zoom": 1,
+      "active": "panel-partners",
+      "count": 3,
+      "badges": [
+        {
+          "text": "Партнёр",
+          "class": "badge badge-pink"
+        },
+        {
+          "text": "Партнёр",
+          "class": "badge badge-pink"
+        },
+        {
+          "text": "Партнёр",
+          "class": "badge badge-pink"
+        }
+      ],
+      "card": {
+        "width": 286.5,
+        "height": 386.671875,
+        "padding": "20px",
+        "border": "3px 3px 11px 10px",
+        "fontSize": "18.9px",
+        "headingFont": "21.9996px",
+        "portraitHeight": 193.546875
+      },
+      "track": {
+        "scrollLeft": 0,
+        "scrollWidth": 1512,
+        "clientWidth": 1512,
+        "snap": "none",
+        "scrollbar": "none",
+        "webkitScrollbar": "none",
+        "opacity": "1",
+        "transform": "none",
+        "classes": "experts-track motion-reveal is-revealed",
+        "height": 386.671875
+      },
+      "section": {
+        "height": 856.125,
+        "top": 44
+      },
+      "overflow": 0,
+      "opacity": "1",
+      "revealStarts": 1,
+      "activeImages": true,
+      "focus": ""
+    },
+    "experts": {
+      "width": 1512,
+      "zoom": 1,
+      "active": "panel-experts",
+      "count": 4,
+      "badges": [
+        {
+          "text": "Эксперт",
+          "class": "badge badge-green"
+        },
+        {
+          "text": "Эксперт",
+          "class": "badge badge-green"
+        },
+        {
+          "text": "Эксперт",
+          "class": "badge badge-green"
+        },
+        {
+          "text": "Эксперт",
+          "class": "badge badge-green"
+        }
+      ],
+      "card": {
+        "width": 286.5,
+        "height": 386.671875,
+        "padding": "20px",
+        "border": "3px 3px 11px 10px",
+        "fontSize": "18.9px",
+        "headingFont": "21.9996px",
+        "portraitHeight": 193.546875
+      },
+      "track": {
+        "scrollLeft": 0,
+        "scrollWidth": 1512,
+        "clientWidth": 1512,
+        "snap": "none",
+        "scrollbar": "none",
+        "webkitScrollbar": "none",
+        "opacity": "1",
+        "transform": "none",
+        "classes": "experts-track motion-reveal is-revealed",
+        "height": 386.671875
+      },
+      "section": {
+        "height": 856.125,
+        "top": 44
+      },
+      "overflow": 0,
+      "opacity": "1",
+      "revealStarts": 1,
+      "activeImages": true,
+      "focus": "tab-experts"
+    },
+    "fading": {
+      "opacity": "0.373735",
+      "animations": [
+        {
+          "property": "opacity",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 160,
+            "easing": "cubic-bezier(0.2, 0.7, 0.2, 1)",
+            "endDelay": 0,
+            "fill": "backwards",
+            "iterationStart": 0,
+            "iterations": 1
+          }
+        }
+      ]
+    },
+    "keyboard": true,
+    "rapidSwitch": true,
+    "accessible": "- tabpanel \"ПАРТНЁРЫ (3)\":\n  - article:\n    - heading \"ИМЯ ФАМИЛИЯ\" [level=3]\n    - paragraph: Компания / Должность\n    - text: Партнёр\n  - article:\n    - heading \"ИМЯ ФАМИЛИЯ\" [level=3]\n    - paragraph: Компания / Должность\n    - text: Партнёр\n  - article:\n    - heading \"ИМЯ ФАМИЛИЯ\" [level=3]\n    - paragraph: Компания / Должность\n    - text: Партнёр",
+    "reduced": {
+      "opacity": "1",
+      "animations": 0
+    },
+    "errors": []
+  },
+  {
+    "width": 744,
+    "partners": {
+      "width": 744,
+      "zoom": 1,
+      "active": "panel-partners",
+      "count": 3,
+      "badges": [
+        {
+          "text": "Партнёр",
+          "class": "badge badge-pink"
+        },
+        {
+          "text": "Партнёр",
+          "class": "badge badge-pink"
+        },
+        {
+          "text": "Партнёр",
+          "class": "badge badge-pink"
+        }
+      ],
+      "card": {
+        "width": 384,
+        "height": 482.0625,
+        "padding": "28px",
+        "border": "3px 3px 11px 10px",
+        "fontSize": "22.9896px",
+        "headingFont": "28px",
+        "portraitHeight": 261.109375
+      },
+      "track": {
+        "scrollLeft": 0,
+        "scrollWidth": 1224,
+        "clientWidth": 744,
+        "snap": "x",
+        "scrollbar": "none",
+        "webkitScrollbar": "none",
+        "opacity": "1",
+        "transform": "none",
+        "classes": "experts-track motion-reveal is-revealed",
+        "height": 482.0625
+      },
+      "section": {
+        "height": 1079.421875,
+        "top": 29.9375
+      },
+      "overflow": 0,
+      "opacity": "1",
+      "revealStarts": 1,
+      "activeImages": true,
+      "focus": ""
+    },
+    "experts": {
+      "width": 744,
+      "zoom": 1,
+      "active": "panel-experts",
+      "count": 4,
+      "badges": [
+        {
+          "text": "Эксперт",
+          "class": "badge badge-green"
+        },
+        {
+          "text": "Эксперт",
+          "class": "badge badge-green"
+        },
+        {
+          "text": "Эксперт",
+          "class": "badge badge-green"
+        },
+        {
+          "text": "Эксперт",
+          "class": "badge badge-green"
+        }
+      ],
+      "card": {
+        "width": 384,
+        "height": 482.0625,
+        "padding": "28px",
+        "border": "3px 3px 11px 10px",
+        "fontSize": "22.9896px",
+        "headingFont": "28px",
+        "portraitHeight": 261.109375
+      },
+      "track": {
+        "scrollLeft": 0,
+        "scrollWidth": 1624,
+        "clientWidth": 744,
+        "snap": "x",
+        "scrollbar": "none",
+        "webkitScrollbar": "none",
+        "opacity": "1",
+        "transform": "none",
+        "classes": "experts-track motion-reveal is-revealed",
+        "height": 482.0625
+      },
+      "section": {
+        "height": 1079.421875,
+        "top": 53.9375
+      },
+      "overflow": 0,
+      "opacity": "1",
+      "revealStarts": 1,
+      "activeImages": true,
+      "focus": "tab-experts"
+    },
+    "fading": {
+      "opacity": "0",
+      "animations": [
+        {
+          "property": "opacity",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 160,
+            "easing": "cubic-bezier(0.2, 0.7, 0.2, 1)",
+            "endDelay": 0,
+            "fill": "backwards",
+            "iterationStart": 0,
+            "iterations": 1
+          }
+        }
+      ]
+    },
+    "keyboard": true,
+    "rapidSwitch": true,
+    "accessible": "- tabpanel \"ПАРТНЁРЫ (3)\":\n  - article:\n    - heading \"ИМЯ ФАМИЛИЯ\" [level=3]\n    - paragraph: Компания / Должность\n    - text: Партнёр\n  - article:\n    - heading \"ИМЯ ФАМИЛИЯ\" [level=3]\n    - paragraph: Компания / Должность\n    - text: Партнёр\n  - article:\n    - heading \"ИМЯ ФАМИЛИЯ\" [level=3]\n    - paragraph: Компания / Должность\n    - text: Партнёр",
+    "reduced": {
+      "opacity": "1",
+      "animations": 0
+    },
+    "errors": []
+  },
+  {
+    "width": 390,
+    "partners": {
+      "width": 390,
+      "zoom": 1,
+      "active": "panel-partners",
+      "count": 3,
+      "badges": [
+        {
+          "text": "Партнёр",
+          "class": "badge badge-pink"
+        },
+        {
+          "text": "Партнёр",
+          "class": "badge badge-pink"
+        },
+        {
+          "text": "Партнёр",
+          "class": "badge badge-pink"
+        }
+      ],
+      "card": {
+        "width": 342,
+        "height": 441.03125,
+        "padding": "24px",
+        "border": "3px 3px 11px 10px",
+        "fontSize": "18px",
+        "headingFont": "26px",
+        "portraitHeight": 232.921875
+      },
+      "track": {
+        "scrollLeft": 0,
+        "scrollWidth": 1090,
+        "clientWidth": 390,
+        "snap": "x",
+        "scrollbar": "none",
+        "webkitScrollbar": "none",
+        "opacity": "1",
+        "transform": "none",
+        "classes": "experts-track motion-reveal is-revealed",
+        "height": 441.03125
+      },
+      "section": {
+        "height": 945,
+        "top": 30.078125
+      },
+      "overflow": 0,
+      "opacity": "1",
+      "revealStarts": 1,
+      "activeImages": true,
+      "focus": ""
+    },
+    "experts": {
+      "width": 390,
+      "zoom": 1,
+      "active": "panel-experts",
+      "count": 4,
+      "badges": [
+        {
+          "text": "Эксперт",
+          "class": "badge badge-green"
+        },
+        {
+          "text": "Эксперт",
+          "class": "badge badge-green"
+        },
+        {
+          "text": "Эксперт",
+          "class": "badge badge-green"
+        },
+        {
+          "text": "Эксперт",
+          "class": "badge badge-green"
+        }
+      ],
+      "card": {
+        "width": 342,
+        "height": 441.03125,
+        "padding": "24px",
+        "border": "3px 3px 11px 10px",
+        "fontSize": "18px",
+        "headingFont": "26px",
+        "portraitHeight": 232.921875
+      },
+      "track": {
+        "scrollLeft": 0,
+        "scrollWidth": 1448,
+        "clientWidth": 390,
+        "snap": "x",
+        "scrollbar": "none",
+        "webkitScrollbar": "none",
+        "opacity": "1",
+        "transform": "none",
+        "classes": "experts-track motion-reveal is-revealed",
+        "height": 441.03125
+      },
+      "section": {
+        "height": 945,
+        "top": 41.078125
+      },
+      "overflow": 0,
+      "opacity": "1",
+      "revealStarts": 1,
+      "activeImages": true,
+      "focus": "tab-experts"
+    },
+    "fading": {
+      "opacity": "0",
+      "animations": [
+        {
+          "property": "opacity",
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 160,
+            "easing": "cubic-bezier(0.2, 0.7, 0.2, 1)",
+            "endDelay": 0,
+            "fill": "backwards",
+            "iterationStart": 0,
+            "iterations": 1
+          }
+        }
+      ]
+    },
+    "keyboard": true,
+    "rapidSwitch": true,
+    "accessible": "- tabpanel \"ПАРТНЁРЫ (3)\":\n  - article:\n    - heading \"ИМЯ ФАМИЛИЯ\" [level=3]\n    - paragraph: Компания / Должность\n    - text: Партнёр\n  - article:\n    - heading \"ИМЯ ФАМИЛИЯ\" [level=3]\n    - paragraph: Компания / Должность\n    - text: Партнёр\n  - article:\n    - heading \"ИМЯ ФАМИЛИЯ\" [level=3]\n    - paragraph: Компания / Должность\n    - text: Партнёр",
+    "reduced": {
+      "opacity": "1",
+      "animations": 0
+    },
+    "errors": []
+  }
+]
