@@ -1,0 +1,643 @@
+[
+  {
+    "path": "assets/icons/banner-decoration.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 369,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/fonts/Ermilov-bold.woff2",
+    "status": 200,
+    "type": "font/woff2",
+    "bytes": 8300,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/contacts-mask.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 1577,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/defence-shape.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 450,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/arrow-participate.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 1648,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/career.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 2640,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/evaluate.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 1987,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/expert-portrait.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 983,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/fonts/onest-variable.woff2",
+    "status": 200,
+    "type": "font/woff2",
+    "bytes": 82240,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/experts-decoration.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 412,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/feedback.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 2809,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/format-mask.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 1592,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/growth-shape.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 264,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/hero-comma.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 500,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/hero-decoration.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 1935,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/hero-foreground.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 1025,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/hero-title-shape.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 1262,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/idea-sticker.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 5718,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/ideas.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 1977,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/logo-footer.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 5232,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/logo-header.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 5232,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/nav-pixel-outline.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 954,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/participate-mask.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 1577,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/partner-chevrons.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 1749,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/pixel-49-606.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 303,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/pixel-49-642.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 360,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/pixel-49-677.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 359,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/pixel-49-724.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 341,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/pixel-49-862.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 282,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/pixel-49-886.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 326,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/pixel-49-910.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 329,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/portfolio.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 2155,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/process-decoration.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 528,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/recruit.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 2138,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/registration-border-bottom.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 784,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/registration-border-left.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 782,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/registration-frame.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 1293,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/registration-border-right.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 794,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/registration-border-top.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 774,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/responsive/season-goal-shape.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 485,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/responsive/defence-shape.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 477,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/responsive/championship-shape.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 489,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/responsive/solutions-frame.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 1254,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/responsive/registration-frame.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 1320,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/responsive/weeks-frame.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 1256,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/responsive/teams-frame.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 1256,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/resumes-shape.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 418,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/season-goal-shape.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 458,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/solutions-border-bottom.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 800,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/solutions-border-right.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 804,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/solutions-frame.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 1227,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/solutions-border-top.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 785,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/solutions-border-left.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 810,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/team-sticker.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 6976,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/championship-shape.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 462,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/team.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 2737,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/teams-border-left.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 792,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/teams-border-bottom.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 803,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/teams-border-right.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 811,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/teams-border-top.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 785,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/teams-frame.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 1229,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/weeks-border-bottom.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 803,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/weeks-border-left.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 792,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/weeks-border-right.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 811,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/weeks-frame.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 1229,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/images/background-tile.png",
+    "status": 200,
+    "type": "image/png",
+    "bytes": 1026,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/weeks-border-top.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 785,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/images/hero-pixel-underlay.png",
+    "status": 200,
+    "type": "image/png",
+    "bytes": 128828,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/legal-Cekf_nUp.css",
+    "status": 200,
+    "type": "text/css; charset=utf-8",
+    "bytes": 5324,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/main-B1GpVm0C.css",
+    "status": 200,
+    "type": "text/css; charset=utf-8",
+    "bytes": 63447,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/main-c4_PTOCK.js",
+    "status": 200,
+    "type": "application/javascript; charset=utf-8",
+    "bytes": 33893,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "privacy-policy.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "bytes": 14796,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "index.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "bytes": 31620,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "personal-data-consent.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "bytes": 8751,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/images/hero-texture.png",
+    "status": 200,
+    "type": "image/png",
+    "bytes": 1105233,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/images/selection.png",
+    "status": 200,
+    "type": "image/png",
+    "bytes": 1817778,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/images/hero-computer.png",
+    "status": 200,
+    "type": "image/png",
+    "bytes": 2260991,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/images/format-computer.png",
+    "status": 200,
+    "type": "image/png",
+    "bytes": 2264007,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/arrow-process.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 1658,
+    "match": true,
+    "noindex": "noindex, nofollow"
+  },
+  {
+    "path": "assets/icons/audience-mask.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 1508,
+    "match": true,
+    "noindex": "noindex, nofollow",
+    "verified_with": "curl + Layero site_status"
+  }
+]

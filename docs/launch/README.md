@@ -1,5 +1,10 @@
 # RE — Layero Frontend + Beget PHP API
 
+**Актуальная архитектура:** Vite static на https://recase.layero.app/ → iframe
+Яндекс Форм → настроенная в Яндексе доставка Telegram. Деплой выполнен
+14 октября 2026; [production QA](recase-production.md).
+Ниже сохранён исторический отчёт резервной Layero/Beget реализации.
+
 Актуальный отчёт, 14 октября 2026. Этот этап выполнен локально: без deploy,
 создания облачных ресурсов, SQL на Beget, push и реальных заявок.
 Архитектура: Layero Free (Vite static) → HTTPS Beget API → существующая
