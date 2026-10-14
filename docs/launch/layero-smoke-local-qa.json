@@ -1,0 +1,43 @@
+{
+  "preparedDate": "2026-10-12",
+  "scope": "local_only",
+  "testRuntime": "Node.js 26.10.0",
+  "testCommand": "node --test tests/layero-smoke.test.mjs",
+  "testsPassed": 10,
+  "testsFailed": 0,
+  "smtpTestDestinations": "loopback synthetic SMTP/TLS servers only",
+  "realSmtpConnectionsMade": false,
+  "smtpAuthenticationTested": false,
+  "mailSent": false,
+  "cloudProjectsCreated": 0,
+  "cloudDeployments": 0,
+  "cloudRuntimeVerified": false,
+  "cloudColdStartVerified": false,
+  "cloudSmtpConnectivityVerified": false,
+  "accountFreePlanVerified": false,
+  "paidFeaturesUsed": false,
+  "gitPushPerformed": false,
+  "layeroCliVersion": "0.11.10",
+  "dryRun": {
+    "event": "plan",
+    "framework": "generic",
+    "build_cmd": null,
+    "output_dir": null,
+    "runtime_kind": "node_web",
+    "root": null,
+    "confident": true,
+    "sources": {
+      "framework": "detected",
+      "build_cmd": "none",
+      "output_dir": "none",
+      "runtime_kind": "layero.json"
+    },
+    "project": null,
+    "project_settings": "not linked",
+    "creates_project": true,
+    "replaces_live_site": true,
+    "ts": "2026-10-12T16:21:55.953Z"
+  },
+  "dryRunFlagsDescribeFutureDeploymentOnly": true,
+  "consumptionQuotaStatus": "draft according to live documentation fetched on 2026-10-12"
+}

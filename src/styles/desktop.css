@@ -861,6 +861,17 @@
   margin-top: 12px;
 }
 
+.site-footer__policy {
+  margin-top: 16px;
+  font-size: 14px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.site-footer__policy:hover, .site-footer__policy:active {
+  color: var(--color-pink-ui);
+}
+
 .roadmap-decoration span {
   position: absolute;
   left: calc(var(--x) * 1px);

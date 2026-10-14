@@ -1,0 +1,18 @@
+{
+  "shortScreen": {
+    "canScroll": true,
+    "dialogFits": true,
+    "height": 500,
+    "overflow": false,
+    "scrollTop": 202,
+    "statusVisible": true,
+    "width": 390
+  },
+  "backFocus": "button button-dark lead-form__submit",
+  "forwardFocus": "button button-dark lead-modal__close",
+  "afterClose": {
+    "focus": "partner",
+    "inputCount": 0,
+    "open": false
+  }
+}

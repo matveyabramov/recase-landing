@@ -1,0 +1,24 @@
+{
+  "php": "8.3.35",
+  "mysql_local": "8.4.11",
+  "legacy_checks": 72,
+  "mysql_telegram_checks": 126,
+  "syntax_files": 18,
+  "beget_build": "passed",
+  "package_checks": "passed",
+  "thanks_text": "original_restored",
+  "private_config_included": false,
+  "personal_data_mode": "full_by_user_instruction",
+  "intake_enabled": false,
+  "production_deployed": false,
+  "git_push": false,
+  "real_messages_sent": false,
+  "beget_https_local_probe": {
+    "http": 0,
+    "error": "SSL_ERROR_SYSCALL",
+    "confirmed": false
+  },
+  "on_beget_checks": "pending",
+  "retention_end": "2026-12-15T23:59:59+02:00",
+  "bootstrap_private_config_rejection": "passed"
+}

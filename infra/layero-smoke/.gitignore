@@ -1,0 +1,4 @@
+.layero/
+node_modules/
+.env
+.env.*

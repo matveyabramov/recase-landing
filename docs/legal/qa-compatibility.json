@@ -1,0 +1,70 @@
+[
+  {
+    "back": "http://127.0.0.1:5173/index.html",
+    "background": "url(\"http://127.0.0.1:5173/assets/images/background-tile.png\")",
+    "css": 1,
+    "images": true,
+    "overflow": false,
+    "title": "Политика в отношении обработки персональных данных — RE:CASE",
+    "url": "http://127.0.0.1:5173/privacy-policy.html"
+  },
+  {
+    "back": "http://127.0.0.1:5173/index.html",
+    "background": "url(\"http://127.0.0.1:5173/assets/images/background-tile.png\")",
+    "css": 1,
+    "images": true,
+    "overflow": false,
+    "title": "Согласие на обработку персональных данных — RE:CASE",
+    "url": "http://127.0.0.1:5173/personal-data-consent.html"
+  },
+  {
+    "baseUrl": "http://127.0.0.1:5173/",
+    "dialogLinks": [
+      {
+        "href": "http://127.0.0.1:5173/personal-data-consent.html",
+        "target": "_blank"
+      },
+      {
+        "href": "http://127.0.0.1:5173/privacy-policy.html",
+        "target": "_blank"
+      }
+    ],
+    "linkDidNotToggle": true,
+    "footer": "./privacy-policy.html",
+    "footerTitle": "Политика в отношении обработки персональных данных — RE:CASE"
+  },
+  {
+    "back": "http://127.0.0.1:4174/recase-landing/index.html",
+    "background": "url(\"http://127.0.0.1:4174/recase-landing/assets/images/background-tile.png\")",
+    "css": 1,
+    "images": true,
+    "overflow": false,
+    "title": "Политика в отношении обработки персональных данных — RE:CASE",
+    "url": "http://127.0.0.1:4174/recase-landing/privacy-policy.html"
+  },
+  {
+    "back": "http://127.0.0.1:4174/recase-landing/index.html",
+    "background": "url(\"http://127.0.0.1:4174/recase-landing/assets/images/background-tile.png\")",
+    "css": 1,
+    "images": true,
+    "overflow": false,
+    "title": "Согласие на обработку персональных данных — RE:CASE",
+    "url": "http://127.0.0.1:4174/recase-landing/personal-data-consent.html"
+  },
+  {
+    "baseUrl": "http://127.0.0.1:4174/recase-landing/",
+    "dialogLinks": [
+      {
+        "href": "http://127.0.0.1:4174/recase-landing/personal-data-consent.html",
+        "target": "_blank"
+      },
+      {
+        "href": "http://127.0.0.1:4174/recase-landing/privacy-policy.html",
+        "target": "_blank"
+      }
+    ],
+    "linkDidNotToggle": true,
+    "footer": "./privacy-policy.html",
+    "footerTitle": "Политика в отношении обработки персональных данных — RE:CASE"
+  }
+]

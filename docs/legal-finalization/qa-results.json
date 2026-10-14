@@ -1,0 +1,182 @@
+[
+  {
+    "width": 1512,
+    "doc": "privacy-policy",
+    "status": 200,
+    "overflow": false,
+    "sections": 12,
+    "fonts": "loaded"
+  },
+  {
+    "width": 1512,
+    "doc": "personal-data-consent",
+    "status": 200,
+    "overflow": false,
+    "sections": 7,
+    "fonts": "loaded"
+  },
+  {
+    "width": 1512,
+    "form": "participate",
+    "checkboxRequired": true,
+    "initiallyUnchecked": true,
+    "blockedWithoutConsent": true,
+    "linksOpened": true,
+    "linkClickSubmits": 0,
+    "focus": {
+      "visible": true,
+      "outline": "solid"
+    },
+    "hover": "rgb(6, 29, 56)",
+    "geometry": {
+      "inViewport": true,
+      "overflow": false,
+      "consentOverflow": false
+    }
+  },
+  {
+    "width": 1512,
+    "form": "partner",
+    "checkboxRequired": true,
+    "initiallyUnchecked": true,
+    "blockedWithoutConsent": true,
+    "linksOpened": true,
+    "linkClickSubmits": 0,
+    "focus": {
+      "visible": true,
+      "outline": "solid"
+    },
+    "hover": "rgb(6, 29, 56)",
+    "geometry": {
+      "inViewport": true,
+      "overflow": false,
+      "consentOverflow": false
+    }
+  },
+  {
+    "width": 1512,
+    "pageErrors": [],
+    "failedResources": [],
+    "postRequests": 0
+  },
+  {
+    "width": 744,
+    "doc": "privacy-policy",
+    "status": 200,
+    "overflow": false,
+    "sections": 12,
+    "fonts": "loaded"
+  },
+  {
+    "width": 744,
+    "doc": "personal-data-consent",
+    "status": 200,
+    "overflow": false,
+    "sections": 7,
+    "fonts": "loaded"
+  },
+  {
+    "width": 744,
+    "form": "participate",
+    "checkboxRequired": true,
+    "initiallyUnchecked": true,
+    "blockedWithoutConsent": true,
+    "linksOpened": true,
+    "linkClickSubmits": 0,
+    "focus": {
+      "visible": true,
+      "outline": "solid"
+    },
+    "hover": "rgb(6, 29, 56)",
+    "geometry": {
+      "inViewport": true,
+      "overflow": false,
+      "consentOverflow": false
+    }
+  },
+  {
+    "width": 744,
+    "form": "partner",
+    "checkboxRequired": true,
+    "initiallyUnchecked": true,
+    "blockedWithoutConsent": true,
+    "linksOpened": true,
+    "linkClickSubmits": 0,
+    "focus": {
+      "visible": true,
+      "outline": "solid"
+    },
+    "hover": "rgb(6, 29, 56)",
+    "geometry": {
+      "inViewport": true,
+      "overflow": false,
+      "consentOverflow": false
+    }
+  },
+  {
+    "width": 744,
+    "pageErrors": [],
+    "failedResources": [],
+    "postRequests": 0
+  },
+  {
+    "width": 390,
+    "doc": "privacy-policy",
+    "status": 200,
+    "overflow": false,
+    "sections": 12,
+    "fonts": "loaded"
+  },
+  {
+    "width": 390,
+    "doc": "personal-data-consent",
+    "status": 200,
+    "overflow": false,
+    "sections": 7,
+    "fonts": "loaded"
+  },
+  {
+    "width": 390,
+    "form": "participate",
+    "checkboxRequired": true,
+    "initiallyUnchecked": true,
+    "blockedWithoutConsent": true,
+    "linksOpened": true,
+    "linkClickSubmits": 0,
+    "focus": {
+      "visible": true,
+      "outline": "solid"
+    },
+    "hover": "rgb(6, 29, 56)",
+    "geometry": {
+      "inViewport": true,
+      "overflow": false,
+      "consentOverflow": false
+    }
+  },
+  {
+    "width": 390,
+    "form": "partner",
+    "checkboxRequired": true,
+    "initiallyUnchecked": true,
+    "blockedWithoutConsent": true,
+    "linksOpened": true,
+    "linkClickSubmits": 0,
+    "focus": {
+      "visible": true,
+      "outline": "solid"
+    },
+    "hover": "rgb(6, 29, 56)",
+    "geometry": {
+      "inViewport": true,
+      "overflow": false,
+      "consentOverflow": false
+    }
+  },
+  {
+    "width": 390,
+    "pageErrors": [],
+    "failedResources": [],
+    "postRequests": 0
+  }
+]

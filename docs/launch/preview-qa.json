@@ -1,0 +1,227 @@
+[
+  {
+    "page": "privacy-policy",
+    "size": {
+      "width": 1512,
+      "height": 982
+    },
+    "age": true,
+    "email": true,
+    "operator": true,
+    "overflow": false,
+    "retention": true,
+    "title": "Политика в отношении обработки персональных данных — RE:CASE",
+    "width": 1512
+  },
+  {
+    "page": "personal-data-consent",
+    "size": {
+      "width": 1512,
+      "height": 982
+    },
+    "age": true,
+    "email": true,
+    "operator": true,
+    "overflow": false,
+    "retention": true,
+    "title": "Согласие на обработку персональных данных — RE:CASE",
+    "width": 1512
+  },
+  {
+    "type": "participate",
+    "size": {
+      "width": 1512,
+      "height": 982
+    },
+    "initial": {
+      "checked": false,
+      "required": true
+    },
+    "requiredBlocked": true,
+    "result": {
+      "open": true,
+      "overflow": false,
+      "status": "Приём заявок временно недоступен. Попробуйте позже."
+    }
+  },
+  {
+    "type": "partner",
+    "size": {
+      "width": 1512,
+      "height": 982
+    },
+    "initial": {
+      "checked": false,
+      "required": true
+    },
+    "requiredBlocked": true,
+    "result": {
+      "open": true,
+      "overflow": false,
+      "status": "Приём заявок временно недоступен. Попробуйте позже."
+    }
+  },
+  {
+    "page": "privacy-policy",
+    "size": {
+      "width": 744,
+      "height": 1133
+    },
+    "age": true,
+    "operator": true,
+    "overflow": false,
+    "retention": true,
+    "title": "Политика в отношении обработки персональных данных — RE:CASE",
+    "width": 744
+  },
+  {
+    "page": "personal-data-consent",
+    "size": {
+      "width": 744,
+      "height": 1133
+    },
+    "age": true,
+    "operator": true,
+    "overflow": false,
+    "retention": true,
+    "title": "Согласие на обработку персональных данных — RE:CASE",
+    "width": 744
+  },
+  {
+    "type": "participate",
+    "size": {
+      "width": 744,
+      "height": 1133
+    },
+    "initial": {
+      "checked": false,
+      "required": true,
+      "inputs": [
+        "name",
+        "contact",
+        "consent"
+      ]
+    },
+    "result": {
+      "open": true,
+      "overflow": false,
+      "status": "Приём заявок временно недоступен. Попробуйте позже."
+    }
+  },
+  {
+    "type": "partner",
+    "size": {
+      "width": 744,
+      "height": 1133
+    },
+    "initial": {
+      "checked": false,
+      "inputs": [
+        {
+          "name": "name",
+          "type": "text"
+        },
+        {
+          "name": "contact",
+          "type": "text"
+        },
+        {
+          "name": "consent",
+          "type": "checkbox"
+        }
+      ],
+      "required": true
+    },
+    "result": {
+      "open": true,
+      "overflow": false,
+      "status": "Приём заявок временно недоступен. Попробуйте позже."
+    }
+  },
+  {
+    "page": "privacy-policy",
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "age": true,
+    "operator": true,
+    "overflow": false,
+    "retention": true,
+    "title": "Политика в отношении обработки персональных данных — RE:CASE",
+    "width": 390
+  },
+  {
+    "page": "personal-data-consent",
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "age": true,
+    "operator": true,
+    "overflow": false,
+    "retention": true,
+    "title": "Согласие на обработку персональных данных — RE:CASE",
+    "width": 390
+  },
+  {
+    "type": "participate",
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "initial": {
+      "checked": false,
+      "inputs": [
+        {
+          "name": "name",
+          "type": "text"
+        },
+        {
+          "name": "contact",
+          "type": "text"
+        },
+        {
+          "name": "consent",
+          "type": "checkbox"
+        }
+      ],
+      "required": true
+    },
+    "result": {
+      "open": true,
+      "overflow": false,
+      "status": "Приём заявок временно недоступен. Попробуйте позже."
+    }
+  },
+  {
+    "type": "partner",
+    "size": {
+      "width": 390,
+      "height": 844
+    },
+    "initial": {
+      "checked": false,
+      "inputs": [
+        {
+          "name": "name",
+          "type": "text"
+        },
+        {
+          "name": "contact",
+          "type": "text"
+        },
+        {
+          "name": "consent",
+          "type": "checkbox"
+        }
+      ],
+      "required": true
+    },
+    "result": {
+      "open": true,
+      "overflow": false,
+      "status": "Приём заявок временно недоступен. Попробуйте позже."
+    }
+  }
+]

@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-14",
+  "architecture": "Layero Free static Vite -> Beget PHP/MySQL -> Telegram",
+  "production_origin": null,
+  "desired_origin_unconfirmed": "https://recase.layero.app",
+  "api_url": "https://matveyyb.beget.tech/api/lead.php",
+  "results": {
+    "legacy_php": {
+      "passed": 72
+    },
+    "cors": {
+      "passed": 32
+    },
+    "mysql_telegram_and_cgi": {
+      "passed": 169,
+      "php": "8.3.35",
+      "mysql": "8.4.11",
+      "database": "disposable socket-only; deleted"
+    },
+    "frontend_browser": {
+      "passed": 16,
+      "failed": 0,
+      "browser": "installed Google Chrome via Playwright",
+      "external_requests": "all intercepted",
+      "viewports": [
+        390,
+        1512
+      ]
+    },
+    "php_syntax": {
+      "files": 20,
+      "passed": true
+    },
+    "vite_builds": {
+      "ordinary_preview": "PASS",
+      "github_pages_base": "PASS",
+      "layero_disabled": "PASS",
+      "layero_enabled_mock_only": "PASS"
+    },
+    "package": {
+      "backend_only": "PASS",
+      "private_cors": "PASS",
+      "no_config_php": "PASS",
+      "no_migrations": "PASS",
+      "frontend_private_env_sentinels_absent": "PASS",
+      "static_output_no_php_sql": "PASS"
+    },
+    "beget_https_head": {
+      "status": "NOT_CONFIRMED",
+      "http": 0,
+      "curl_exit": 35,
+      "reason": "SSL_ERROR_SYSCALL during TLS handshake from this environment; no application request/response",
+      "certificate_error_confirmed": false
+    }
+  },
+  "production_mysql_touched": false,
+  "production_migration_applied": false,
+  "bot_created": false,
+  "telegram_messages_sent": 0,
+  "deploys": 0,
+  "git_pushes": 0,
+  "real_intake_enabled": false,
+  "artifacts": {
+    "frontend": "dist/ (intake disabled)",
+    "backend": "beget-api-package/ (private config absent; intake disabled)"
+  },
+  "pending": [
+    "Confirm Layero project URL and Free capacity after deployment approval",
+    "Configure exact site_origin and VITE_SITE_ORIGIN",
+    "Configure Beget private secrets, PHP/HTTPS and cron",
+    "Approve personal-data processing and documents",
+    "Authorize and perform two synthetic end-to-end tests",
+    "Separate authorization before real intake"
+  ]
+}

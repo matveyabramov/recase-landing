@@ -7,6 +7,18 @@
       "skillPath": "skills/animate/SKILL.md",
       "computedHash": "7598d33e7f60dd5c24531eaaa897621cc3bdb48e8050324211627973bc59c4ce"
     },
+    "layero": {
+      "source": "LayeroInfra/layero-agents",
+      "sourceType": "github",
+      "skillPath": "skills/layero/SKILL.md",
+      "computedHash": "0c5d07ef9422ea5413b488fbe56f1da6fbbfb70ed3cf61e4b362d8c921b7a359"
+    },
+    "layero-content-rules": {
+      "source": "LayeroInfra/layero-agents",
+      "sourceType": "github",
+      "skillPath": "skills/layero-content-rules/SKILL.md",
+      "computedHash": "dd2e5bdeb89935b16254f1eb3a43ee73e4853d6f5d6b34bd9fc799a429fbf110"
+    },
     "review-animations": {
       "source": "emilkowalski/skills",
       "sourceType": "github",

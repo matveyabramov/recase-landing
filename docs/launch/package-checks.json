@@ -1,0 +1,14 @@
+{
+  "textFilesScanned": 161,
+  "secretAlerts": [],
+  "distHtmlPages": 3,
+  "begetApi": true,
+  "configIncluded": false,
+  "runtimeDataIncluded": false,
+  "mailerVersion": "v7.1.1",
+  "mailerChecksums": "pass",
+  "packageSourcesCurrent": true,
+  "previewApiAbsent": true,
+  "begetHttpsGuard": true,
+  "pagesBaseBuild": "pass"
+}

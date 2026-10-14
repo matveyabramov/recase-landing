@@ -1,0 +1,18 @@
+{
+  "wrapBack": "button button-dark lead-form__submit",
+  "wrapForward": "button button-dark lead-modal__close",
+  "checkedAfterLink": true,
+  "shortScreen": {
+    "canScroll": true,
+    "height": 500,
+    "overflow": false,
+    "scrollTop": 202,
+    "statusVisible": true,
+    "withinViewport": true
+  },
+  "closeState": {
+    "focus": "partner",
+    "inputs": 0,
+    "open": false
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "smtpUsed": false,
+  "loadingState": {
+    "busy": "true",
+    "consentDisabled": true,
+    "disabled": true,
+    "readonly": true,
+    "text": "Отправляем…"
+  },
+  "cases": [
+    {
+      "type": "participate",
+      "scenario": "@unavailable_test",
+      "size": {
+        "width": 1512,
+        "height": 982
+      },
+      "result": {
+        "buttonDisabled": false,
+        "consent": true,
+        "contact": "@unavailable_test",
+        "focus": "BODY (before focus restoration update)",
+        "links": [
+          {
+            "href": "http://127.0.0.1:4181/personal-data-consent.html",
+            "target": "_blank"
+          },
+          {
+            "href": "http://127.0.0.1:4181/privacy-policy.html",
+            "target": "_blank"
+          }
+        ],
+        "name": "Тестовый QA",
+        "open": true,
+        "overflow": false,
+        "readonly": false,
+        "status": "Приём заявок временно недоступен. Попробуйте позже.",
+        "title": "УЧАСТВУЙ В RE:CASE"
+      }
+    },
+    {
+      "type": "partner",
+      "scenario": "@success_test",
+      "size": {
+        "width": 1512,
+        "height": 982
+      },
+      "result": {
+        "focus": "Закрыть",
+        "links": [],
+        "open": true,
+        "overflow": false,
+        "title": "СПАСИБО ЗА ЗАЯВКУ!"
+      }
+    },
+    {
+      "type": "participate",
+      "scenario": "@unavailable_test",
+      "size": {
+        "width": 744,
+        "height": 1133
+      },
+      "result": {
+        "buttonDisabled": false,
+        "consent": true,
+        "contact": "@unavailable_test",
+        "focus": "BODY (before focus restoration update)",
+        "links": [
+          {
+            "href": "http://127.0.0.1:4181/personal-data-consent.html",
+            "target": "_blank"
+          },
+          {
+            "href": "http://127.0.0.1:4181/privacy-policy.html",
+            "target": "_blank"
+          }
+        ],
+        "name": "Тестовый QA",
+        "open": true,
+        "overflow": false,
+        "readonly": false,
+        "status": "Приём заявок временно недоступен. Попробуйте позже.",
+        "title": "УЧАСТВУЙ В RE:CASE"
+      }
+    },
+    {
+      "type": "partner",
+      "scenario": "@success_test",
+      "size": {
+        "width": 744,
+        "height": 1133
+      },
+      "result": {
+        "focus": "Закрыть",
+        "links": [],
+        "open": true,
+        "overflow": false,
+        "title": "СПАСИБО ЗА ЗАЯВКУ!"
+      }
+    },
+    {
+      "type": "participate",
+      "scenario": "@unavailable_test",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "result": {
+        "buttonDisabled": false,
+        "consent": true,
+        "contact": "@unavailable_test",
+        "focus": "BODY (before focus restoration update)",
+        "links": [
+          {
+            "href": "http://127.0.0.1:4181/personal-data-consent.html",
+            "target": "_blank"
+          },
+          {
+            "href": "http://127.0.0.1:4181/privacy-policy.html",
+            "target": "_blank"
+          }
+        ],
+        "name": "Тестовый QA",
+        "open": true,
+        "overflow": false,
+        "readonly": false,
+        "status": "Приём заявок временно недоступен. Попробуйте позже.",
+        "title": "УЧАСТВУЙ В RE:CASE"
+      }
+    },
+    {
+      "type": "partner",
+      "scenario": "@success_test",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "result": {
+        "focus": "Закрыть",
+        "links": [],
+        "open": true,
+        "overflow": false,
+        "title": "СПАСИБО ЗА ЗАЯВКУ!"
+      }
+    },
+    {
+      "type": "partner",
+      "scenario": "@validation_test",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "result": {
+        "buttonDisabled": false,
+        "consent": true,
+        "contact": "@validation_test",
+        "focus": "",
+        "links": [
+          {
+            "href": "http://127.0.0.1:4181/personal-data-consent.html",
+            "target": "_blank"
+          },
+          {
+            "href": "http://127.0.0.1:4181/privacy-policy.html",
+            "target": "_blank"
+          }
+        ],
+        "name": "Тестовый QA",
+        "open": true,
+        "overflow": false,
+        "readonly": false,
+        "status": "Проверьте заполнение формы.",
+        "title": "СТАНЬ ПАРТНЁРОМ"
+      }
+    },
+    {
+      "type": "partner",
+      "scenario": "@badstatus_test",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "result": {
+        "buttonDisabled": false,
+        "consent": true,
+        "contact": "@badstatus_test",
+        "focus": "Отправить заявку",
+        "links": [
+          {
+            "href": "http://127.0.0.1:4181/personal-data-consent.html",
+            "target": "_blank"
+          },
+          {
+            "href": "http://127.0.0.1:4181/privacy-policy.html",
+            "target": "_blank"
+          }
+        ],
+        "name": "Тестовый QA",
+        "open": true,
+        "overflow": false,
+        "readonly": false,
+        "status": "Не удалось отправить заявку. Попробуйте позже.",
+        "title": "СТАНЬ ПАРТНЁРОМ"
+      }
+    },
+    {
+      "type": "partner",
+      "scenario": "@network_test",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "result": {
+        "buttonDisabled": false,
+        "consent": true,
+        "contact": "@network_test",
+        "focus": "Отправить заявку",
+        "links": [
+          {
+            "href": "http://127.0.0.1:4181/personal-data-consent.html",
+            "target": "_blank"
+          },
+          {
+            "href": "http://127.0.0.1:4181/privacy-policy.html",
+            "target": "_blank"
+          }
+        ],
+        "name": "Тестовый QA",
+        "open": true,
+        "overflow": false,
+        "readonly": false,
+        "status": "Не удалось подтвердить отправку. Проверьте соединение и попробуйте позже.",
+        "title": "СТАНЬ ПАРТНЁРОМ"
+      }
+    },
+    {
+      "type": "partner",
+      "scenario": "@unconfirmed_test",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "result": {
+        "buttonDisabled": false,
+        "consent": true,
+        "contact": "@unconfirmed_test",
+        "focus": "Отправить заявку",
+        "links": [
+          {
+            "href": "http://127.0.0.1:4181/personal-data-consent.html",
+            "target": "_blank"
+          },
+          {
+            "href": "http://127.0.0.1:4181/privacy-policy.html",
+            "target": "_blank"
+          }
+        ],
+        "name": "Тестовый QA",
+        "open": true,
+        "overflow": false,
+        "readonly": false,
+        "status": "Не удалось подтвердить отправку. Не отправляйте заявку повторно; обратитесь к организаторам.",
+        "title": "СТАНЬ ПАРТНЁРОМ"
+      }
+    },
+    {
+      "type": "participate",
+      "scenario": "@success_test",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "result": {
+        "focus": "Закрыть",
+        "links": [],
+        "open": true,
+        "overflow": false,
+        "title": "СПАСИБО ЗА ЗАЯВКУ!"
+      }
+    },
+    {
+      "type": "partner",
+      "scenario": "@unavailable_test",
+      "size": {
+        "width": 390,
+        "height": 500
+      },
+      "result": {
+        "buttonDisabled": false,
+        "consent": true,
+        "contact": "@unavailable_test",
+        "focus": "Отправить заявку",
+        "links": [
+          {
+            "href": "http://127.0.0.1:4181/personal-data-consent.html",
+            "target": "_blank"
+          },
+          {
+            "href": "http://127.0.0.1:4181/privacy-policy.html",
+            "target": "_blank"
+          }
+        ],
+        "name": "Тестовый QA",
+        "open": true,
+        "overflow": false,
+        "readonly": false,
+        "status": "Приём заявок временно недоступен. Попробуйте позже.",
+        "title": "СТАНЬ ПАРТНЁРОМ"
+      }
+    }
+  ]
+}

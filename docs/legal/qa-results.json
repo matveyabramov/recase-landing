@@ -1,0 +1,351 @@
+{
+  "pages": [
+    {
+      "page": "privacy-policy",
+      "size": {
+        "width": 1512,
+        "height": 982
+      },
+      "bodyFont": "Onest, sans-serif",
+      "headingFont": "Ermilov, sans-serif",
+      "images": true,
+      "links": [
+        "http://127.0.0.1:4173/privacy-policy.html#legal-content",
+        "http://127.0.0.1:4173/index.html",
+        "http://127.0.0.1:4173/index.html",
+        "http://127.0.0.1:4173/personal-data-consent.html",
+        "http://127.0.0.1:4173/privacy-policy.html",
+        "http://127.0.0.1:4173/index.html",
+        "http://127.0.0.1:4173/personal-data-consent.html"
+      ],
+      "overflow": false,
+      "title": "Политика в отношении обработки персональных данных — RE:CASE",
+      "todos": 11,
+      "width": 1512
+    },
+    {
+      "page": "personal-data-consent",
+      "size": {
+        "width": 1512,
+        "height": 982
+      },
+      "bodyFont": "Onest, sans-serif",
+      "headingFont": "Ermilov, sans-serif",
+      "images": true,
+      "links": [
+        "http://127.0.0.1:4173/personal-data-consent.html#legal-content",
+        "http://127.0.0.1:4173/index.html",
+        "http://127.0.0.1:4173/index.html",
+        "http://127.0.0.1:4173/privacy-policy.html",
+        "http://127.0.0.1:4173/index.html",
+        "http://127.0.0.1:4173/privacy-policy.html"
+      ],
+      "overflow": false,
+      "title": "Согласие на обработку персональных данных — RE:CASE",
+      "todos": 7,
+      "width": 1512
+    },
+    {
+      "page": "privacy-policy",
+      "size": {
+        "width": 744,
+        "height": 1133
+      },
+      "bodyFont": "Onest, sans-serif",
+      "headingFont": "Ermilov, sans-serif",
+      "images": true,
+      "links": [
+        "http://127.0.0.1:4173/privacy-policy.html#legal-content",
+        "http://127.0.0.1:4173/index.html",
+        "http://127.0.0.1:4173/index.html",
+        "http://127.0.0.1:4173/personal-data-consent.html",
+        "http://127.0.0.1:4173/privacy-policy.html",
+        "http://127.0.0.1:4173/index.html",
+        "http://127.0.0.1:4173/personal-data-consent.html"
+      ],
+      "overflow": false,
+      "title": "Политика в отношении обработки персональных данных — RE:CASE",
+      "todos": 11,
+      "width": 744
+    },
+    {
+      "page": "personal-data-consent",
+      "size": {
+        "width": 744,
+        "height": 1133
+      },
+      "bodyFont": "Onest, sans-serif",
+      "headingFont": "Ermilov, sans-serif",
+      "images": true,
+      "links": [
+        "http://127.0.0.1:4173/personal-data-consent.html#legal-content",
+        "http://127.0.0.1:4173/index.html",
+        "http://127.0.0.1:4173/index.html",
+        "http://127.0.0.1:4173/privacy-policy.html",
+        "http://127.0.0.1:4173/index.html",
+        "http://127.0.0.1:4173/privacy-policy.html"
+      ],
+      "overflow": false,
+      "title": "Согласие на обработку персональных данных — RE:CASE",
+      "todos": 7,
+      "width": 744
+    },
+    {
+      "page": "privacy-policy",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyFont": "Onest, sans-serif",
+      "headingFont": "Ermilov, sans-serif",
+      "images": true,
+      "links": [
+        "http://127.0.0.1:4173/privacy-policy.html#legal-content",
+        "http://127.0.0.1:4173/index.html",
+        "http://127.0.0.1:4173/index.html",
+        "http://127.0.0.1:4173/personal-data-consent.html",
+        "http://127.0.0.1:4173/privacy-policy.html",
+        "http://127.0.0.1:4173/index.html",
+        "http://127.0.0.1:4173/personal-data-consent.html"
+      ],
+      "overflow": false,
+      "title": "Политика в отношении обработки персональных данных — RE:CASE",
+      "todos": 11,
+      "width": 390
+    },
+    {
+      "page": "personal-data-consent",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "bodyFont": "Onest, sans-serif",
+      "headingFont": "Ermilov, sans-serif",
+      "images": true,
+      "links": [
+        "http://127.0.0.1:4173/personal-data-consent.html#legal-content",
+        "http://127.0.0.1:4173/index.html",
+        "http://127.0.0.1:4173/index.html",
+        "http://127.0.0.1:4173/privacy-policy.html",
+        "http://127.0.0.1:4173/index.html",
+        "http://127.0.0.1:4173/privacy-policy.html"
+      ],
+      "overflow": false,
+      "title": "Согласие на обработку персональных данных — RE:CASE",
+      "todos": 7,
+      "width": 390
+    }
+  ],
+  "forms": [
+    {
+      "size": {
+        "width": 1512,
+        "height": 982
+      },
+      "type": "participate",
+      "initial": {
+        "checked": false,
+        "required": true
+      },
+      "blocked": {
+        "missing": true,
+        "status": ""
+      },
+      "result": {
+        "dialogWithinViewport": true,
+        "links": [
+          {
+            "rel": "noopener noreferrer",
+            "target": "_blank",
+            "url": "http://127.0.0.1:4173/personal-data-consent.html"
+          },
+          {
+            "rel": "noopener noreferrer",
+            "target": "_blank",
+            "url": "http://127.0.0.1:4173/privacy-policy.html"
+          }
+        ],
+        "open": true,
+        "overflow": false,
+        "status": "Приём заявок временно недоступен. Попробуйте позже.",
+        "surfaceOverflow": false,
+        "width": 1512
+      }
+    },
+    {
+      "size": {
+        "width": 1512,
+        "height": 982
+      },
+      "type": "partner",
+      "initial": {
+        "checked": false,
+        "required": true
+      },
+      "blocked": {
+        "missing": true,
+        "status": ""
+      },
+      "result": {
+        "dialogWithinViewport": true,
+        "links": [
+          {
+            "rel": "noopener noreferrer",
+            "target": "_blank",
+            "url": "http://127.0.0.1:4173/personal-data-consent.html"
+          },
+          {
+            "rel": "noopener noreferrer",
+            "target": "_blank",
+            "url": "http://127.0.0.1:4173/privacy-policy.html"
+          }
+        ],
+        "open": true,
+        "overflow": false,
+        "status": "Приём заявок временно недоступен. Попробуйте позже.",
+        "surfaceOverflow": false,
+        "width": 1512
+      }
+    },
+    {
+      "size": {
+        "width": 744,
+        "height": 1133
+      },
+      "type": "participate",
+      "initial": {
+        "checked": false,
+        "required": true
+      },
+      "blocked": {
+        "missing": true,
+        "status": ""
+      },
+      "result": {
+        "dialogWithinViewport": true,
+        "links": [
+          {
+            "rel": "noopener noreferrer",
+            "target": "_blank",
+            "url": "http://127.0.0.1:4173/personal-data-consent.html"
+          },
+          {
+            "rel": "noopener noreferrer",
+            "target": "_blank",
+            "url": "http://127.0.0.1:4173/privacy-policy.html"
+          }
+        ],
+        "open": true,
+        "overflow": false,
+        "status": "Приём заявок временно недоступен. Попробуйте позже.",
+        "surfaceOverflow": false,
+        "width": 744
+      }
+    },
+    {
+      "size": {
+        "width": 744,
+        "height": 1133
+      },
+      "type": "partner",
+      "initial": {
+        "checked": false,
+        "required": true
+      },
+      "blocked": {
+        "missing": true,
+        "status": ""
+      },
+      "result": {
+        "dialogWithinViewport": true,
+        "links": [
+          {
+            "rel": "noopener noreferrer",
+            "target": "_blank",
+            "url": "http://127.0.0.1:4173/personal-data-consent.html"
+          },
+          {
+            "rel": "noopener noreferrer",
+            "target": "_blank",
+            "url": "http://127.0.0.1:4173/privacy-policy.html"
+          }
+        ],
+        "open": true,
+        "overflow": false,
+        "status": "Приём заявок временно недоступен. Попробуйте позже.",
+        "surfaceOverflow": false,
+        "width": 744
+      }
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "type": "participate",
+      "initial": {
+        "checked": false,
+        "required": true
+      },
+      "blocked": {
+        "missing": true,
+        "status": ""
+      },
+      "result": {
+        "dialogWithinViewport": true,
+        "links": [
+          {
+            "rel": "noopener noreferrer",
+            "target": "_blank",
+            "url": "http://127.0.0.1:4173/personal-data-consent.html"
+          },
+          {
+            "rel": "noopener noreferrer",
+            "target": "_blank",
+            "url": "http://127.0.0.1:4173/privacy-policy.html"
+          }
+        ],
+        "open": true,
+        "overflow": false,
+        "status": "Приём заявок временно недоступен. Попробуйте позже.",
+        "surfaceOverflow": false,
+        "width": 390
+      }
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "type": "partner",
+      "initial": {
+        "checked": false,
+        "required": true
+      },
+      "blocked": {
+        "missing": true,
+        "status": ""
+      },
+      "result": {
+        "dialogWithinViewport": true,
+        "links": [
+          {
+            "rel": "noopener noreferrer",
+            "target": "_blank",
+            "url": "http://127.0.0.1:4173/personal-data-consent.html"
+          },
+          {
+            "rel": "noopener noreferrer",
+            "target": "_blank",
+            "url": "http://127.0.0.1:4173/privacy-policy.html"
+          }
+        ],
+        "open": true,
+        "overflow": false,
+        "status": "Приём заявок временно недоступен. Попробуйте позже.",
+        "surfaceOverflow": false,
+        "width": 390
+      }
+    }
+  ]
+}

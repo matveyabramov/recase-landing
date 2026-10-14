@@ -35,6 +35,12 @@ jobs:
       - name: Build
         run: npm run build
         env:
+          VITE_YANDEX_FORMS_ENABLED: 'false'
+          VITE_YANDEX_PARTICIPANT_FORM_URL: ''
+          VITE_YANDEX_PARTNER_FORM_URL: ''
+          VITE_LEAD_API_ENABLED: 'false'
+          VITE_LEAD_API_URL: ''
+          VITE_SITE_ORIGIN: ''
           VITE_BASE_PATH: ${{ steps.pages.outputs.base_path }}/
 
       - name: Upload production build

@@ -2,6 +2,8 @@ node_modules/
 dist/
 .env
 .env.*
+!.env.layero.example
+!.env.development.example
 *.local
 *.log
 .DS_Store
@@ -13,3 +15,9 @@ secrets/
 *.key
 *.p12
 *.pfx
+server/config.php
+server/vendor/
+server/runtime/
+beget-package/
+beget-api-package/
+.beget-stage-*/

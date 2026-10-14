@@ -1,5 +1,5 @@
 import { LEAD_FORMS } from './config.js';
-import { mountLeadForm } from './lead-form.js';
+import { mountYandexForm } from './yandex-form.js';
 
 export function initLeadCapture() {
   const dialog = document.createElement('dialog');
@@ -26,26 +26,7 @@ export function initLeadCapture() {
   let opener;
   let scrollState;
   let pressedBackdrop = false;
-
-  function showThanks() {
-    dialog.querySelector('.lead-modal__title').textContent = 'СПАСИБО ЗА ЗАЯВКУ!';
-    dialog.querySelector('.lead-modal__description').textContent = 'Мы получили ваши данные и свяжемся с вами в течение дня';
-    const result = document.createElement('div');
-    result.className = 'lead-modal__result';
-    result.setAttribute('role', 'status');
-    const note = document.createElement('p');
-    note.className = 'lead-form__notice';
-    note.textContent = 'Это тестовый экран: заявка не отправлена, данные не сохранены.';
-    const done = document.createElement('button');
-    done.type = 'button';
-    done.className = 'button button-dark lead-form__submit';
-    done.textContent = 'Закрыть';
-    done.addEventListener('click', close);
-    result.append(note, done);
-    formContainer.replaceChildren(result);
-    dialog.querySelector('.lead-modal__surface').scrollTop = 0;
-    done.focus({ preventScroll: true });
-  }
+  let embeddedForm;
 
   function open(type, trigger) {
     if (dialog.open) return;
@@ -54,7 +35,7 @@ export function initLeadCapture() {
     dialog.dataset.formType = type;
     dialog.querySelector('.lead-modal__title').textContent = config.title;
     dialog.querySelector('.lead-modal__description').textContent = config.description;
-    mountLeadForm(formContainer, showThanks);
+    embeddedForm = mountYandexForm(formContainer, type);
 
     // Compensate classic scrollbars without changing the existing page CSS.
     const root = document.documentElement;
@@ -64,14 +45,24 @@ export function initLeadCapture() {
       y: window.scrollY,
       overflow: root.style.overflow,
       paddingRight: document.body.style.paddingRight,
+      position: document.body.style.position,
+      top: document.body.style.top,
+      left: document.body.style.left,
+      width: document.body.style.width,
     };
     if (scrollbar > 0) {
       const padding = parseFloat(getComputedStyle(document.body).paddingRight) || 0;
       document.body.style.paddingRight = `${padding + scrollbar}px`;
     }
     root.style.overflow = 'hidden';
+    // Fixed body also locks background scrolling on mobile Safari.
+    document.body.style.position = 'fixed';
+    document.body.style.top = `${-scrollState.y}px`;
+    document.body.style.left = `${-scrollState.x}px`;
+    document.body.style.width = '100%';
     dialog.querySelector('.lead-modal__surface').scrollTop = 0;
     dialog.showModal(); // Native modal makes the rest of the page inert.
+    embeddedForm.start();
     closeButton.focus({ preventScroll: true });
   }
 
@@ -81,7 +72,10 @@ export function initLeadCapture() {
     scrollState = null;
     document.documentElement.style.overflow = saved.overflow;
     document.body.style.paddingRight = saved.paddingRight;
+    for (const property of ['position', 'top', 'left', 'width']) document.body.style[property] = saved[property];
     window.scrollTo({ left: saved.x, top: saved.y, behavior: 'instant' });
+    embeddedForm?.destroy();
+    embeddedForm = null;
     formContainer.replaceChildren();
     pressedBackdrop = false;
     if (opener?.isConnected) opener.focus({ preventScroll: true });
@@ -112,22 +106,7 @@ export function initLeadCapture() {
     pressedBackdrop = false;
   });
 
-  // Keep native keyboard traversal inside both the form and the result screen.
-  dialog.addEventListener('keydown', (event) => {
-    if (event.key !== 'Tab') return;
-    const controls = [...dialog.querySelectorAll(
-      'button:not([disabled]), a[href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), iframe, [tabindex="0"]',
-    )].filter((element) => element.getClientRects().length);
-    const first = controls[0];
-    const last = controls.at(-1);
-    if (event.shiftKey && document.activeElement === first) {
-      event.preventDefault();
-      last.focus();
-    } else if (!event.shiftKey && document.activeElement === last) {
-      event.preventDefault();
-      first.focus();
-    }
-  });
+  // Native dialog traversal includes the cross-origin iframe's own controls.
 
   for (const trigger of document.querySelectorAll('[data-form-link]')) {
     const type = { participate: 'participant', partner: 'partner' }[trigger.dataset.formLink];

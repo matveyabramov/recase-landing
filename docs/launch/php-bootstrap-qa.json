@@ -1,0 +1,46 @@
+{
+  "runtime": "PHP 8.3 WebAssembly",
+  "smtpUsed": false,
+  "checks": [
+    {
+      "case": "method GET",
+      "http": 405,
+      "status": "method_not_allowed"
+    },
+    {
+      "case": "invalid JSON",
+      "http": 400,
+      "status": "invalid_json"
+    },
+    {
+      "case": "no consent",
+      "http": 422,
+      "status": "validation_error"
+    },
+    {
+      "case": "cross origin",
+      "http": 403,
+      "status": "forbidden"
+    },
+    {
+      "case": "large body",
+      "http": 413,
+      "status": "request_too_large"
+    },
+    {
+      "case": "wrong content type",
+      "http": 415,
+      "status": "unsupported_media_type"
+    },
+    {
+      "case": "missing config",
+      "http": 503,
+      "status": "unavailable"
+    },
+    {
+      "case": "private directory under document root",
+      "http": 503,
+      "status": "unavailable"
+    }
+  ]
+}
